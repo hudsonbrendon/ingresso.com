@@ -33,4 +33,16 @@ class TestIngresso:
 
     def test_request(self):
         ingresso = Ingresso(42, "cinepolis")
-        assert isinstance(ingresso._request("cinemas"), Response)
+        assert isinstance(ingresso.request("cinemas"), Response)
+
+    def test_theaters(self, requests_mock, theaters):
+        ingresso = Ingresso(42, "cinepolis")
+        url = f'{ingresso.get_full_url(path="theaters")}?partnership=cinepolis'
+        requests_mock.get(url=url, json=theaters)
+        assert theaters == ingresso.theaters()
+
+    def test_theaters_with_id(self, requests_mock, theater):
+        ingresso = Ingresso(42, "cinepolis")
+        url = f'{ingresso.get_full_url(path="theaters/1005")}?partnership=cinepolis'
+        requests_mock.get(url=url, json=theater)
+        assert theater == ingresso.theaters(1005)
