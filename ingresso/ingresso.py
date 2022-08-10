@@ -4,7 +4,7 @@ from requests.models import Response
 
 class Ingresso(object):
 
-    URL = "https://api-content.ingresso.com/v0/"
+    __URL = "https://api-content.ingresso.com/v0/"
 
     def __init__(self, city_id: int, partnership: str) -> None:
         self.__city_id = city_id
@@ -18,8 +18,12 @@ class Ingresso(object):
     def partnership(self) -> str:
         return self.__partnership
 
-    def get_url(self, path: str) -> str:
-        return f"{self.URL}{path}"
+    @property
+    def url(self) -> str:
+        return self.__URL
+
+    def get_full_url(self, path: str) -> str:
+        return f"{self.url}{path}"
 
     def _request(self, path: str, params: dict = {}) -> Response:
-        return requests.get(self.get_url(path), params=params)
+        return requests.get(self.get_full_url(path), params=params)
