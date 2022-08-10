@@ -21,6 +21,6 @@ class Ingresso(object):
     def get_url(self, path: str) -> str:
         return f"{self.URL}{path}"
 
-    def _request(self, path: str, params: dict = None) -> Response:
+    def _request(self, path: str, params: dict = {}) -> Response:
         url = self.get_url(path)
         return requests.get(url, params=params)
