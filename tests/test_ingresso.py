@@ -9,40 +9,46 @@ def test_version():
 
 class TestIngresso:
     def test_init(self):
-        ingresso = Ingresso(42, "cinepolis")
+        ingresso = Ingresso(48, "cinepolis")
         assert isinstance(ingresso, Ingresso)
 
     def test_city_id(self):
-        ingresso = Ingresso(42, "cinepolis")
-        assert ingresso.city_id == 42
+        ingresso = Ingresso(48, "cinepolis")
+        assert ingresso.city_id == 48
 
     def test_partnership(self):
-        ingresso = Ingresso(42, "cinepolis")
+        ingresso = Ingresso(48, "cinepolis")
         assert ingresso.partnership == "cinepolis"
 
     def test_url(self):
-        ingresso = Ingresso(42, "cinepolis")
+        ingresso = Ingresso(48, "cinepolis")
         assert ingresso.url == "https://api-content.ingresso.com/v0/"
 
     def test_get_full_url(self):
-        ingresso = Ingresso(42, "cinepolis")
+        ingresso = Ingresso(48, "cinepolis")
         assert (
             ingresso.get_full_url("cinemas")
             == "https://api-content.ingresso.com/v0/cinemas"
         )
 
     def test_request(self):
-        ingresso = Ingresso(42, "cinepolis")
+        ingresso = Ingresso(48, "cinepolis")
         assert isinstance(ingresso.request("cinemas"), Response)
 
     def test_theaters(self, requests_mock, theaters):
-        ingresso = Ingresso(42, "cinepolis")
+        ingresso = Ingresso(48, "cinepolis")
         url = f'{ingresso.get_full_url(path="theaters")}?partnership=cinepolis'
         requests_mock.get(url=url, json=theaters)
         assert theaters == ingresso.theaters()
 
     def test_theaters_with_id(self, requests_mock, theater):
-        ingresso = Ingresso(42, "cinepolis")
+        ingresso = Ingresso(48, "cinepolis")
         url = f'{ingresso.get_full_url(path="theaters/1005")}?partnership=cinepolis'
         requests_mock.get(url=url, json=theater)
         assert theater == ingresso.theaters(1005)
+
+    def test_theaters_city(self, requests_mock, theaters_by_city):
+        ingresso = Ingresso(48, "cinepolis")
+        url = f'{ingresso.get_full_url(path="theaters/city/48/")}?partnership=cinepolis'
+        requests_mock.get(url=url, json=theaters_by_city)
+        assert theaters_by_city == ingresso.teathers_by_city()
