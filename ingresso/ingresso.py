@@ -89,3 +89,17 @@ class Ingresso(object):
         """
         params = params = {"partnership": self.partnership}
         return self.request(f"theaters/city/{self.city_id}/", params=params).json()
+
+    def sessions_by_theater(self, id_theater: int) -> dict:
+        """Retorna as sessões de um cinema.
+
+        Args:
+            id_theater (int): O ID do cinema.
+
+        Returns:
+            dict: A resposta da requisição.
+        """
+        params = params = {"partnership": self.partnership}
+        return self.request(
+            f"sessions/city/{self.city_id}/theater/{id_theater}/", params=params
+        ).json()
