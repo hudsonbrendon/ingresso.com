@@ -1,6 +1,12 @@
 # flake8: noqa
-
 import pytest
+
+from ingresso import Ingresso
+
+
+@pytest.fixture
+def ingresso():
+    return Ingresso(48, "cinepolis")
 
 
 @pytest.fixture
