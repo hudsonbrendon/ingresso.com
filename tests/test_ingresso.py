@@ -52,3 +52,9 @@ class TestIngresso:
         url = f'{ingresso.get_full_url(path="theaters/city/48/")}?partnership=cinepolis'
         requests_mock.get(url=url, json=theaters_by_city)
         assert theaters_by_city == ingresso.teathers_by_city()
+
+    def test_sessions_by_theater(self, requests_mock, sessions_by_theater):
+        ingresso = Ingresso(48, "cinepolis")
+        url = f'{ingresso.get_full_url(path="sessions/city/48/theater/1005/")}?partnership=cinepolis'
+        requests_mock.get(url=url, json=sessions_by_theater)
+        assert sessions_by_theater == ingresso.sessions_by_theater(1005)
