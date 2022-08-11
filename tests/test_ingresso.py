@@ -37,24 +37,24 @@ class TestIngresso:
 
     def test_theaters(self, requests_mock, theaters):
         ingresso = Ingresso(48, "cinepolis")
-        url = f'{ingresso.get_full_url(path="theaters")}?partnership=cinepolis'
+        url = f'{ingresso.get_full_url(path="theaters")}?partnership={ingresso.partnership}'
         requests_mock.get(url=url, json=theaters)
         assert theaters == ingresso.theaters()
 
     def test_theaters_with_id(self, requests_mock, theater):
         ingresso = Ingresso(48, "cinepolis")
-        url = f'{ingresso.get_full_url(path="theaters/1005")}?partnership=cinepolis'
+        url = f'{ingresso.get_full_url(path="theaters/1005")}?partnership={ingresso.partnership}'
         requests_mock.get(url=url, json=theater)
         assert theater == ingresso.theaters(1005)
 
     def test_theaters_city(self, requests_mock, theaters_by_city):
         ingresso = Ingresso(48, "cinepolis")
-        url = f'{ingresso.get_full_url(path="theaters/city/48/")}?partnership=cinepolis'
+        url = f'{ingresso.get_full_url(path=f"theaters/city/{ingresso.city_id}/")}?partnership={ingresso.partnership}'
         requests_mock.get(url=url, json=theaters_by_city)
         assert theaters_by_city == ingresso.teathers_by_city()
 
     def test_sessions_by_theater(self, requests_mock, sessions_by_theater):
         ingresso = Ingresso(48, "cinepolis")
-        url = f'{ingresso.get_full_url(path="sessions/city/48/theater/1005/")}?partnership=cinepolis'
+        url = f'{ingresso.get_full_url(path=f"sessions/city/{ingresso.city_id}/theater/1005/")}?partnership=cinepolis'
         requests_mock.get(url=url, json=sessions_by_theater)
         assert sessions_by_theater == ingresso.sessions_by_theater(1005)
