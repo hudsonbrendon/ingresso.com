@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "ingresso"
-version = "0.1.0"
+version = "0.1.1"
 description = "A wrapper python para o ingresso.com"
 authors = ["Hudson Brendon <contato.hudsonbrendon@gmail.com>"]
 license = "MIT"
