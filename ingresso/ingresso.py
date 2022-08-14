@@ -3,10 +3,13 @@ from requests.models import Response
 
 
 class Ingresso(object):
-
     __URL = "https://api-content.ingresso.com/v0/"
 
-    def __init__(self, city_id: int, partnership: str) -> None:
+    def __init__(
+        self,
+        city_id: int,
+        partnership: str,
+    ) -> None:
         """Uma classe que representa a API do ingresso.
 
         Args:
@@ -17,7 +20,9 @@ class Ingresso(object):
         self.__partnership = partnership
 
     @property
-    def city_id(self) -> int:
+    def city_id(
+        self,
+    ) -> int:
         """Retorna o da cidade.
 
         Returns:
@@ -26,7 +31,9 @@ class Ingresso(object):
         return self.__city_id
 
     @property
-    def partnership(self) -> str:
+    def partnership(
+        self,
+    ) -> str:
         """Retorna o parceiro.
 
         Returns:
@@ -35,7 +42,9 @@ class Ingresso(object):
         return self.__partnership
 
     @property
-    def url(self) -> str:
+    def url(
+        self,
+    ) -> str:
         """Retorna a URL da API.
 
         Returns:
@@ -43,7 +52,10 @@ class Ingresso(object):
         """
         return self.__URL
 
-    def get_full_url(self, path: str) -> str:
+    def get_full_url(
+        self,
+        path: str,
+    ) -> str:
         """Retorna a URL completa da API com parâmetros.
 
         Args:
@@ -54,7 +66,11 @@ class Ingresso(object):
         """
         return f"{self.url}{path}"
 
-    def request(self, path: str, params: dict = {}) -> Response:
+    def request(
+        self,
+        path: str,
+        params: dict = {},
+    ) -> Response:
         """Faz uma requisição à API.
 
         Args:
@@ -64,9 +80,15 @@ class Ingresso(object):
         Returns:
             Response: A resposta da requisição.
         """
-        return requests.get(self.get_full_url(path), params=params)
+        return requests.get(
+            self.get_full_url(path),
+            params=params,
+        )
 
-    def theaters(self, _id: int = None) -> dict:
+    def theaters(
+        self,
+        _id: int = None,
+    ) -> dict:
         """Retorna os cinemas da cidade.
 
         Args:
@@ -78,19 +100,33 @@ class Ingresso(object):
         params = params = {"partnership": self.partnership}
 
         if _id:
-            return self.request(f"theaters/{_id}", params=params).json()
-        return self.request(path="theaters", params=params).json()
+            return self.request(
+                f"theaters/{_id}",
+                params=params,
+            ).json()
+        return self.request(
+            path="theaters",
+            params=params,
+        ).json()
 
-    def teathers_by_city(self) -> dict:
+    def teathers_by_city(
+        self,
+    ) -> dict:
         """Retorna os cinemas da cidade.
 
         Returns:
             dict: A resposta da requisição.
         """
         params = params = {"partnership": self.partnership}
-        return self.request(f"theaters/city/{self.city_id}/", params=params).json()
+        return self.request(
+            f"theaters/city/{self.city_id}/",
+            params=params,
+        ).json()
 
-    def sessions_by_theater(self, id_theater: int) -> dict:
+    def sessions_by_theater(
+        self,
+        id_theater: int,
+    ) -> dict:
         """Retorna as sessões de um cinema.
 
         Args:
@@ -101,5 +137,34 @@ class Ingresso(object):
         """
         params = params = {"partnership": self.partnership}
         return self.request(
-            f"sessions/city/{self.city_id}/theater/{id_theater}/", params=params
+            f"sessions/city/{self.city_id}/theater/{id_theater}/",
+            params=params,
+        ).json()
+
+    def highlights(
+        self,
+    ) -> dict:
+        """Retorna os destaques da cidade.
+
+        Returns:
+            dict: A resposta da requisição.
+        """
+        params = params = {"partnership": self.partnership}
+        return self.request(
+            f"templates/highlights/city/{self.city_id}/",
+            params=params,
+        ).json()
+
+    def now_playing(
+        self,
+    ) -> dict:
+        """Retorna os filmes em cartaz.
+
+        Returns:
+            dict: A resposta da requisição.
+        """
+        params = params = {"partnership": self.partnership}
+        return self.request(
+            f"templates/nowplaying/city/{self.city_id}/",
+            params=params,
         ).json()
