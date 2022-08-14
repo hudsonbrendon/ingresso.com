@@ -127,3 +127,16 @@ class TestIngresso:
             json=now_playing,
         )
         assert now_playing == ingresso.now_playing()
+
+    def test_soon(
+        self,
+        requests_mock,
+        ingresso,
+        soon,
+    ):
+        url = f'{ingresso.get_full_url(path=f"templates/soon/city/{ingresso.city_id}/")}?partnership={ingresso.partnership}'
+        requests_mock.get(
+            url=url,
+            json=soon,
+        )
+        assert soon == ingresso.soon()

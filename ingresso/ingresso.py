@@ -66,6 +66,20 @@ class Ingresso(object):
         """
         return f"{self.url}{path}"
 
+    def get_params(self, params: dict = {}) -> dict:
+        """Retorna os parâmetros da requisição.
+
+        Args:
+            params (dict, optional): Parâmetros da requisição. O padrão é {}.
+
+        Returns:
+            dict: Os parâmetros da requisição.
+        """
+        return {
+            "partnership": self.partnership,
+            **params,
+        }
+
     def request(
         self,
         path: str,
@@ -97,16 +111,15 @@ class Ingresso(object):
         Returns:
             dict: A resposta da requisição.
         """
-        params = params = {"partnership": self.partnership}
 
         if _id:
             return self.request(
                 f"theaters/{_id}",
-                params=params,
+                params=self.get_params(),
             ).json()
         return self.request(
             path="theaters",
-            params=params,
+            params=self.get_params(),
         ).json()
 
     def teathers_by_city(
@@ -117,10 +130,9 @@ class Ingresso(object):
         Returns:
             dict: A resposta da requisição.
         """
-        params = params = {"partnership": self.partnership}
         return self.request(
             f"theaters/city/{self.city_id}/",
-            params=params,
+            params=self.get_params(),
         ).json()
 
     def sessions_by_theater(
@@ -135,10 +147,9 @@ class Ingresso(object):
         Returns:
             dict: A resposta da requisição.
         """
-        params = params = {"partnership": self.partnership}
         return self.request(
             f"sessions/city/{self.city_id}/theater/{id_theater}/",
-            params=params,
+            params=self.get_params(),
         ).json()
 
     def highlights(
@@ -149,10 +160,9 @@ class Ingresso(object):
         Returns:
             dict: A resposta da requisição.
         """
-        params = params = {"partnership": self.partnership}
         return self.request(
             f"templates/highlights/city/{self.city_id}/",
-            params=params,
+            params=self.get_params(),
         ).json()
 
     def now_playing(
@@ -163,8 +173,20 @@ class Ingresso(object):
         Returns:
             dict: A resposta da requisição.
         """
-        params = params = {"partnership": self.partnership}
         return self.request(
             f"templates/nowplaying/city/{self.city_id}/",
-            params=params,
+            params=self.get_params(),
+        ).json()
+
+    def soon(
+        self,
+    ) -> dict:
+        """Retorna os filmes em cartaz.
+
+        Returns:
+            dict: A resposta da requisição.
+        """
+        return self.request(
+            f"templates/soon/city/{self.city_id}/",
+            params=self.get_params(),
         ).json()
