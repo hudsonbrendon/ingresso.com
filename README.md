@@ -3,6 +3,9 @@
 Um wrapper em python para o ingresso.com
 
 [![Python package](https://github.com/hudsonbrendon/ingresso.com/actions/workflows/python-package.yml/badge.svg)](https://github.com/hudsonbrendon/ingresso.com/actions/workflows/python-package.yml)
+[![Github Issues](http://img.shields.io/github/issues/hudsonbrendon/ingresso.com.svg?style=flat)](https://github.com/hudsonbrendon/ingresso.com/issues?sort=updated&state=open)
+![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)
+
 
 ![Logo](logo.png)
 

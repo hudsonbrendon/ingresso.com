@@ -3,6 +3,10 @@ name = "ingresso"
 version = "0.1.0"
 description = "A wrapper python para o ingresso.com"
 authors = ["Hudson Brendon <contato.hudsonbrendon@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/hudsonbrendon/ingresso.com"
+homepage = "https://github.com/hudsonbrendon/ingresso.com#readme"
 
 [tool.poetry.dependencies]
 python = "^3.8"
