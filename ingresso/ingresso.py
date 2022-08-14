@@ -181,7 +181,7 @@ class Ingresso(object):
     def soon(
         self,
     ) -> dict:
-        """Retorna os filmes em cartaz.
+        """Retorna os filmes em breve.
 
         Returns:
             dict: A resposta da requisição.
