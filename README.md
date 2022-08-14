@@ -2,6 +2,8 @@
 
 Um wrapper em python para o ingresso.com
 
+[![Python package](https://github.com/hudsonbrendon/ingresso.com/actions/workflows/python-package.yml/badge.svg)](https://github.com/hudsonbrendon/ingresso.com/actions/workflows/python-package.yml)
+
 ![Logo](logo.png)
 
 # Recursos Disponíveis
