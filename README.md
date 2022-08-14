@@ -36,7 +36,7 @@ $ poetry build
 
 Para utilizar a classe Ingresso, primeiro você precisa pegar o ID da cidade em questão, o ingresso.com disponibiliza um endpoint que lista as cidades e seus respectivos ids. Comece acessando o endpoint abaixo passando a UF do estado:
 
-[https://api-content.ingresso.com/v0/states/UF](https://api-content.ingresso.com/v0/states/UF){target="_blank"}
+[https://api-content.ingresso.com/v0/states/UF](https://api-content.ingresso.com/v0/states/UF)
 
 ## Tabela de UFs:
 | UF        | Estate  |
