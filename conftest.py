@@ -6,7 +6,10 @@ from ingresso import Ingresso
 
 @pytest.fixture
 def ingresso():
-    return Ingresso(48, "cinepolis")
+    return Ingresso(
+        48,
+        "cinepolis",
+    )
 
 
 @pytest.fixture
@@ -43,8 +46,14 @@ def theaters():
             },
             "functionalities": {"operationPolicyEnabled": True},
             "telephones": ["(71) 3431-9057"],
-            "geolocation": {"lat": -12.97164, "lng": -38.47529},
-            "deliveryType": ["Bilheteria/ATM", "Aplicativo/Scannerless"],
+            "geolocation": {
+                "lat": -12.97164,
+                "lng": -38.47529,
+            },
+            "deliveryType": [
+                "Bilheteria/ATM",
+                "Aplicativo/Scannerless",
+            ],
             "corporation": "Cinépolis",
             "corporationId": "5",
             "corporationPriority": 0,
@@ -151,8 +160,14 @@ def theaters():
             },
             "functionalities": {"operationPolicyEnabled": True},
             "telephones": ["(31) 3118-9770"],
-            "geolocation": {"lat": -19.82056, "lng": -43.94636},
-            "deliveryType": ["Bilheteria/ATM", "Aplicativo/Scannerless"],
+            "geolocation": {
+                "lat": -19.82056,
+                "lng": -43.94636,
+            },
+            "deliveryType": [
+                "Bilheteria/ATM",
+                "Aplicativo/Scannerless",
+            ],
             "corporation": "Cinépolis",
             "corporationId": "5",
             "corporationPriority": 0,
@@ -238,8 +253,14 @@ def theaters():
             },
             "functionalities": {"operationPolicyEnabled": True},
             "telephones": ["(11) 4128-3597"],
-            "geolocation": {"lat": -23.72322, "lng": -46.54319},
-            "deliveryType": ["Bilheteria/ATM", "Aplicativo/Scannerless"],
+            "geolocation": {
+                "lat": -23.72322,
+                "lng": -46.54319,
+            },
+            "deliveryType": [
+                "Bilheteria/ATM",
+                "Aplicativo/Scannerless",
+            ],
             "corporation": "Cinépolis",
             "corporationId": "5",
             "corporationPriority": 0,
@@ -339,8 +360,14 @@ def theaters():
             },
             "functionalities": {"operationPolicyEnabled": True},
             "telephones": ["(71) 3414-9280"],
-            "geolocation": {"lat": -12.90945, "lng": -38.3512},
-            "deliveryType": ["Bilheteria/ATM", "Aplicativo/Scannerless"],
+            "geolocation": {
+                "lat": -12.90945,
+                "lng": -38.3512,
+            },
+            "deliveryType": [
+                "Bilheteria/ATM",
+                "Aplicativo/Scannerless",
+            ],
             "corporation": "Cinépolis",
             "corporationId": "5",
             "corporationPriority": 0,
@@ -440,8 +467,14 @@ def theaters():
             },
             "functionalities": {"operationPolicyEnabled": True},
             "telephones": ["(41) 3342-1902"],
-            "geolocation": {"lat": -25.44302, "lng": -49.29092},
-            "deliveryType": ["Bilheteria/ATM", "Aplicativo/Scannerless"],
+            "geolocation": {
+                "lat": -25.44302,
+                "lng": -49.29092,
+            },
+            "deliveryType": [
+                "Bilheteria/ATM",
+                "Aplicativo/Scannerless",
+            ],
             "corporation": "Cinépolis",
             "corporationId": "5",
             "corporationPriority": 0,
@@ -541,8 +574,14 @@ def theaters():
             },
             "functionalities": {"operationPolicyEnabled": True},
             "telephones": ["(27) 3375-5184"],
-            "geolocation": {"lat": -20.34368, "lng": -40.40012},
-            "deliveryType": ["Bilheteria/ATM", "Aplicativo/Scannerless"],
+            "geolocation": {
+                "lat": -20.34368,
+                "lng": -40.40012,
+            },
+            "deliveryType": [
+                "Bilheteria/ATM",
+                "Aplicativo/Scannerless",
+            ],
             "corporation": "Cinépolis",
             "corporationId": "5",
             "corporationPriority": 0,
@@ -621,8 +660,14 @@ def theaters():
             },
             "functionalities": {"operationPolicyEnabled": True},
             "telephones": ["(84) 3025-8013"],
-            "geolocation": {"lat": -5.84214, "lng": -35.2117},
-            "deliveryType": ["Bilheteria/ATM", "Aplicativo/Scannerless"],
+            "geolocation": {
+                "lat": -5.84214,
+                "lng": -35.2117,
+            },
+            "deliveryType": [
+                "Bilheteria/ATM",
+                "Aplicativo/Scannerless",
+            ],
             "corporation": "Cinépolis",
             "corporationId": "5",
             "corporationPriority": 0,
@@ -722,8 +767,14 @@ def theaters():
             },
             "functionalities": {"operationPolicyEnabled": True},
             "telephones": ["(15) 3243-9546"],
-            "geolocation": {"lat": -23.53377, "lng": -47.46536},
-            "deliveryType": ["Bilheteria/ATM", "Aplicativo/Scannerless"],
+            "geolocation": {
+                "lat": -23.53377,
+                "lng": -47.46536,
+            },
+            "deliveryType": [
+                "Bilheteria/ATM",
+                "Aplicativo/Scannerless",
+            ],
             "corporation": "Cinépolis",
             "corporationId": "5",
             "corporationPriority": 0,
@@ -837,8 +888,14 @@ def theaters():
             },
             "functionalities": {"operationPolicyEnabled": True},
             "telephones": [],
-            "geolocation": {"lat": -23.54995, "lng": -46.84048},
-            "deliveryType": ["Bilheteria/ATM", "Aplicativo/Scannerless"],
+            "geolocation": {
+                "lat": -23.54995,
+                "lng": -46.84048,
+            },
+            "deliveryType": [
+                "Bilheteria/ATM",
+                "Aplicativo/Scannerless",
+            ],
             "corporation": "Cinépolis",
             "corporationId": "5",
             "corporationPriority": 0,
@@ -917,8 +974,14 @@ def theaters():
             },
             "functionalities": {"operationPolicyEnabled": True},
             "telephones": ["(85) 3066-2000"],
-            "geolocation": {"lat": -3.74114, "lng": -38.47177},
-            "deliveryType": ["Bilheteria/ATM", "Aplicativo/Scannerless"],
+            "geolocation": {
+                "lat": -3.74114,
+                "lng": -38.47177,
+            },
+            "deliveryType": [
+                "Bilheteria/ATM",
+                "Aplicativo/Scannerless",
+            ],
             "corporation": "Cinépolis",
             "corporationId": "5",
             "corporationPriority": 0,
@@ -1032,8 +1095,14 @@ def theaters():
             },
             "functionalities": {"operationPolicyEnabled": True},
             "telephones": ["(86) 3217-3260"],
-            "geolocation": {"lat": -5.08698, "lng": -42.79354},
-            "deliveryType": ["Bilheteria/ATM", "Aplicativo/Scannerless"],
+            "geolocation": {
+                "lat": -5.08698,
+                "lng": -42.79354,
+            },
+            "deliveryType": [
+                "Bilheteria/ATM",
+                "Aplicativo/Scannerless",
+            ],
             "corporation": "Cinépolis",
             "corporationId": "5",
             "corporationPriority": 0,
@@ -1161,8 +1230,14 @@ def theaters():
             },
             "functionalities": {"operationPolicyEnabled": True},
             "telephones": ["(83) 3565-8226"],
-            "geolocation": {"lat": -7.16242, "lng": -34.8304},
-            "deliveryType": ["Bilheteria/ATM", "Aplicativo/Scannerless"],
+            "geolocation": {
+                "lat": -7.16242,
+                "lng": -34.8304,
+            },
+            "deliveryType": [
+                "Bilheteria/ATM",
+                "Aplicativo/Scannerless",
+            ],
             "corporation": "Cinépolis",
             "corporationId": "5",
             "corporationPriority": 0,
@@ -1241,8 +1316,14 @@ def theaters():
             },
             "functionalities": {"operationPolicyEnabled": True},
             "telephones": ["(11) 35682154"],
-            "geolocation": {"lat": -21.18245, "lng": -47.80859},
-            "deliveryType": ["Bilheteria/ATM", "Aplicativo/Scannerless"],
+            "geolocation": {
+                "lat": -21.18245,
+                "lng": -47.80859,
+            },
+            "deliveryType": [
+                "Bilheteria/ATM",
+                "Aplicativo/Scannerless",
+            ],
             "corporation": "Cinépolis",
             "corporationId": "5",
             "corporationPriority": 0,
@@ -1342,8 +1423,14 @@ def theaters():
             },
             "functionalities": {"operationPolicyEnabled": True},
             "telephones": ["(11) 4195-1241"],
-            "geolocation": {"lat": -23.50463, "lng": -46.84847},
-            "deliveryType": ["Bilheteria/ATM", "Aplicativo/Scannerless"],
+            "geolocation": {
+                "lat": -23.50463,
+                "lng": -46.84847,
+            },
+            "deliveryType": [
+                "Bilheteria/ATM",
+                "Aplicativo/Scannerless",
+            ],
             "corporation": "Cinépolis",
             "corporationId": "5",
             "corporationPriority": 0,
@@ -1450,8 +1537,14 @@ def theaters():
             },
             "functionalities": {"operationPolicyEnabled": True},
             "telephones": ["(84) 2030-4145"],
-            "geolocation": {"lat": -26.87336, "lng": -49.11423},
-            "deliveryType": ["Bilheteria/ATM", "Aplicativo/Scannerless"],
+            "geolocation": {
+                "lat": -26.87336,
+                "lng": -49.11423,
+            },
+            "deliveryType": [
+                "Bilheteria/ATM",
+                "Aplicativo/Scannerless",
+            ],
             "corporation": "Cinépolis",
             "corporationId": "5",
             "corporationPriority": 0,
@@ -1544,8 +1637,14 @@ def theaters():
             },
             "functionalities": {"operationPolicyEnabled": True},
             "telephones": ["(54) 3041-0060"],
-            "geolocation": {"lat": -29.17133, "lng": -51.19128},
-            "deliveryType": ["Bilheteria/ATM", "Aplicativo/Scannerless"],
+            "geolocation": {
+                "lat": -29.17133,
+                "lng": -51.19128,
+            },
+            "deliveryType": [
+                "Bilheteria/ATM",
+                "Aplicativo/Scannerless",
+            ],
             "corporation": "Cinépolis",
             "corporationId": "5",
             "corporationPriority": 0,
@@ -1631,8 +1730,14 @@ def theaters():
             },
             "functionalities": {"operationPolicyEnabled": True},
             "telephones": ["(67) 3044-3900"],
-            "geolocation": {"lat": -20.48007, "lng": -54.62662},
-            "deliveryType": ["Bilheteria/ATM", "Aplicativo/Scannerless"],
+            "geolocation": {
+                "lat": -20.48007,
+                "lng": -54.62662,
+            },
+            "deliveryType": [
+                "Bilheteria/ATM",
+                "Aplicativo/Scannerless",
+            ],
             "corporation": "Cinépolis",
             "corporationId": "5",
             "corporationPriority": 0,
@@ -1725,8 +1830,14 @@ def theaters():
             },
             "functionalities": {"operationPolicyEnabled": True},
             "telephones": ["(91) 3241-4045"],
-            "geolocation": {"lat": -1.44634, "lng": -48.48982},
-            "deliveryType": ["Bilheteria/ATM", "Aplicativo/Scannerless"],
+            "geolocation": {
+                "lat": -1.44634,
+                "lng": -48.48982,
+            },
+            "deliveryType": [
+                "Bilheteria/ATM",
+                "Aplicativo/Scannerless",
+            ],
             "corporation": "Cinépolis",
             "corporationId": "5",
             "corporationPriority": 0,
@@ -1819,8 +1930,14 @@ def theaters():
             },
             "functionalities": {"operationPolicyEnabled": True},
             "telephones": ["(11) 3152-6605"],
-            "geolocation": {"lat": -23.59074, "lng": -46.68956},
-            "deliveryType": ["Bilheteria/ATM", "Aplicativo/Scannerless"],
+            "geolocation": {
+                "lat": -23.59074,
+                "lng": -46.68956,
+            },
+            "deliveryType": [
+                "Bilheteria/ATM",
+                "Aplicativo/Scannerless",
+            ],
             "corporation": "Cinépolis",
             "corporationId": "5",
             "corporationPriority": 0,
@@ -1927,8 +2044,14 @@ def theaters():
             },
             "functionalities": {"operationPolicyEnabled": True},
             "telephones": ["(11) 4588-0751"],
-            "geolocation": {"lat": -23.19944, "lng": -46.88979},
-            "deliveryType": ["Bilheteria/ATM", "Aplicativo/Scannerless"],
+            "geolocation": {
+                "lat": -23.19944,
+                "lng": -46.88979,
+            },
+            "deliveryType": [
+                "Bilheteria/ATM",
+                "Aplicativo/Scannerless",
+            ],
             "corporation": "Cinépolis",
             "corporationId": "5",
             "corporationPriority": 0,
@@ -2042,8 +2165,14 @@ def theaters():
             },
             "functionalities": {"operationPolicyEnabled": True},
             "telephones": ["(11) 4003-0172"],
-            "geolocation": {"lat": -23.54034, "lng": -46.4702},
-            "deliveryType": ["Bilheteria/ATM", "Aplicativo/Scannerless"],
+            "geolocation": {
+                "lat": -23.54034,
+                "lng": -46.4702,
+            },
+            "deliveryType": [
+                "Bilheteria/ATM",
+                "Aplicativo/Scannerless",
+            ],
             "corporation": "Cinépolis",
             "corporationId": "5",
             "corporationPriority": 0,
@@ -2143,8 +2272,14 @@ def theaters():
             },
             "functionalities": {"operationPolicyEnabled": True},
             "telephones": ["(19) 3268-6422"],
-            "geolocation": {"lat": -22.93237, "lng": -47.07739},
-            "deliveryType": ["Bilheteria/ATM", "Aplicativo/Scannerless"],
+            "geolocation": {
+                "lat": -22.93237,
+                "lng": -47.07739,
+            },
+            "deliveryType": [
+                "Bilheteria/ATM",
+                "Aplicativo/Scannerless",
+            ],
             "corporation": "Cinépolis",
             "corporationId": "5",
             "corporationPriority": 0,
@@ -2258,8 +2393,14 @@ def theaters():
             },
             "functionalities": {"operationPolicyEnabled": True},
             "telephones": ["(92) 3667-7299"],
-            "geolocation": {"lat": -3.08504, "lng": -60.07247},
-            "deliveryType": ["Bilheteria/ATM", "Aplicativo/Scannerless"],
+            "geolocation": {
+                "lat": -3.08504,
+                "lng": -60.07247,
+            },
+            "deliveryType": [
+                "Bilheteria/ATM",
+                "Aplicativo/Scannerless",
+            ],
             "corporation": "Cinépolis",
             "corporationId": "5",
             "corporationPriority": 0,
@@ -2373,8 +2514,14 @@ def theaters():
             },
             "functionalities": {"operationPolicyEnabled": True},
             "telephones": ["(14) 3212-3906"],
-            "geolocation": {"lat": -22.31585, "lng": -49.06679},
-            "deliveryType": ["Bilheteria/ATM", "Aplicativo/Scannerless"],
+            "geolocation": {
+                "lat": -22.31585,
+                "lng": -49.06679,
+            },
+            "deliveryType": [
+                "Bilheteria/ATM",
+                "Aplicativo/Scannerless",
+            ],
             "corporation": "Cinépolis",
             "corporationId": "5",
             "corporationPriority": 0,
@@ -2460,8 +2607,14 @@ def theaters():
             },
             "functionalities": {"operationPolicyEnabled": True},
             "telephones": ["(85) 3111-0486"],
-            "geolocation": {"lat": -3.76331, "lng": -38.57542},
-            "deliveryType": ["Bilheteria/ATM", "Aplicativo/Scannerless"],
+            "geolocation": {
+                "lat": -3.76331,
+                "lng": -38.57542,
+            },
+            "deliveryType": [
+                "Bilheteria/ATM",
+                "Aplicativo/Scannerless",
+            ],
             "corporation": "Cinépolis",
             "corporationId": "5",
             "corporationPriority": 0,
@@ -2540,8 +2693,14 @@ def theaters():
             },
             "functionalities": {"operationPolicyEnabled": True},
             "telephones": ["(92) 3659-3725"],
-            "geolocation": {"lat": -3.10135, "lng": -60.02511},
-            "deliveryType": ["Bilheteria/ATM", "Aplicativo/Scannerless"],
+            "geolocation": {
+                "lat": -3.10135,
+                "lng": -60.02511,
+            },
+            "deliveryType": [
+                "Bilheteria/ATM",
+                "Aplicativo/Scannerless",
+            ],
             "corporation": "Cinépolis",
             "corporationId": "5",
             "corporationPriority": 0,
@@ -2641,8 +2800,14 @@ def theaters():
             },
             "functionalities": {"operationPolicyEnabled": True},
             "telephones": ["(92) 3642-4756"],
-            "geolocation": {"lat": -3.09705, "lng": -60.02396},
-            "deliveryType": ["Bilheteria/ATM", "Aplicativo/Scannerless"],
+            "geolocation": {
+                "lat": -3.09705,
+                "lng": -60.02396,
+            },
+            "deliveryType": [
+                "Bilheteria/ATM",
+                "Aplicativo/Scannerless",
+            ],
             "corporation": "Cinépolis",
             "corporationId": "5",
             "corporationPriority": 0,
@@ -2742,8 +2907,14 @@ def theaters():
             },
             "functionalities": {"operationPolicyEnabled": True},
             "telephones": ["(65) 3023-7337"],
-            "geolocation": {"lat": -15.6118, "lng": -56.07366},
-            "deliveryType": ["Bilheteria/ATM", "Aplicativo/Scannerless"],
+            "geolocation": {
+                "lat": -15.6118,
+                "lng": -56.07366,
+            },
+            "deliveryType": [
+                "Bilheteria/ATM",
+                "Aplicativo/Scannerless",
+            ],
             "corporation": "Cinépolis",
             "corporationId": "5",
             "corporationPriority": 0,
@@ -2843,8 +3014,14 @@ def theaters():
             },
             "functionalities": {"operationPolicyEnabled": True},
             "telephones": ["(17) 3201-8800"],
-            "geolocation": {"lat": -20.8668, "lng": -49.41495},
-            "deliveryType": ["Bilheteria/ATM", "Aplicativo/Scannerless"],
+            "geolocation": {
+                "lat": -20.8668,
+                "lng": -49.41495,
+            },
+            "deliveryType": [
+                "Bilheteria/ATM",
+                "Aplicativo/Scannerless",
+            ],
             "corporation": "Cinépolis",
             "corporationId": "5",
             "corporationPriority": 0,
@@ -2937,8 +3114,14 @@ def theaters():
             },
             "functionalities": {"operationPolicyEnabled": True},
             "telephones": ["(91) 3232-0547"],
-            "geolocation": {"lat": -1.37024, "lng": -48.44683},
-            "deliveryType": ["Bilheteria/ATM", "Aplicativo/Scannerless"],
+            "geolocation": {
+                "lat": -1.37024,
+                "lng": -48.44683,
+            },
+            "deliveryType": [
+                "Bilheteria/ATM",
+                "Aplicativo/Scannerless",
+            ],
             "corporation": "Cinépolis",
             "corporationId": "5",
             "corporationPriority": 0,
@@ -3031,8 +3214,14 @@ def theaters():
             },
             "functionalities": {"operationPolicyEnabled": True},
             "telephones": ["(34) 3231-2016"],
-            "geolocation": {"lat": -18.90906, "lng": -48.26033},
-            "deliveryType": ["Bilheteria/ATM", "Aplicativo/Scannerless"],
+            "geolocation": {
+                "lat": -18.90906,
+                "lng": -48.26033,
+            },
+            "deliveryType": [
+                "Bilheteria/ATM",
+                "Aplicativo/Scannerless",
+            ],
             "corporation": "Cinépolis",
             "corporationId": "5",
             "corporationPriority": 0,
@@ -3146,8 +3335,14 @@ def theaters():
             },
             "functionalities": {"operationPolicyEnabled": True},
             "telephones": [],
-            "geolocation": {"lat": 0.0, "lng": 0.0},
-            "deliveryType": ["Bilheteria/ATM", "Aplicativo/Scannerless"],
+            "geolocation": {
+                "lat": 0.0,
+                "lng": 0.0,
+            },
+            "deliveryType": [
+                "Bilheteria/ATM",
+                "Aplicativo/Scannerless",
+            ],
             "corporation": "Cinépolis",
             "corporationId": "5",
             "corporationPriority": 0,
@@ -3219,8 +3414,14 @@ def theaters():
             },
             "functionalities": {"operationPolicyEnabled": True},
             "telephones": ["(11) 2485-1077"],
-            "geolocation": {"lat": -23.44329, "lng": -46.53989},
-            "deliveryType": ["Bilheteria/ATM", "Aplicativo/Scannerless"],
+            "geolocation": {
+                "lat": -23.44329,
+                "lng": -46.53989,
+            },
+            "deliveryType": [
+                "Bilheteria/ATM",
+                "Aplicativo/Scannerless",
+            ],
             "corporation": "Cinépolis",
             "corporationId": "5",
             "corporationPriority": 0,
@@ -3341,8 +3542,14 @@ def theaters():
             },
             "functionalities": {"operationPolicyEnabled": True},
             "telephones": ["(96) 4009-6027"],
-            "geolocation": {"lat": -0.00789, "lng": -51.08187},
-            "deliveryType": ["Bilheteria/ATM", "Aplicativo/Scannerless"],
+            "geolocation": {
+                "lat": -0.00789,
+                "lng": -51.08187,
+            },
+            "deliveryType": [
+                "Bilheteria/ATM",
+                "Aplicativo/Scannerless",
+            ],
             "corporation": "Cinépolis",
             "corporationId": "5",
             "corporationPriority": 0,
@@ -3442,8 +3649,14 @@ def theaters():
             },
             "functionalities": {"operationPolicyEnabled": True},
             "telephones": ["(14) 3432-3981"],
-            "geolocation": {"lat": -22.18629, "lng": -49.967},
-            "deliveryType": ["Bilheteria/ATM", "Aplicativo/Scannerless"],
+            "geolocation": {
+                "lat": -22.18629,
+                "lng": -49.967,
+            },
+            "deliveryType": [
+                "Bilheteria/ATM",
+                "Aplicativo/Scannerless",
+            ],
             "corporation": "Cinépolis",
             "corporationId": "5",
             "corporationPriority": 0,
@@ -3522,8 +3735,14 @@ def theaters():
             },
             "functionalities": {"operationPolicyEnabled": True},
             "telephones": ["(83) 3268-5454"],
-            "geolocation": {"lat": -7.09921, "lng": -34.84486},
-            "deliveryType": ["Bilheteria/ATM", "Aplicativo/Scannerless"],
+            "geolocation": {
+                "lat": -7.09921,
+                "lng": -34.84486,
+            },
+            "deliveryType": [
+                "Bilheteria/ATM",
+                "Aplicativo/Scannerless",
+            ],
             "corporation": "Cinépolis",
             "corporationId": "5",
             "corporationPriority": 0,
@@ -3644,8 +3863,14 @@ def theaters():
             },
             "functionalities": {"operationPolicyEnabled": True},
             "telephones": ["(21) 2606-8584"],
-            "geolocation": {"lat": -22.81357, "lng": -43.0712},
-            "deliveryType": ["Bilheteria/ATM", "Aplicativo/Scannerless"],
+            "geolocation": {
+                "lat": -22.81357,
+                "lng": -43.0712,
+            },
+            "deliveryType": [
+                "Bilheteria/ATM",
+                "Aplicativo/Scannerless",
+            ],
             "corporation": "Cinépolis",
             "corporationId": "5",
             "corporationPriority": 0,
@@ -3745,8 +3970,14 @@ def theaters():
             },
             "functionalities": {"operationPolicyEnabled": True},
             "telephones": ["(81) 3468-7766"],
-            "geolocation": {"lat": -8.16776, "lng": -34.91904},
-            "deliveryType": ["Bilheteria/ATM", "Aplicativo/Scannerless"],
+            "geolocation": {
+                "lat": -8.16776,
+                "lng": -34.91904,
+            },
+            "deliveryType": [
+                "Bilheteria/ATM",
+                "Aplicativo/Scannerless",
+            ],
             "corporation": "Cinépolis",
             "corporationId": "5",
             "corporationPriority": 0,
@@ -3874,8 +4105,14 @@ def theaters():
             },
             "functionalities": {"operationPolicyEnabled": True},
             "telephones": ["(98)3214-0045"],
-            "geolocation": {"lat": -2.51082, "lng": -44.28501},
-            "deliveryType": ["Bilheteria/ATM", "Aplicativo/Scannerless"],
+            "geolocation": {
+                "lat": -2.51082,
+                "lng": -44.28501,
+            },
+            "deliveryType": [
+                "Bilheteria/ATM",
+                "Aplicativo/Scannerless",
+            ],
             "corporation": "Cinépolis",
             "corporationId": "5",
             "corporationPriority": 0,
@@ -3989,8 +4226,14 @@ def theaters():
             },
             "functionalities": {"operationPolicyEnabled": True},
             "telephones": ["(48) 3094-9133"],
-            "geolocation": {"lat": -27.61614, "lng": -48.64493},
-            "deliveryType": ["Bilheteria/ATM", "Aplicativo/Scannerless"],
+            "geolocation": {
+                "lat": -27.61614,
+                "lng": -48.64493,
+            },
+            "deliveryType": [
+                "Bilheteria/ATM",
+                "Aplicativo/Scannerless",
+            ],
             "corporation": "Cinépolis",
             "corporationId": "5",
             "corporationPriority": 0,
@@ -4090,8 +4333,14 @@ def theaters():
             },
             "functionalities": {"operationPolicyEnabled": True},
             "telephones": ["(11) 5546-2702"],
-            "geolocation": {"lat": -23.6529, "lng": -46.71099},
-            "deliveryType": ["Bilheteria/ATM", "Aplicativo/Scannerless"],
+            "geolocation": {
+                "lat": -23.6529,
+                "lng": -46.71099,
+            },
+            "deliveryType": [
+                "Bilheteria/ATM",
+                "Aplicativo/Scannerless",
+            ],
             "corporation": "Cinépolis",
             "corporationId": "5",
             "corporationPriority": 0,
@@ -4191,8 +4440,14 @@ def theaters():
             },
             "functionalities": {"operationPolicyEnabled": True},
             "telephones": [],
-            "geolocation": {"lat": 0.0, "lng": 0.0},
-            "deliveryType": ["Bilheteria/ATM", "Aplicativo/Scannerless"],
+            "geolocation": {
+                "lat": 0.0,
+                "lng": 0.0,
+            },
+            "deliveryType": [
+                "Bilheteria/ATM",
+                "Aplicativo/Scannerless",
+            ],
             "corporation": "Cinépolis",
             "corporationId": "5",
             "corporationPriority": 0,
@@ -4264,8 +4519,14 @@ def theaters():
             },
             "functionalities": {"operationPolicyEnabled": True},
             "telephones": [],
-            "geolocation": {"lat": -16.66668, "lng": -49.31091},
-            "deliveryType": ["Bilheteria/ATM", "Aplicativo/Scannerless"],
+            "geolocation": {
+                "lat": -16.66668,
+                "lng": -49.31091,
+            },
+            "deliveryType": [
+                "Bilheteria/ATM",
+                "Aplicativo/Scannerless",
+            ],
             "corporation": "Cinépolis",
             "corporationId": "5",
             "corporationPriority": 0,
@@ -4358,8 +4619,14 @@ def theaters():
             },
             "functionalities": {"operationPolicyEnabled": True},
             "telephones": ["(11) 4191-4625"],
-            "geolocation": {"lat": -23.51622, "lng": -46.85551},
-            "deliveryType": ["Bilheteria/ATM", "Aplicativo/Scannerless"],
+            "geolocation": {
+                "lat": -23.51622,
+                "lng": -46.85551,
+            },
+            "deliveryType": [
+                "Bilheteria/ATM",
+                "Aplicativo/Scannerless",
+            ],
             "corporation": "Cinépolis",
             "corporationId": "5",
             "corporationPriority": 0,
@@ -4466,8 +4733,14 @@ def theaters():
             },
             "functionalities": {"operationPolicyEnabled": True},
             "telephones": ["(16) 3913-3675"],
-            "geolocation": {"lat": -21.22781, "lng": -47.83357},
-            "deliveryType": ["Bilheteria/ATM", "Aplicativo/Scannerless"],
+            "geolocation": {
+                "lat": -21.22781,
+                "lng": -47.83357,
+            },
+            "deliveryType": [
+                "Bilheteria/ATM",
+                "Aplicativo/Scannerless",
+            ],
             "corporation": "Cinépolis",
             "corporationId": "5",
             "corporationPriority": 0,
@@ -4553,8 +4826,14 @@ def theaters():
             },
             "functionalities": {"operationPolicyEnabled": True},
             "telephones": ["(84) 2030-4145"],
-            "geolocation": {"lat": -5.75785, "lng": -35.24722},
-            "deliveryType": ["Bilheteria/ATM", "Aplicativo/Scannerless"],
+            "geolocation": {
+                "lat": -5.75785,
+                "lng": -35.24722,
+            },
+            "deliveryType": [
+                "Bilheteria/ATM",
+                "Aplicativo/Scannerless",
+            ],
             "corporation": "Cinépolis",
             "corporationId": "5",
             "corporationPriority": 0,
@@ -4640,8 +4919,14 @@ def theaters():
             },
             "functionalities": {"operationPolicyEnabled": True},
             "telephones": ["(17) 3216-3951"],
-            "geolocation": {"lat": -20.82746, "lng": -49.38774},
-            "deliveryType": ["Bilheteria/ATM", "Aplicativo/Scannerless"],
+            "geolocation": {
+                "lat": -20.82746,
+                "lng": -49.38774,
+            },
+            "deliveryType": [
+                "Bilheteria/ATM",
+                "Aplicativo/Scannerless",
+            ],
             "corporation": "Cinépolis",
             "corporationId": "5",
             "corporationPriority": 0,
@@ -4734,8 +5019,14 @@ def theaters():
             },
             "functionalities": {"operationPolicyEnabled": True},
             "telephones": [],
-            "geolocation": {"lat": -3.72745, "lng": -38.56752},
-            "deliveryType": ["Bilheteria/ATM", "Aplicativo/Scannerless"],
+            "geolocation": {
+                "lat": -3.72745,
+                "lng": -38.56752,
+            },
+            "deliveryType": [
+                "Bilheteria/ATM",
+                "Aplicativo/Scannerless",
+            ],
             "corporation": "Cinépolis",
             "corporationId": "5",
             "corporationPriority": 0,
@@ -4821,8 +5112,14 @@ def theaters():
             },
             "functionalities": {"operationPolicyEnabled": True},
             "telephones": [],
-            "geolocation": {"lat": -23.47525, "lng": -46.32638},
-            "deliveryType": ["Bilheteria/ATM", "Aplicativo/Scannerless"],
+            "geolocation": {
+                "lat": -23.47525,
+                "lng": -46.32638,
+            },
+            "deliveryType": [
+                "Bilheteria/ATM",
+                "Aplicativo/Scannerless",
+            ],
             "corporation": "Cinépolis",
             "corporationId": "5",
             "corporationPriority": 0,
@@ -4901,8 +5198,14 @@ def theaters():
             },
             "functionalities": {"operationPolicyEnabled": True},
             "telephones": [],
-            "geolocation": {"lat": 0.0, "lng": 0.0},
-            "deliveryType": ["Bilheteria/ATM", "Aplicativo/Scannerless"],
+            "geolocation": {
+                "lat": 0.0,
+                "lng": 0.0,
+            },
+            "deliveryType": [
+                "Bilheteria/ATM",
+                "Aplicativo/Scannerless",
+            ],
             "corporation": "Cinépolis",
             "corporationId": "5",
             "corporationPriority": 0,
@@ -4981,8 +5284,14 @@ def theaters():
             },
             "functionalities": {"operationPolicyEnabled": True},
             "telephones": [],
-            "geolocation": {"lat": 0.0, "lng": 0.0},
-            "deliveryType": ["Bilheteria/ATM", "Aplicativo/Scannerless"],
+            "geolocation": {
+                "lat": 0.0,
+                "lng": 0.0,
+            },
+            "deliveryType": [
+                "Bilheteria/ATM",
+                "Aplicativo/Scannerless",
+            ],
             "corporation": "Cinépolis",
             "corporationId": "5",
             "corporationPriority": 0,
@@ -5054,8 +5363,14 @@ def theaters():
             },
             "functionalities": {"operationPolicyEnabled": True},
             "telephones": [],
-            "geolocation": {"lat": -7.99454, "lng": -34.8415},
-            "deliveryType": ["Bilheteria/ATM", "Aplicativo/Scannerless"],
+            "geolocation": {
+                "lat": -7.99454,
+                "lng": -34.8415,
+            },
+            "deliveryType": [
+                "Bilheteria/ATM",
+                "Aplicativo/Scannerless",
+            ],
             "corporation": "Cinépolis",
             "corporationId": "5",
             "corporationPriority": 0,
@@ -5155,8 +5470,14 @@ def theaters():
             },
             "functionalities": {"operationPolicyEnabled": True},
             "telephones": [],
-            "geolocation": {"lat": -15.5897, "lng": -56.12045},
-            "deliveryType": ["Bilheteria/ATM", "Aplicativo/Scannerless"],
+            "geolocation": {
+                "lat": -15.5897,
+                "lng": -56.12045,
+            },
+            "deliveryType": [
+                "Bilheteria/ATM",
+                "Aplicativo/Scannerless",
+            ],
             "corporation": "Cinépolis",
             "corporationId": "5",
             "corporationPriority": 0,
@@ -5249,8 +5570,14 @@ def theaters():
             },
             "functionalities": {"operationPolicyEnabled": True},
             "telephones": [],
-            "geolocation": {"lat": -23.00108, "lng": -43.38614},
-            "deliveryType": ["Bilheteria/ATM", "Aplicativo/Scannerless"],
+            "geolocation": {
+                "lat": -23.00108,
+                "lng": -43.38614,
+            },
+            "deliveryType": [
+                "Bilheteria/ATM",
+                "Aplicativo/Scannerless",
+            ],
             "corporation": "Cinépolis",
             "corporationId": "5",
             "corporationPriority": 0,
@@ -5315,8 +5642,14 @@ def theaters():
             },
             "functionalities": {"operationPolicyEnabled": True},
             "telephones": ["1125264900"],
-            "geolocation": {"lat": -22.88579, "lng": -47.06749},
-            "deliveryType": ["Bilheteria/ATM", "Aplicativo/Scannerless"],
+            "geolocation": {
+                "lat": -22.88579,
+                "lng": -47.06749,
+            },
+            "deliveryType": [
+                "Bilheteria/ATM",
+                "Aplicativo/Scannerless",
+            ],
             "corporation": "Cinépolis",
             "corporationId": "5",
             "corporationPriority": 0,
@@ -5395,8 +5728,14 @@ def theaters():
             },
             "functionalities": {"operationPolicyEnabled": True},
             "telephones": [],
-            "geolocation": {"lat": 0.0, "lng": 0.0},
-            "deliveryType": ["Bilheteria/ATM", "Aplicativo/Scannerless"],
+            "geolocation": {
+                "lat": 0.0,
+                "lng": 0.0,
+            },
+            "deliveryType": [
+                "Bilheteria/ATM",
+                "Aplicativo/Scannerless",
+            ],
             "corporation": "Cinépolis",
             "corporationId": "5",
             "corporationPriority": 0,
@@ -5489,8 +5828,14 @@ def theaters():
             },
             "functionalities": {"operationPolicyEnabled": True},
             "telephones": ["1125264900"],
-            "geolocation": {"lat": -25.42915, "lng": -49.21647},
-            "deliveryType": ["Bilheteria/ATM", "Aplicativo/Scannerless"],
+            "geolocation": {
+                "lat": -25.42915,
+                "lng": -49.21647,
+            },
+            "deliveryType": [
+                "Bilheteria/ATM",
+                "Aplicativo/Scannerless",
+            ],
             "corporation": "Cinépolis",
             "corporationId": "5",
             "corporationPriority": 0,
@@ -5590,8 +5935,14 @@ def theaters():
             },
             "functionalities": {"operationPolicyEnabled": True},
             "telephones": [],
-            "geolocation": {"lat": 0.0, "lng": 0.0},
-            "deliveryType": ["Bilheteria/ATM", "Aplicativo/Scannerless"],
+            "geolocation": {
+                "lat": 0.0,
+                "lng": 0.0,
+            },
+            "deliveryType": [
+                "Bilheteria/ATM",
+                "Aplicativo/Scannerless",
+            ],
             "corporation": "Cinépolis",
             "corporationId": "5",
             "corporationPriority": 0,
@@ -5670,8 +6021,14 @@ def theaters():
             },
             "functionalities": {"operationPolicyEnabled": True},
             "telephones": [],
-            "geolocation": {"lat": 0.0, "lng": 0.0},
-            "deliveryType": ["Bilheteria/ATM", "Aplicativo/Scannerless"],
+            "geolocation": {
+                "lat": 0.0,
+                "lng": 0.0,
+            },
+            "deliveryType": [
+                "Bilheteria/ATM",
+                "Aplicativo/Scannerless",
+            ],
             "corporation": "Cinépolis",
             "corporationId": "5",
             "corporationPriority": 0,
@@ -5737,12 +6094,16 @@ def theaters():
 
 
 @pytest.fixture
-def theater(theaters):
+def theater(
+    theaters,
+):
     return theaters[0]
 
 
 @pytest.fixture
-def theaters_by_city(theaters):
+def theaters_by_city(
+    theaters,
+):
     return [
         {
             "id": "1149",
@@ -5775,8 +6136,14 @@ def theaters_by_city(theaters):
             },
             "functionalities": {"operationPolicyEnabled": True},
             "telephones": ["(84) 3025-8013"],
-            "geolocation": {"lat": -5.84214, "lng": -35.2117},
-            "deliveryType": ["Bilheteria/ATM", "Aplicativo/Scannerless"],
+            "geolocation": {
+                "lat": -5.84214,
+                "lng": -35.2117,
+            },
+            "deliveryType": [
+                "Bilheteria/ATM",
+                "Aplicativo/Scannerless",
+            ],
             "corporation": "Cinépolis",
             "corporationId": "5",
             "corporationPriority": 0,
@@ -5876,8 +6243,14 @@ def theaters_by_city(theaters):
             },
             "functionalities": {"operationPolicyEnabled": True},
             "telephones": ["(84) 2030-4145"],
-            "geolocation": {"lat": -5.75785, "lng": -35.24722},
-            "deliveryType": ["Bilheteria/ATM", "Aplicativo/Scannerless"],
+            "geolocation": {
+                "lat": -5.75785,
+                "lng": -35.24722,
+            },
+            "deliveryType": [
+                "Bilheteria/ATM",
+                "Aplicativo/Scannerless",
+            ],
             "corporation": "Cinépolis",
             "corporationId": "5",
             "corporationPriority": 0,
@@ -5991,7 +6364,10 @@ def sessions_by_theater():
                                     "id": "69116647",
                                     "price": 45.6,
                                     "room": "Sala 2",
-                                    "type": ["Nacional", "Normal"],
+                                    "type": [
+                                        "Nacional",
+                                        "Normal",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -6079,8 +6455,14 @@ def sessions_by_theater():
                             "embeddedUrl": "//www.youtube.com/embed/Qcs3F8FudKM",
                         },
                     ],
-                    "genres": ["Ação", "Drama"],
-                    "ratingDescriptors": ["Drogas Lícitas", "Violência"],
+                    "genres": [
+                        "Ação",
+                        "Drama",
+                    ],
+                    "ratingDescriptors": [
+                        "Drogas Lícitas",
+                        "Violência",
+                    ],
                     "tags": [],
                     "completeTags": [],
                     "rooms": [
@@ -6092,7 +6474,11 @@ def sessions_by_theater():
                                     "id": "69116721",
                                     "price": 70.67,
                                     "room": "Sala 7",
-                                    "type": ["Legendado", "Normal", "Vip"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -6195,7 +6581,11 @@ def sessions_by_theater():
                                     "id": "69120110",
                                     "price": 70.67,
                                     "room": "Sala 8",
-                                    "type": ["Nacional", "Normal", "Vip"],
+                                    "type": [
+                                        "Nacional",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -6248,7 +6638,11 @@ def sessions_by_theater():
                                     "id": "69120079",
                                     "price": 70.67,
                                     "room": "Sala 8",
-                                    "type": ["Nacional", "Normal", "Vip"],
+                                    "type": [
+                                        "Nacional",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -6342,7 +6736,11 @@ def sessions_by_theater():
                             "embeddedUrl": "//www.youtube.com/embed/84KauQ4KN74",
                         },
                     ],
-                    "genres": ["Animação", "Aventura", "Comédia"],
+                    "genres": [
+                        "Animação",
+                        "Aventura",
+                        "Comédia",
+                    ],
                     "ratingDescriptors": [],
                     "tags": [],
                     "completeTags": [],
@@ -6355,7 +6753,11 @@ def sessions_by_theater():
                                     "id": "69116707",
                                     "price": 44.46,
                                     "room": "Sala 1",
-                                    "type": ["Dublado", "Normal", "Macro XE"],
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                        "Macro XE",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -6473,7 +6875,10 @@ def sessions_by_theater():
                                     "id": "69120143",
                                     "price": 42.18,
                                     "room": "Sala 5",
-                                    "type": ["Nacional", "Normal"],
+                                    "type": [
+                                        "Nacional",
+                                        "Normal",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -6520,7 +6925,10 @@ def sessions_by_theater():
                                     "id": "69120071",
                                     "price": 42.18,
                                     "room": "Sala 5",
-                                    "type": ["Nacional", "Normal"],
+                                    "type": [
+                                        "Nacional",
+                                        "Normal",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -6603,7 +7011,10 @@ def sessions_by_theater():
                             "embeddedUrl": "//www.youtube.com/embed/zvN3xJ_JokI",
                         }
                     ],
-                    "genres": ["Animação", "Aventura"],
+                    "genres": [
+                        "Animação",
+                        "Aventura",
+                    ],
                     "ratingDescriptors": [],
                     "tags": [],
                     "completeTags": [],
@@ -6616,7 +7027,10 @@ def sessions_by_theater():
                                     "id": "69116704",
                                     "price": 42.18,
                                     "room": "Sala 2",
-                                    "type": ["Dublado", "Normal"],
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -6663,7 +7077,10 @@ def sessions_by_theater():
                                     "id": "69116649",
                                     "price": 45.6,
                                     "room": "Sala 2",
-                                    "type": ["Dublado", "Normal"],
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -6710,7 +7127,10 @@ def sessions_by_theater():
                                     "id": "69116643",
                                     "price": 45.6,
                                     "room": "Sala 2",
-                                    "type": ["Dublado", "Normal"],
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -6800,7 +7220,10 @@ def sessions_by_theater():
                             "embeddedUrl": "//www.youtube.com/embed/cNJNjPJyxbY",
                         }
                     ],
-                    "genres": ["Ação", "Aventura"],
+                    "genres": [
+                        "Ação",
+                        "Aventura",
+                    ],
                     "ratingDescriptors": [
                         "Drogas Lícitas",
                         "Linguagem Imprópria",
@@ -6817,7 +7240,11 @@ def sessions_by_theater():
                                     "id": "69116700",
                                     "price": 44.46,
                                     "room": "Sala 1",
-                                    "type": ["Dublado", "Normal", "Macro XE"],
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                        "Macro XE",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -6876,7 +7303,11 @@ def sessions_by_theater():
                                     "id": "69116646",
                                     "price": 47.88,
                                     "room": "Sala 1",
-                                    "type": ["Legendado", "Normal", "Macro XE"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Macro XE",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -6929,7 +7360,11 @@ def sessions_by_theater():
                                     "id": "69116645",
                                     "price": 47.88,
                                     "room": "Sala 1",
-                                    "type": ["Legendado", "Normal", "Macro XE"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Macro XE",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -6988,7 +7423,11 @@ def sessions_by_theater():
                                     "id": "69116652",
                                     "price": 70.67,
                                     "room": "Sala 8",
-                                    "type": ["Legendado", "Normal", "Vip"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -7095,7 +7534,11 @@ def sessions_by_theater():
                         },
                     ],
                     "genres": ["Drama"],
-                    "ratingDescriptors": ["Conteúdo Sexual", "Drogas", "Violência"],
+                    "ratingDescriptors": [
+                        "Conteúdo Sexual",
+                        "Drogas",
+                        "Violência",
+                    ],
                     "tags": [],
                     "completeTags": [],
                     "rooms": [
@@ -7107,7 +7550,11 @@ def sessions_by_theater():
                                     "id": "69116648",
                                     "price": 70.67,
                                     "room": "Sala 7",
-                                    "type": ["Legendado", "Normal", "Vip"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -7160,7 +7607,11 @@ def sessions_by_theater():
                                     "id": "69116654",
                                     "price": 70.67,
                                     "room": "Sala 7",
-                                    "type": ["Legendado", "Normal", "Vip"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -7256,8 +7707,15 @@ def sessions_by_theater():
                             "embeddedUrl": "//www.youtube.com/embed/DwuvprOmPJw",
                         }
                     ],
-                    "genres": ["Ação", "Aventura", "Drama"],
-                    "ratingDescriptors": ["Drogas Lícitas", "Violência"],
+                    "genres": [
+                        "Ação",
+                        "Aventura",
+                        "Drama",
+                    ],
+                    "ratingDescriptors": [
+                        "Drogas Lícitas",
+                        "Violência",
+                    ],
                     "tags": [],
                     "completeTags": [],
                     "rooms": [
@@ -7269,7 +7727,11 @@ def sessions_by_theater():
                                     "id": "69120131",
                                     "price": 70.67,
                                     "room": "Sala 6",
-                                    "type": ["Legendado", "Normal", "Vip"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -7322,7 +7784,11 @@ def sessions_by_theater():
                                     "id": "69120117",
                                     "price": 70.67,
                                     "room": "Sala 6",
-                                    "type": ["Legendado", "Normal", "Vip"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -7375,7 +7841,11 @@ def sessions_by_theater():
                                     "id": "69120105",
                                     "price": 70.67,
                                     "room": "Sala 6",
-                                    "type": ["Legendado", "Normal", "Vip"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -7428,7 +7898,11 @@ def sessions_by_theater():
                                     "id": "69120133",
                                     "price": 70.67,
                                     "room": "Sala 6",
-                                    "type": ["Legendado", "Normal", "Vip"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -7541,7 +8015,10 @@ def sessions_by_theater():
                                     "id": "69116644",
                                     "price": 45.6,
                                     "room": "Sala 5",
-                                    "type": ["Legendado", "Normal"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -7588,7 +8065,10 @@ def sessions_by_theater():
                                     "id": "69116651",
                                     "price": 45.6,
                                     "room": "Sala 5",
-                                    "type": ["Legendado", "Normal"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -7703,7 +8183,10 @@ def sessions_by_theater():
                                     "id": "69116662",
                                     "price": 45.6,
                                     "room": "Sala 2",
-                                    "type": ["Nacional", "Normal"],
+                                    "type": [
+                                        "Nacional",
+                                        "Normal",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -7791,8 +8274,14 @@ def sessions_by_theater():
                             "embeddedUrl": "//www.youtube.com/embed/Qcs3F8FudKM",
                         },
                     ],
-                    "genres": ["Ação", "Drama"],
-                    "ratingDescriptors": ["Drogas Lícitas", "Violência"],
+                    "genres": [
+                        "Ação",
+                        "Drama",
+                    ],
+                    "ratingDescriptors": [
+                        "Drogas Lícitas",
+                        "Violência",
+                    ],
                     "tags": [],
                     "completeTags": [],
                     "rooms": [
@@ -7804,7 +8293,11 @@ def sessions_by_theater():
                                     "id": "69116661",
                                     "price": 70.67,
                                     "room": "Sala 7",
-                                    "type": ["Legendado", "Normal", "Vip"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -7907,7 +8400,11 @@ def sessions_by_theater():
                                     "id": "69120095",
                                     "price": 70.67,
                                     "room": "Sala 8",
-                                    "type": ["Nacional", "Normal", "Vip"],
+                                    "type": [
+                                        "Nacional",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -7960,7 +8457,11 @@ def sessions_by_theater():
                                     "id": "69120116",
                                     "price": 70.67,
                                     "room": "Sala 8",
-                                    "type": ["Nacional", "Normal", "Vip"],
+                                    "type": [
+                                        "Nacional",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -8054,7 +8555,11 @@ def sessions_by_theater():
                             "embeddedUrl": "//www.youtube.com/embed/84KauQ4KN74",
                         },
                     ],
-                    "genres": ["Animação", "Aventura", "Comédia"],
+                    "genres": [
+                        "Animação",
+                        "Aventura",
+                        "Comédia",
+                    ],
                     "ratingDescriptors": [],
                     "tags": [],
                     "completeTags": [],
@@ -8067,7 +8572,11 @@ def sessions_by_theater():
                                     "id": "69116650",
                                     "price": 44.46,
                                     "room": "Sala 1",
-                                    "type": ["Dublado", "Normal", "Macro XE"],
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                        "Macro XE",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -8185,7 +8694,10 @@ def sessions_by_theater():
                                     "id": "69120065",
                                     "price": 42.18,
                                     "room": "Sala 5",
-                                    "type": ["Nacional", "Normal"],
+                                    "type": [
+                                        "Nacional",
+                                        "Normal",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -8232,7 +8744,10 @@ def sessions_by_theater():
                                     "id": "69120070",
                                     "price": 42.18,
                                     "room": "Sala 5",
-                                    "type": ["Nacional", "Normal"],
+                                    "type": [
+                                        "Nacional",
+                                        "Normal",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -8315,7 +8830,10 @@ def sessions_by_theater():
                             "embeddedUrl": "//www.youtube.com/embed/zvN3xJ_JokI",
                         }
                     ],
-                    "genres": ["Animação", "Aventura"],
+                    "genres": [
+                        "Animação",
+                        "Aventura",
+                    ],
                     "ratingDescriptors": [],
                     "tags": [],
                     "completeTags": [],
@@ -8328,7 +8846,10 @@ def sessions_by_theater():
                                     "id": "69116655",
                                     "price": 42.18,
                                     "room": "Sala 2",
-                                    "type": ["Dublado", "Normal"],
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -8375,7 +8896,10 @@ def sessions_by_theater():
                                     "id": "69116656",
                                     "price": 45.6,
                                     "room": "Sala 2",
-                                    "type": ["Dublado", "Normal"],
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -8422,7 +8946,10 @@ def sessions_by_theater():
                                     "id": "69116708",
                                     "price": 45.6,
                                     "room": "Sala 2",
-                                    "type": ["Dublado", "Normal"],
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -8512,7 +9039,10 @@ def sessions_by_theater():
                             "embeddedUrl": "//www.youtube.com/embed/cNJNjPJyxbY",
                         }
                     ],
-                    "genres": ["Ação", "Aventura"],
+                    "genres": [
+                        "Ação",
+                        "Aventura",
+                    ],
                     "ratingDescriptors": [
                         "Drogas Lícitas",
                         "Linguagem Imprópria",
@@ -8529,7 +9059,11 @@ def sessions_by_theater():
                                     "id": "69116653",
                                     "price": 44.46,
                                     "room": "Sala 1",
-                                    "type": ["Dublado", "Normal", "Macro XE"],
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                        "Macro XE",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -8588,7 +9122,11 @@ def sessions_by_theater():
                                     "id": "69116657",
                                     "price": 47.88,
                                     "room": "Sala 1",
-                                    "type": ["Legendado", "Normal", "Macro XE"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Macro XE",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -8641,7 +9179,11 @@ def sessions_by_theater():
                                     "id": "69116735",
                                     "price": 47.88,
                                     "room": "Sala 1",
-                                    "type": ["Legendado", "Normal", "Macro XE"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Macro XE",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -8700,7 +9242,11 @@ def sessions_by_theater():
                                     "id": "69116669",
                                     "price": 70.67,
                                     "room": "Sala 8",
-                                    "type": ["Legendado", "Normal", "Vip"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -8807,7 +9353,11 @@ def sessions_by_theater():
                         },
                     ],
                     "genres": ["Drama"],
-                    "ratingDescriptors": ["Conteúdo Sexual", "Drogas", "Violência"],
+                    "ratingDescriptors": [
+                        "Conteúdo Sexual",
+                        "Drogas",
+                        "Violência",
+                    ],
                     "tags": [],
                     "completeTags": [],
                     "rooms": [
@@ -8819,7 +9369,11 @@ def sessions_by_theater():
                                     "id": "69116672",
                                     "price": 70.67,
                                     "room": "Sala 7",
-                                    "type": ["Legendado", "Normal", "Vip"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -8872,7 +9426,11 @@ def sessions_by_theater():
                                     "id": "69116733",
                                     "price": 70.67,
                                     "room": "Sala 7",
-                                    "type": ["Legendado", "Normal", "Vip"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -8968,8 +9526,15 @@ def sessions_by_theater():
                             "embeddedUrl": "//www.youtube.com/embed/DwuvprOmPJw",
                         }
                     ],
-                    "genres": ["Ação", "Aventura", "Drama"],
-                    "ratingDescriptors": ["Drogas Lícitas", "Violência"],
+                    "genres": [
+                        "Ação",
+                        "Aventura",
+                        "Drama",
+                    ],
+                    "ratingDescriptors": [
+                        "Drogas Lícitas",
+                        "Violência",
+                    ],
                     "tags": [],
                     "completeTags": [],
                     "rooms": [
@@ -8981,7 +9546,11 @@ def sessions_by_theater():
                                     "id": "69120113",
                                     "price": 70.67,
                                     "room": "Sala 6",
-                                    "type": ["Legendado", "Normal", "Vip"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -9034,7 +9603,11 @@ def sessions_by_theater():
                                     "id": "69120111",
                                     "price": 70.67,
                                     "room": "Sala 6",
-                                    "type": ["Legendado", "Normal", "Vip"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -9087,7 +9660,11 @@ def sessions_by_theater():
                                     "id": "69120107",
                                     "price": 70.67,
                                     "room": "Sala 6",
-                                    "type": ["Legendado", "Normal", "Vip"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -9140,7 +9717,11 @@ def sessions_by_theater():
                                     "id": "69120073",
                                     "price": 70.67,
                                     "room": "Sala 6",
-                                    "type": ["Legendado", "Normal", "Vip"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -9253,7 +9834,10 @@ def sessions_by_theater():
                                     "id": "69116711",
                                     "price": 45.6,
                                     "room": "Sala 5",
-                                    "type": ["Legendado", "Normal"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -9300,7 +9884,10 @@ def sessions_by_theater():
                                     "id": "69116727",
                                     "price": 45.6,
                                     "room": "Sala 5",
-                                    "type": ["Legendado", "Normal"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -9415,7 +10002,10 @@ def sessions_by_theater():
                                     "id": "69116660",
                                     "price": 45.6,
                                     "room": "Sala 2",
-                                    "type": ["Nacional", "Normal"],
+                                    "type": [
+                                        "Nacional",
+                                        "Normal",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -9503,8 +10093,14 @@ def sessions_by_theater():
                             "embeddedUrl": "//www.youtube.com/embed/Qcs3F8FudKM",
                         },
                     ],
-                    "genres": ["Ação", "Drama"],
-                    "ratingDescriptors": ["Drogas Lícitas", "Violência"],
+                    "genres": [
+                        "Ação",
+                        "Drama",
+                    ],
+                    "ratingDescriptors": [
+                        "Drogas Lícitas",
+                        "Violência",
+                    ],
                     "tags": [],
                     "completeTags": [],
                     "rooms": [
@@ -9516,7 +10112,11 @@ def sessions_by_theater():
                                     "id": "69116682",
                                     "price": 70.67,
                                     "room": "Sala 7",
-                                    "type": ["Legendado", "Normal", "Vip"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -9619,7 +10219,11 @@ def sessions_by_theater():
                                     "id": "69120099",
                                     "price": 70.67,
                                     "room": "Sala 8",
-                                    "type": ["Nacional", "Normal", "Vip"],
+                                    "type": [
+                                        "Nacional",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -9672,7 +10276,11 @@ def sessions_by_theater():
                                     "id": "69120077",
                                     "price": 70.67,
                                     "room": "Sala 8",
-                                    "type": ["Nacional", "Normal", "Vip"],
+                                    "type": [
+                                        "Nacional",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -9766,7 +10374,11 @@ def sessions_by_theater():
                             "embeddedUrl": "//www.youtube.com/embed/84KauQ4KN74",
                         },
                     ],
-                    "genres": ["Animação", "Aventura", "Comédia"],
+                    "genres": [
+                        "Animação",
+                        "Aventura",
+                        "Comédia",
+                    ],
                     "ratingDescriptors": [],
                     "tags": [],
                     "completeTags": [],
@@ -9779,7 +10391,11 @@ def sessions_by_theater():
                                     "id": "69116666",
                                     "price": 44.46,
                                     "room": "Sala 1",
-                                    "type": ["Dublado", "Normal", "Macro XE"],
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                        "Macro XE",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -9897,7 +10513,10 @@ def sessions_by_theater():
                                     "id": "69120076",
                                     "price": 42.18,
                                     "room": "Sala 5",
-                                    "type": ["Nacional", "Normal"],
+                                    "type": [
+                                        "Nacional",
+                                        "Normal",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -9944,7 +10563,10 @@ def sessions_by_theater():
                                     "id": "69120122",
                                     "price": 42.18,
                                     "room": "Sala 5",
-                                    "type": ["Nacional", "Normal"],
+                                    "type": [
+                                        "Nacional",
+                                        "Normal",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -10027,7 +10649,10 @@ def sessions_by_theater():
                             "embeddedUrl": "//www.youtube.com/embed/zvN3xJ_JokI",
                         }
                     ],
-                    "genres": ["Animação", "Aventura"],
+                    "genres": [
+                        "Animação",
+                        "Aventura",
+                    ],
                     "ratingDescriptors": [],
                     "tags": [],
                     "completeTags": [],
@@ -10040,7 +10665,10 @@ def sessions_by_theater():
                                     "id": "69116714",
                                     "price": 42.18,
                                     "room": "Sala 2",
-                                    "type": ["Dublado", "Normal"],
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -10087,7 +10715,10 @@ def sessions_by_theater():
                                     "id": "69116663",
                                     "price": 45.6,
                                     "room": "Sala 2",
-                                    "type": ["Dublado", "Normal"],
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -10177,7 +10808,10 @@ def sessions_by_theater():
                             "embeddedUrl": "//www.youtube.com/embed/cNJNjPJyxbY",
                         }
                     ],
-                    "genres": ["Ação", "Aventura"],
+                    "genres": [
+                        "Ação",
+                        "Aventura",
+                    ],
                     "ratingDescriptors": [
                         "Drogas Lícitas",
                         "Linguagem Imprópria",
@@ -10194,7 +10828,11 @@ def sessions_by_theater():
                                     "id": "69116710",
                                     "price": 44.46,
                                     "room": "Sala 1",
-                                    "type": ["Dublado", "Normal", "Macro XE"],
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                        "Macro XE",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -10253,7 +10891,11 @@ def sessions_by_theater():
                                     "id": "69116667",
                                     "price": 47.88,
                                     "room": "Sala 1",
-                                    "type": ["Legendado", "Normal", "Macro XE"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Macro XE",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -10306,7 +10948,11 @@ def sessions_by_theater():
                                     "id": "69116713",
                                     "price": 47.88,
                                     "room": "Sala 1",
-                                    "type": ["Legendado", "Normal", "Macro XE"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Macro XE",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -10365,7 +11011,11 @@ def sessions_by_theater():
                                     "id": "69116687",
                                     "price": 70.67,
                                     "room": "Sala 8",
-                                    "type": ["Legendado", "Normal", "Vip"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -10467,7 +11117,10 @@ def sessions_by_theater():
                             "embeddedUrl": "//www.youtube.com/embed/o1W1Q0mDGgs",
                         },
                     ],
-                    "genres": ["Animação", "Aventura"],
+                    "genres": [
+                        "Animação",
+                        "Aventura",
+                    ],
                     "ratingDescriptors": [],
                     "tags": [],
                     "completeTags": [],
@@ -10480,7 +11133,10 @@ def sessions_by_theater():
                                     "id": "69120094",
                                     "price": 45.6,
                                     "room": "Sala 2",
-                                    "type": ["Dublado", "Normal"],
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -10581,7 +11237,11 @@ def sessions_by_theater():
                         },
                     ],
                     "genres": ["Drama"],
-                    "ratingDescriptors": ["Conteúdo Sexual", "Drogas", "Violência"],
+                    "ratingDescriptors": [
+                        "Conteúdo Sexual",
+                        "Drogas",
+                        "Violência",
+                    ],
                     "tags": [],
                     "completeTags": [],
                     "rooms": [
@@ -10593,7 +11253,11 @@ def sessions_by_theater():
                                     "id": "69116658",
                                     "price": 70.67,
                                     "room": "Sala 7",
-                                    "type": ["Legendado", "Normal", "Vip"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -10646,7 +11310,11 @@ def sessions_by_theater():
                                     "id": "69116680",
                                     "price": 70.67,
                                     "room": "Sala 7",
-                                    "type": ["Legendado", "Normal", "Vip"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -10742,8 +11410,15 @@ def sessions_by_theater():
                             "embeddedUrl": "//www.youtube.com/embed/DwuvprOmPJw",
                         }
                     ],
-                    "genres": ["Ação", "Aventura", "Drama"],
-                    "ratingDescriptors": ["Drogas Lícitas", "Violência"],
+                    "genres": [
+                        "Ação",
+                        "Aventura",
+                        "Drama",
+                    ],
+                    "ratingDescriptors": [
+                        "Drogas Lícitas",
+                        "Violência",
+                    ],
                     "tags": [],
                     "completeTags": [],
                     "rooms": [
@@ -10755,7 +11430,11 @@ def sessions_by_theater():
                                     "id": "69120089",
                                     "price": 70.67,
                                     "room": "Sala 6",
-                                    "type": ["Legendado", "Normal", "Vip"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -10808,7 +11487,11 @@ def sessions_by_theater():
                                     "id": "69120086",
                                     "price": 70.67,
                                     "room": "Sala 6",
-                                    "type": ["Legendado", "Normal", "Vip"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -10861,7 +11544,11 @@ def sessions_by_theater():
                                     "id": "69120136",
                                     "price": 70.67,
                                     "room": "Sala 6",
-                                    "type": ["Legendado", "Normal", "Vip"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -10914,7 +11601,11 @@ def sessions_by_theater():
                                     "id": "69120109",
                                     "price": 70.67,
                                     "room": "Sala 6",
-                                    "type": ["Legendado", "Normal", "Vip"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -11027,7 +11718,10 @@ def sessions_by_theater():
                                     "id": "69116673",
                                     "price": 45.6,
                                     "room": "Sala 5",
-                                    "type": ["Legendado", "Normal"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -11074,7 +11768,10 @@ def sessions_by_theater():
                                     "id": "69116664",
                                     "price": 45.6,
                                     "room": "Sala 5",
-                                    "type": ["Legendado", "Normal"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -11177,8 +11874,14 @@ def sessions_by_theater():
                             "embeddedUrl": "//www.youtube.com/embed/Qcs3F8FudKM",
                         },
                     ],
-                    "genres": ["Ação", "Drama"],
-                    "ratingDescriptors": ["Drogas Lícitas", "Violência"],
+                    "genres": [
+                        "Ação",
+                        "Drama",
+                    ],
+                    "ratingDescriptors": [
+                        "Drogas Lícitas",
+                        "Violência",
+                    ],
                     "tags": [],
                     "completeTags": [],
                     "rooms": [
@@ -11190,7 +11893,10 @@ def sessions_by_theater():
                                     "id": "69164781",
                                     "price": 42.18,
                                     "room": "Sala 5",
-                                    "type": ["Legendado", "Normal"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -11243,7 +11949,11 @@ def sessions_by_theater():
                                     "id": "69116692",
                                     "price": 70.67,
                                     "room": "Sala 7",
-                                    "type": ["Legendado", "Normal", "Vip"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -11346,7 +12056,11 @@ def sessions_by_theater():
                                     "id": "69120125",
                                     "price": 70.67,
                                     "room": "Sala 8",
-                                    "type": ["Nacional", "Normal", "Vip"],
+                                    "type": [
+                                        "Nacional",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -11399,7 +12113,11 @@ def sessions_by_theater():
                                     "id": "69120130",
                                     "price": 70.67,
                                     "room": "Sala 8",
-                                    "type": ["Nacional", "Normal", "Vip"],
+                                    "type": [
+                                        "Nacional",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -11493,7 +12211,11 @@ def sessions_by_theater():
                             "embeddedUrl": "//www.youtube.com/embed/84KauQ4KN74",
                         },
                     ],
-                    "genres": ["Animação", "Aventura", "Comédia"],
+                    "genres": [
+                        "Animação",
+                        "Aventura",
+                        "Comédia",
+                    ],
                     "ratingDescriptors": [],
                     "tags": [],
                     "completeTags": [],
@@ -11506,7 +12228,11 @@ def sessions_by_theater():
                                     "id": "69116683",
                                     "price": 44.46,
                                     "room": "Sala 1",
-                                    "type": ["Dublado", "Normal", "Macro XE"],
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                        "Macro XE",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -11624,7 +12350,10 @@ def sessions_by_theater():
                                     "id": "69120104",
                                     "price": 42.18,
                                     "room": "Sala 5",
-                                    "type": ["Nacional", "Normal"],
+                                    "type": [
+                                        "Nacional",
+                                        "Normal",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -11671,7 +12400,10 @@ def sessions_by_theater():
                                     "id": "69120093",
                                     "price": 42.18,
                                     "room": "Sala 5",
-                                    "type": ["Nacional", "Normal"],
+                                    "type": [
+                                        "Nacional",
+                                        "Normal",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -11754,7 +12486,10 @@ def sessions_by_theater():
                             "embeddedUrl": "//www.youtube.com/embed/zvN3xJ_JokI",
                         }
                     ],
-                    "genres": ["Animação", "Aventura"],
+                    "genres": [
+                        "Animação",
+                        "Aventura",
+                    ],
                     "ratingDescriptors": [],
                     "tags": [],
                     "completeTags": [],
@@ -11767,7 +12502,10 @@ def sessions_by_theater():
                                     "id": "69116715",
                                     "price": 42.18,
                                     "room": "Sala 2",
-                                    "type": ["Dublado", "Normal"],
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -11814,7 +12552,10 @@ def sessions_by_theater():
                                     "id": "69116719",
                                     "price": 45.6,
                                     "room": "Sala 2",
-                                    "type": ["Dublado", "Normal"],
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -11904,7 +12645,10 @@ def sessions_by_theater():
                             "embeddedUrl": "//www.youtube.com/embed/cNJNjPJyxbY",
                         }
                     ],
-                    "genres": ["Ação", "Aventura"],
+                    "genres": [
+                        "Ação",
+                        "Aventura",
+                    ],
                     "ratingDescriptors": [
                         "Drogas Lícitas",
                         "Linguagem Imprópria",
@@ -11921,7 +12665,11 @@ def sessions_by_theater():
                                     "id": "69116668",
                                     "price": 44.46,
                                     "room": "Sala 1",
-                                    "type": ["Dublado", "Normal", "Macro XE"],
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                        "Macro XE",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -11980,7 +12728,11 @@ def sessions_by_theater():
                                     "id": "69116659",
                                     "price": 47.88,
                                     "room": "Sala 1",
-                                    "type": ["Legendado", "Normal", "Macro XE"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Macro XE",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -12039,7 +12791,11 @@ def sessions_by_theater():
                                     "id": "69116740",
                                     "price": 70.67,
                                     "room": "Sala 8",
-                                    "type": ["Legendado", "Normal", "Vip"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -12141,7 +12897,10 @@ def sessions_by_theater():
                             "embeddedUrl": "//www.youtube.com/embed/o1W1Q0mDGgs",
                         },
                     ],
-                    "genres": ["Animação", "Aventura"],
+                    "genres": [
+                        "Animação",
+                        "Aventura",
+                    ],
                     "ratingDescriptors": [],
                     "tags": [],
                     "completeTags": [],
@@ -12154,7 +12913,10 @@ def sessions_by_theater():
                                     "id": "69120102",
                                     "price": 45.6,
                                     "room": "Sala 2",
-                                    "type": ["Dublado", "Normal"],
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -12255,7 +13017,11 @@ def sessions_by_theater():
                         },
                     ],
                     "genres": ["Drama"],
-                    "ratingDescriptors": ["Conteúdo Sexual", "Drogas", "Violência"],
+                    "ratingDescriptors": [
+                        "Conteúdo Sexual",
+                        "Drogas",
+                        "Violência",
+                    ],
                     "tags": [],
                     "completeTags": [],
                     "rooms": [
@@ -12267,7 +13033,11 @@ def sessions_by_theater():
                                     "id": "69116676",
                                     "price": 70.67,
                                     "room": "Sala 7",
-                                    "type": ["Legendado", "Normal", "Vip"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -12320,7 +13090,11 @@ def sessions_by_theater():
                                     "id": "69116691",
                                     "price": 70.67,
                                     "room": "Sala 7",
-                                    "type": ["Legendado", "Normal", "Vip"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -12416,8 +13190,15 @@ def sessions_by_theater():
                             "embeddedUrl": "//www.youtube.com/embed/DwuvprOmPJw",
                         }
                     ],
-                    "genres": ["Ação", "Aventura", "Drama"],
-                    "ratingDescriptors": ["Drogas Lícitas", "Violência"],
+                    "genres": [
+                        "Ação",
+                        "Aventura",
+                        "Drama",
+                    ],
+                    "ratingDescriptors": [
+                        "Drogas Lícitas",
+                        "Violência",
+                    ],
                     "tags": [],
                     "completeTags": [],
                     "rooms": [
@@ -12429,7 +13210,11 @@ def sessions_by_theater():
                                     "id": "69120119",
                                     "price": 70.67,
                                     "room": "Sala 6",
-                                    "type": ["Legendado", "Normal", "Vip"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -12482,7 +13267,11 @@ def sessions_by_theater():
                                     "id": "69120115",
                                     "price": 70.67,
                                     "room": "Sala 6",
-                                    "type": ["Legendado", "Normal", "Vip"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -12535,7 +13324,11 @@ def sessions_by_theater():
                                     "id": "69120082",
                                     "price": 70.67,
                                     "room": "Sala 6",
-                                    "type": ["Legendado", "Normal", "Vip"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -12648,7 +13441,10 @@ def sessions_by_theater():
                                     "id": "69116716",
                                     "price": 45.6,
                                     "room": "Sala 5",
-                                    "type": ["Legendado", "Normal"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -12763,7 +13559,10 @@ def sessions_by_theater():
                                     "id": "69116701",
                                     "price": 39.9,
                                     "room": "Sala 2",
-                                    "type": ["Nacional", "Normal"],
+                                    "type": [
+                                        "Nacional",
+                                        "Normal",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -12851,8 +13650,14 @@ def sessions_by_theater():
                             "embeddedUrl": "//www.youtube.com/embed/Qcs3F8FudKM",
                         },
                     ],
-                    "genres": ["Ação", "Drama"],
-                    "ratingDescriptors": ["Drogas Lícitas", "Violência"],
+                    "genres": [
+                        "Ação",
+                        "Drama",
+                    ],
+                    "ratingDescriptors": [
+                        "Drogas Lícitas",
+                        "Violência",
+                    ],
                     "tags": [],
                     "completeTags": [],
                     "rooms": [
@@ -12864,7 +13669,11 @@ def sessions_by_theater():
                                     "id": "69116742",
                                     "price": 60.41,
                                     "room": "Sala 7",
-                                    "type": ["Legendado", "Normal", "Vip"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -12967,7 +13776,11 @@ def sessions_by_theater():
                                     "id": "69120097",
                                     "price": 60.41,
                                     "room": "Sala 8",
-                                    "type": ["Nacional", "Normal", "Vip"],
+                                    "type": [
+                                        "Nacional",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -13020,7 +13833,11 @@ def sessions_by_theater():
                                     "id": "69120103",
                                     "price": 60.41,
                                     "room": "Sala 8",
-                                    "type": ["Nacional", "Normal", "Vip"],
+                                    "type": [
+                                        "Nacional",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -13114,7 +13931,11 @@ def sessions_by_theater():
                             "embeddedUrl": "//www.youtube.com/embed/84KauQ4KN74",
                         },
                     ],
-                    "genres": ["Animação", "Aventura", "Comédia"],
+                    "genres": [
+                        "Animação",
+                        "Aventura",
+                        "Comédia",
+                    ],
                     "ratingDescriptors": [],
                     "tags": [],
                     "completeTags": [],
@@ -13127,7 +13948,11 @@ def sessions_by_theater():
                                     "id": "69116694",
                                     "price": 38.76,
                                     "room": "Sala 1",
-                                    "type": ["Dublado", "Normal", "Macro XE"],
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                        "Macro XE",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -13245,7 +14070,10 @@ def sessions_by_theater():
                                     "id": "69120085",
                                     "price": 36.48,
                                     "room": "Sala 5",
-                                    "type": ["Nacional", "Normal"],
+                                    "type": [
+                                        "Nacional",
+                                        "Normal",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -13292,7 +14120,10 @@ def sessions_by_theater():
                                     "id": "69120091",
                                     "price": 36.48,
                                     "room": "Sala 5",
-                                    "type": ["Nacional", "Normal"],
+                                    "type": [
+                                        "Nacional",
+                                        "Normal",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -13375,7 +14206,10 @@ def sessions_by_theater():
                             "embeddedUrl": "//www.youtube.com/embed/zvN3xJ_JokI",
                         }
                     ],
-                    "genres": ["Animação", "Aventura"],
+                    "genres": [
+                        "Animação",
+                        "Aventura",
+                    ],
                     "ratingDescriptors": [],
                     "tags": [],
                     "completeTags": [],
@@ -13388,7 +14222,10 @@ def sessions_by_theater():
                                     "id": "69116722",
                                     "price": 36.48,
                                     "room": "Sala 2",
-                                    "type": ["Dublado", "Normal"],
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -13435,7 +14272,10 @@ def sessions_by_theater():
                                     "id": "69116665",
                                     "price": 39.9,
                                     "room": "Sala 2",
-                                    "type": ["Dublado", "Normal"],
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -13482,7 +14322,10 @@ def sessions_by_theater():
                                     "id": "69116690",
                                     "price": 39.9,
                                     "room": "Sala 2",
-                                    "type": ["Dublado", "Normal"],
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -13572,7 +14415,10 @@ def sessions_by_theater():
                             "embeddedUrl": "//www.youtube.com/embed/cNJNjPJyxbY",
                         }
                     ],
-                    "genres": ["Ação", "Aventura"],
+                    "genres": [
+                        "Ação",
+                        "Aventura",
+                    ],
                     "ratingDescriptors": [
                         "Drogas Lícitas",
                         "Linguagem Imprópria",
@@ -13589,7 +14435,11 @@ def sessions_by_theater():
                                     "id": "69116670",
                                     "price": 38.76,
                                     "room": "Sala 1",
-                                    "type": ["Dublado", "Normal", "Macro XE"],
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                        "Macro XE",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -13648,7 +14498,11 @@ def sessions_by_theater():
                                     "id": "69116678",
                                     "price": 42.18,
                                     "room": "Sala 1",
-                                    "type": ["Legendado", "Normal", "Macro XE"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Macro XE",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -13701,7 +14555,11 @@ def sessions_by_theater():
                                     "id": "69116718",
                                     "price": 42.18,
                                     "room": "Sala 1",
-                                    "type": ["Legendado", "Normal", "Macro XE"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Macro XE",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -13760,7 +14618,11 @@ def sessions_by_theater():
                                     "id": "69116725",
                                     "price": 60.41,
                                     "room": "Sala 8",
-                                    "type": ["Legendado", "Normal", "Vip"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -13867,7 +14729,11 @@ def sessions_by_theater():
                         },
                     ],
                     "genres": ["Drama"],
-                    "ratingDescriptors": ["Conteúdo Sexual", "Drogas", "Violência"],
+                    "ratingDescriptors": [
+                        "Conteúdo Sexual",
+                        "Drogas",
+                        "Violência",
+                    ],
                     "tags": [],
                     "completeTags": [],
                     "rooms": [
@@ -13879,7 +14745,11 @@ def sessions_by_theater():
                                     "id": "69116693",
                                     "price": 60.41,
                                     "room": "Sala 7",
-                                    "type": ["Legendado", "Normal", "Vip"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -13932,7 +14802,11 @@ def sessions_by_theater():
                                     "id": "69116695",
                                     "price": 60.41,
                                     "room": "Sala 7",
-                                    "type": ["Legendado", "Normal", "Vip"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -14028,8 +14902,15 @@ def sessions_by_theater():
                             "embeddedUrl": "//www.youtube.com/embed/DwuvprOmPJw",
                         }
                     ],
-                    "genres": ["Ação", "Aventura", "Drama"],
-                    "ratingDescriptors": ["Drogas Lícitas", "Violência"],
+                    "genres": [
+                        "Ação",
+                        "Aventura",
+                        "Drama",
+                    ],
+                    "ratingDescriptors": [
+                        "Drogas Lícitas",
+                        "Violência",
+                    ],
                     "tags": [],
                     "completeTags": [],
                     "rooms": [
@@ -14041,7 +14922,11 @@ def sessions_by_theater():
                                     "id": "69120120",
                                     "price": 60.41,
                                     "room": "Sala 6",
-                                    "type": ["Legendado", "Normal", "Vip"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -14094,7 +14979,11 @@ def sessions_by_theater():
                                     "id": "69120098",
                                     "price": 60.41,
                                     "room": "Sala 6",
-                                    "type": ["Legendado", "Normal", "Vip"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -14147,7 +15036,11 @@ def sessions_by_theater():
                                     "id": "69120078",
                                     "price": 60.41,
                                     "room": "Sala 6",
-                                    "type": ["Legendado", "Normal", "Vip"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -14200,7 +15093,11 @@ def sessions_by_theater():
                                     "id": "69120083",
                                     "price": 60.41,
                                     "room": "Sala 6",
-                                    "type": ["Legendado", "Normal", "Vip"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -14313,7 +15210,10 @@ def sessions_by_theater():
                                     "id": "69116675",
                                     "price": 39.9,
                                     "room": "Sala 5",
-                                    "type": ["Legendado", "Normal"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -14360,7 +15260,10 @@ def sessions_by_theater():
                                     "id": "69116720",
                                     "price": 39.9,
                                     "room": "Sala 5",
-                                    "type": ["Legendado", "Normal"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -14475,7 +15378,10 @@ def sessions_by_theater():
                                     "id": "69116736",
                                     "price": 39.9,
                                     "room": "Sala 2",
-                                    "type": ["Nacional", "Normal"],
+                                    "type": [
+                                        "Nacional",
+                                        "Normal",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -14563,8 +15469,14 @@ def sessions_by_theater():
                             "embeddedUrl": "//www.youtube.com/embed/Qcs3F8FudKM",
                         },
                     ],
-                    "genres": ["Ação", "Drama"],
-                    "ratingDescriptors": ["Drogas Lícitas", "Violência"],
+                    "genres": [
+                        "Ação",
+                        "Drama",
+                    ],
+                    "ratingDescriptors": [
+                        "Drogas Lícitas",
+                        "Violência",
+                    ],
                     "tags": [],
                     "completeTags": [],
                     "rooms": [
@@ -14576,7 +15488,11 @@ def sessions_by_theater():
                                     "id": "69116671",
                                     "price": 60.41,
                                     "room": "Sala 7",
-                                    "type": ["Legendado", "Normal", "Vip"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -14679,7 +15595,11 @@ def sessions_by_theater():
                                     "id": "69120101",
                                     "price": 60.41,
                                     "room": "Sala 8",
-                                    "type": ["Nacional", "Normal", "Vip"],
+                                    "type": [
+                                        "Nacional",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -14732,7 +15652,11 @@ def sessions_by_theater():
                                     "id": "69120090",
                                     "price": 60.41,
                                     "room": "Sala 8",
-                                    "type": ["Nacional", "Normal", "Vip"],
+                                    "type": [
+                                        "Nacional",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -14826,7 +15750,11 @@ def sessions_by_theater():
                             "embeddedUrl": "//www.youtube.com/embed/84KauQ4KN74",
                         },
                     ],
-                    "genres": ["Animação", "Aventura", "Comédia"],
+                    "genres": [
+                        "Animação",
+                        "Aventura",
+                        "Comédia",
+                    ],
                     "ratingDescriptors": [],
                     "tags": [],
                     "completeTags": [],
@@ -14839,7 +15767,11 @@ def sessions_by_theater():
                                     "id": "69116731",
                                     "price": 38.76,
                                     "room": "Sala 1",
-                                    "type": ["Dublado", "Normal", "Macro XE"],
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                        "Macro XE",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -14957,7 +15889,10 @@ def sessions_by_theater():
                                     "id": "69120106",
                                     "price": 36.48,
                                     "room": "Sala 5",
-                                    "type": ["Nacional", "Normal"],
+                                    "type": [
+                                        "Nacional",
+                                        "Normal",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -15004,7 +15939,10 @@ def sessions_by_theater():
                                     "id": "69120118",
                                     "price": 36.48,
                                     "room": "Sala 5",
-                                    "type": ["Nacional", "Normal"],
+                                    "type": [
+                                        "Nacional",
+                                        "Normal",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -15087,7 +16025,10 @@ def sessions_by_theater():
                             "embeddedUrl": "//www.youtube.com/embed/zvN3xJ_JokI",
                         }
                     ],
-                    "genres": ["Animação", "Aventura"],
+                    "genres": [
+                        "Animação",
+                        "Aventura",
+                    ],
                     "ratingDescriptors": [],
                     "tags": [],
                     "completeTags": [],
@@ -15100,7 +16041,10 @@ def sessions_by_theater():
                                     "id": "69116702",
                                     "price": 36.48,
                                     "room": "Sala 2",
-                                    "type": ["Dublado", "Normal"],
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -15147,7 +16091,10 @@ def sessions_by_theater():
                                     "id": "69116686",
                                     "price": 39.9,
                                     "room": "Sala 2",
-                                    "type": ["Dublado", "Normal"],
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -15194,7 +16141,10 @@ def sessions_by_theater():
                                     "id": "69116705",
                                     "price": 39.9,
                                     "room": "Sala 2",
-                                    "type": ["Dublado", "Normal"],
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -15284,7 +16234,10 @@ def sessions_by_theater():
                             "embeddedUrl": "//www.youtube.com/embed/cNJNjPJyxbY",
                         }
                     ],
-                    "genres": ["Ação", "Aventura"],
+                    "genres": [
+                        "Ação",
+                        "Aventura",
+                    ],
                     "ratingDescriptors": [
                         "Drogas Lícitas",
                         "Linguagem Imprópria",
@@ -15301,7 +16254,11 @@ def sessions_by_theater():
                                     "id": "69116706",
                                     "price": 38.76,
                                     "room": "Sala 1",
-                                    "type": ["Dublado", "Normal", "Macro XE"],
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                        "Macro XE",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -15360,7 +16317,11 @@ def sessions_by_theater():
                                     "id": "69116726",
                                     "price": 42.18,
                                     "room": "Sala 1",
-                                    "type": ["Legendado", "Normal", "Macro XE"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Macro XE",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -15413,7 +16374,11 @@ def sessions_by_theater():
                                     "id": "69116724",
                                     "price": 42.18,
                                     "room": "Sala 1",
-                                    "type": ["Legendado", "Normal", "Macro XE"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Macro XE",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -15472,7 +16437,11 @@ def sessions_by_theater():
                                     "id": "69116689",
                                     "price": 60.41,
                                     "room": "Sala 8",
-                                    "type": ["Legendado", "Normal", "Vip"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -15579,7 +16548,11 @@ def sessions_by_theater():
                         },
                     ],
                     "genres": ["Drama"],
-                    "ratingDescriptors": ["Conteúdo Sexual", "Drogas", "Violência"],
+                    "ratingDescriptors": [
+                        "Conteúdo Sexual",
+                        "Drogas",
+                        "Violência",
+                    ],
                     "tags": [],
                     "completeTags": [],
                     "rooms": [
@@ -15591,7 +16564,11 @@ def sessions_by_theater():
                                     "id": "69116679",
                                     "price": 60.41,
                                     "room": "Sala 7",
-                                    "type": ["Legendado", "Normal", "Vip"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -15644,7 +16621,11 @@ def sessions_by_theater():
                                     "id": "69116699",
                                     "price": 60.41,
                                     "room": "Sala 7",
-                                    "type": ["Legendado", "Normal", "Vip"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -15740,8 +16721,15 @@ def sessions_by_theater():
                             "embeddedUrl": "//www.youtube.com/embed/DwuvprOmPJw",
                         }
                     ],
-                    "genres": ["Ação", "Aventura", "Drama"],
-                    "ratingDescriptors": ["Drogas Lícitas", "Violência"],
+                    "genres": [
+                        "Ação",
+                        "Aventura",
+                        "Drama",
+                    ],
+                    "ratingDescriptors": [
+                        "Drogas Lícitas",
+                        "Violência",
+                    ],
                     "tags": [],
                     "completeTags": [],
                     "rooms": [
@@ -15753,7 +16741,11 @@ def sessions_by_theater():
                                     "id": "69120096",
                                     "price": 60.41,
                                     "room": "Sala 6",
-                                    "type": ["Legendado", "Normal", "Vip"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -15806,7 +16798,11 @@ def sessions_by_theater():
                                     "id": "69120139",
                                     "price": 60.41,
                                     "room": "Sala 6",
-                                    "type": ["Legendado", "Normal", "Vip"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -15859,7 +16855,11 @@ def sessions_by_theater():
                                     "id": "69120124",
                                     "price": 60.41,
                                     "room": "Sala 6",
-                                    "type": ["Legendado", "Normal", "Vip"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -15912,7 +16912,11 @@ def sessions_by_theater():
                                     "id": "69120108",
                                     "price": 60.41,
                                     "room": "Sala 6",
-                                    "type": ["Legendado", "Normal", "Vip"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -16025,7 +17029,10 @@ def sessions_by_theater():
                                     "id": "69116685",
                                     "price": 39.9,
                                     "room": "Sala 5",
-                                    "type": ["Legendado", "Normal"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -16072,7 +17079,10 @@ def sessions_by_theater():
                                     "id": "69116696",
                                     "price": 39.9,
                                     "room": "Sala 5",
-                                    "type": ["Legendado", "Normal"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -16187,7 +17197,10 @@ def sessions_by_theater():
                                     "id": "69116723",
                                     "price": 37.62,
                                     "room": "Sala 2",
-                                    "type": ["Nacional", "Normal"],
+                                    "type": [
+                                        "Nacional",
+                                        "Normal",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -16275,8 +17288,14 @@ def sessions_by_theater():
                             "embeddedUrl": "//www.youtube.com/embed/Qcs3F8FudKM",
                         },
                     ],
-                    "genres": ["Ação", "Drama"],
-                    "ratingDescriptors": ["Drogas Lícitas", "Violência"],
+                    "genres": [
+                        "Ação",
+                        "Drama",
+                    ],
+                    "ratingDescriptors": [
+                        "Drogas Lícitas",
+                        "Violência",
+                    ],
                     "tags": [],
                     "completeTags": [],
                     "rooms": [
@@ -16288,7 +17307,11 @@ def sessions_by_theater():
                                     "id": "69116729",
                                     "price": 60.41,
                                     "room": "Sala 7",
-                                    "type": ["Legendado", "Normal", "Vip"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -16391,7 +17414,11 @@ def sessions_by_theater():
                                     "id": "69120088",
                                     "price": 60.41,
                                     "room": "Sala 8",
-                                    "type": ["Nacional", "Normal", "Vip"],
+                                    "type": [
+                                        "Nacional",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -16444,7 +17471,11 @@ def sessions_by_theater():
                                     "id": "69120123",
                                     "price": 60.41,
                                     "room": "Sala 8",
-                                    "type": ["Nacional", "Normal", "Vip"],
+                                    "type": [
+                                        "Nacional",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -16538,7 +17569,11 @@ def sessions_by_theater():
                             "embeddedUrl": "//www.youtube.com/embed/84KauQ4KN74",
                         },
                     ],
-                    "genres": ["Animação", "Aventura", "Comédia"],
+                    "genres": [
+                        "Animação",
+                        "Aventura",
+                        "Comédia",
+                    ],
                     "ratingDescriptors": [],
                     "tags": [],
                     "completeTags": [],
@@ -16551,7 +17586,11 @@ def sessions_by_theater():
                                     "id": "69116703",
                                     "price": 39.9,
                                     "room": "Sala 1",
-                                    "type": ["Dublado", "Normal", "Macro XE"],
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                        "Macro XE",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -16669,7 +17708,10 @@ def sessions_by_theater():
                                     "id": "69120114",
                                     "price": 37.62,
                                     "room": "Sala 5",
-                                    "type": ["Nacional", "Normal"],
+                                    "type": [
+                                        "Nacional",
+                                        "Normal",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -16716,7 +17758,10 @@ def sessions_by_theater():
                                     "id": "69120121",
                                     "price": 37.62,
                                     "room": "Sala 5",
-                                    "type": ["Nacional", "Normal"],
+                                    "type": [
+                                        "Nacional",
+                                        "Normal",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -16799,7 +17844,10 @@ def sessions_by_theater():
                             "embeddedUrl": "//www.youtube.com/embed/zvN3xJ_JokI",
                         }
                     ],
-                    "genres": ["Animação", "Aventura"],
+                    "genres": [
+                        "Animação",
+                        "Aventura",
+                    ],
                     "ratingDescriptors": [],
                     "tags": [],
                     "completeTags": [],
@@ -16812,7 +17860,10 @@ def sessions_by_theater():
                                     "id": "69116681",
                                     "price": 37.62,
                                     "room": "Sala 2",
-                                    "type": ["Dublado", "Normal"],
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -16859,7 +17910,10 @@ def sessions_by_theater():
                                     "id": "69116734",
                                     "price": 37.62,
                                     "room": "Sala 2",
-                                    "type": ["Dublado", "Normal"],
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -16906,7 +17960,10 @@ def sessions_by_theater():
                                     "id": "69116698",
                                     "price": 37.62,
                                     "room": "Sala 2",
-                                    "type": ["Dublado", "Normal"],
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -16996,7 +18053,10 @@ def sessions_by_theater():
                             "embeddedUrl": "//www.youtube.com/embed/cNJNjPJyxbY",
                         }
                     ],
-                    "genres": ["Ação", "Aventura"],
+                    "genres": [
+                        "Ação",
+                        "Aventura",
+                    ],
                     "ratingDescriptors": [
                         "Drogas Lícitas",
                         "Linguagem Imprópria",
@@ -17013,7 +18073,11 @@ def sessions_by_theater():
                                     "id": "69116709",
                                     "price": 39.9,
                                     "room": "Sala 1",
-                                    "type": ["Dublado", "Normal", "Macro XE"],
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                        "Macro XE",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -17072,7 +18136,11 @@ def sessions_by_theater():
                                     "id": "69116697",
                                     "price": 39.9,
                                     "room": "Sala 1",
-                                    "type": ["Legendado", "Normal", "Macro XE"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Macro XE",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -17125,7 +18193,11 @@ def sessions_by_theater():
                                     "id": "69116730",
                                     "price": 39.9,
                                     "room": "Sala 1",
-                                    "type": ["Legendado", "Normal", "Macro XE"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Macro XE",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -17184,7 +18256,11 @@ def sessions_by_theater():
                                     "id": "69116712",
                                     "price": 60.41,
                                     "room": "Sala 8",
-                                    "type": ["Legendado", "Normal", "Vip"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -17291,7 +18367,11 @@ def sessions_by_theater():
                         },
                     ],
                     "genres": ["Drama"],
-                    "ratingDescriptors": ["Conteúdo Sexual", "Drogas", "Violência"],
+                    "ratingDescriptors": [
+                        "Conteúdo Sexual",
+                        "Drogas",
+                        "Violência",
+                    ],
                     "tags": [],
                     "completeTags": [],
                     "rooms": [
@@ -17303,7 +18383,11 @@ def sessions_by_theater():
                                     "id": "69116746",
                                     "price": 60.41,
                                     "room": "Sala 7",
-                                    "type": ["Legendado", "Normal", "Vip"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -17356,7 +18440,11 @@ def sessions_by_theater():
                                     "id": "69116674",
                                     "price": 60.41,
                                     "room": "Sala 7",
-                                    "type": ["Legendado", "Normal", "Vip"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -17452,8 +18540,15 @@ def sessions_by_theater():
                             "embeddedUrl": "//www.youtube.com/embed/DwuvprOmPJw",
                         }
                     ],
-                    "genres": ["Ação", "Aventura", "Drama"],
-                    "ratingDescriptors": ["Drogas Lícitas", "Violência"],
+                    "genres": [
+                        "Ação",
+                        "Aventura",
+                        "Drama",
+                    ],
+                    "ratingDescriptors": [
+                        "Drogas Lícitas",
+                        "Violência",
+                    ],
                     "tags": [],
                     "completeTags": [],
                     "rooms": [
@@ -17465,7 +18560,11 @@ def sessions_by_theater():
                                     "id": "69120100",
                                     "price": 60.41,
                                     "room": "Sala 6",
-                                    "type": ["Legendado", "Normal", "Vip"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -17518,7 +18617,11 @@ def sessions_by_theater():
                                     "id": "69120112",
                                     "price": 60.41,
                                     "room": "Sala 6",
-                                    "type": ["Legendado", "Normal", "Vip"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -17571,7 +18674,11 @@ def sessions_by_theater():
                                     "id": "69120127",
                                     "price": 60.41,
                                     "room": "Sala 6",
-                                    "type": ["Legendado", "Normal", "Vip"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -17624,7 +18731,11 @@ def sessions_by_theater():
                                     "id": "69120128",
                                     "price": 60.41,
                                     "room": "Sala 6",
-                                    "type": ["Legendado", "Normal", "Vip"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Vip",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -17737,7 +18848,10 @@ def sessions_by_theater():
                                     "id": "69116728",
                                     "price": 37.62,
                                     "room": "Sala 5",
-                                    "type": ["Legendado", "Normal"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -17784,7 +18898,10 @@ def sessions_by_theater():
                                     "id": "69116717",
                                     "price": 37.62,
                                     "room": "Sala 5",
-                                    "type": ["Legendado", "Normal"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -17882,7 +18999,11 @@ def sessions_by_theater():
                             "embeddedUrl": "//www.youtube.com/embed/OvWak9TuD4M",
                         }
                     ],
-                    "genres": ["Ação", "Animação", "Aventura"],
+                    "genres": [
+                        "Ação",
+                        "Animação",
+                        "Aventura",
+                    ],
                     "ratingDescriptors": [],
                     "tags": [],
                     "completeTags": [],
@@ -17895,7 +19016,11 @@ def sessions_by_theater():
                                     "id": "69042695",
                                     "price": 44.46,
                                     "room": "Sala 1",
-                                    "type": ["Dublado", "Normal", "Macro XE"],
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                        "Macro XE",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -17948,7 +19073,11 @@ def sessions_by_theater():
                                     "id": "69042680",
                                     "price": 47.88,
                                     "room": "Sala 1",
-                                    "type": ["Dublado", "Normal", "Macro XE"],
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                        "Macro XE",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -18001,7 +19130,11 @@ def sessions_by_theater():
                                     "id": "69042693",
                                     "price": 47.88,
                                     "room": "Sala 1",
-                                    "type": ["Dublado", "Normal", "Macro XE"],
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                        "Macro XE",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -18054,7 +19187,11 @@ def sessions_by_theater():
                                     "id": "69042687",
                                     "price": 47.88,
                                     "room": "Sala 1",
-                                    "type": ["Dublado", "Normal", "Macro XE"],
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                        "Macro XE",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -18151,7 +19288,11 @@ def sessions_by_theater():
                             "embeddedUrl": "//www.youtube.com/embed/OvWak9TuD4M",
                         }
                     ],
-                    "genres": ["Ação", "Animação", "Aventura"],
+                    "genres": [
+                        "Ação",
+                        "Animação",
+                        "Aventura",
+                    ],
                     "ratingDescriptors": [],
                     "tags": [],
                     "completeTags": [],
@@ -18164,7 +19305,11 @@ def sessions_by_theater():
                                     "id": "69042681",
                                     "price": 44.46,
                                     "room": "Sala 1",
-                                    "type": ["Dublado", "Normal", "Macro XE"],
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                        "Macro XE",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -18217,7 +19362,11 @@ def sessions_by_theater():
                                     "id": "69042700",
                                     "price": 47.88,
                                     "room": "Sala 1",
-                                    "type": ["Dublado", "Normal", "Macro XE"],
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                        "Macro XE",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -18270,7 +19419,11 @@ def sessions_by_theater():
                                     "id": "69042697",
                                     "price": 47.88,
                                     "room": "Sala 1",
-                                    "type": ["Dublado", "Normal", "Macro XE"],
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                        "Macro XE",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -18323,7 +19476,11 @@ def sessions_by_theater():
                                     "id": "69042692",
                                     "price": 47.88,
                                     "room": "Sala 1",
-                                    "type": ["Dublado", "Normal", "Macro XE"],
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                        "Macro XE",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -18420,7 +19577,11 @@ def sessions_by_theater():
                             "embeddedUrl": "//www.youtube.com/embed/OvWak9TuD4M",
                         }
                     ],
-                    "genres": ["Ação", "Animação", "Aventura"],
+                    "genres": [
+                        "Ação",
+                        "Animação",
+                        "Aventura",
+                    ],
                     "ratingDescriptors": [],
                     "tags": [],
                     "completeTags": [],
@@ -18433,7 +19594,11 @@ def sessions_by_theater():
                                     "id": "69042686",
                                     "price": 44.46,
                                     "room": "Sala 1",
-                                    "type": ["Dublado", "Normal", "Macro XE"],
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                        "Macro XE",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -18486,7 +19651,11 @@ def sessions_by_theater():
                                     "id": "69042702",
                                     "price": 47.88,
                                     "room": "Sala 1",
-                                    "type": ["Dublado", "Normal", "Macro XE"],
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                        "Macro XE",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -18539,7 +19708,11 @@ def sessions_by_theater():
                                     "id": "69042683",
                                     "price": 47.88,
                                     "room": "Sala 1",
-                                    "type": ["Dublado", "Normal", "Macro XE"],
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                        "Macro XE",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -18592,7 +19765,11 @@ def sessions_by_theater():
                                     "id": "69042682",
                                     "price": 47.88,
                                     "room": "Sala 1",
-                                    "type": ["Dublado", "Normal", "Macro XE"],
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                        "Macro XE",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -18689,7 +19866,11 @@ def sessions_by_theater():
                             "embeddedUrl": "//www.youtube.com/embed/OvWak9TuD4M",
                         }
                     ],
-                    "genres": ["Ação", "Animação", "Aventura"],
+                    "genres": [
+                        "Ação",
+                        "Animação",
+                        "Aventura",
+                    ],
                     "ratingDescriptors": [],
                     "tags": [],
                     "completeTags": [],
@@ -18702,7 +19883,11 @@ def sessions_by_theater():
                                     "id": "69042678",
                                     "price": 44.46,
                                     "room": "Sala 1",
-                                    "type": ["Dublado", "Normal", "Macro XE"],
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                        "Macro XE",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -18755,7 +19940,11 @@ def sessions_by_theater():
                                     "id": "69042691",
                                     "price": 47.88,
                                     "room": "Sala 1",
-                                    "type": ["Dublado", "Normal", "Macro XE"],
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                        "Macro XE",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -18808,7 +19997,11 @@ def sessions_by_theater():
                                     "id": "69042703",
                                     "price": 47.88,
                                     "room": "Sala 1",
-                                    "type": ["Dublado", "Normal", "Macro XE"],
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                        "Macro XE",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -18861,7 +20054,11 @@ def sessions_by_theater():
                                     "id": "69042698",
                                     "price": 47.88,
                                     "room": "Sala 1",
-                                    "type": ["Dublado", "Normal", "Macro XE"],
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                        "Macro XE",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -18953,7 +20150,10 @@ def sessions_by_theater():
                                     "id": "69107883",
                                     "price": 42.18,
                                     "room": "Sala 2",
-                                    "type": ["Legendado", "Normal"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -19044,7 +20244,11 @@ def sessions_by_theater():
                             "embeddedUrl": "//www.youtube.com/embed/OvWak9TuD4M",
                         }
                     ],
-                    "genres": ["Ação", "Animação", "Aventura"],
+                    "genres": [
+                        "Ação",
+                        "Animação",
+                        "Aventura",
+                    ],
                     "ratingDescriptors": [],
                     "tags": [],
                     "completeTags": [],
@@ -19057,7 +20261,11 @@ def sessions_by_theater():
                                     "id": "69042679",
                                     "price": 38.76,
                                     "room": "Sala 1",
-                                    "type": ["Dublado", "Normal", "Macro XE"],
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                        "Macro XE",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -19110,7 +20318,11 @@ def sessions_by_theater():
                                     "id": "69042696",
                                     "price": 42.18,
                                     "room": "Sala 1",
-                                    "type": ["Dublado", "Normal", "Macro XE"],
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                        "Macro XE",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -19163,7 +20375,11 @@ def sessions_by_theater():
                                     "id": "69042699",
                                     "price": 42.18,
                                     "room": "Sala 1",
-                                    "type": ["Dublado", "Normal", "Macro XE"],
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                        "Macro XE",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -19216,7 +20432,11 @@ def sessions_by_theater():
                                     "id": "69042685",
                                     "price": 42.18,
                                     "room": "Sala 1",
-                                    "type": ["Dublado", "Normal", "Macro XE"],
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                        "Macro XE",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -19313,7 +20533,11 @@ def sessions_by_theater():
                             "embeddedUrl": "//www.youtube.com/embed/OvWak9TuD4M",
                         }
                     ],
-                    "genres": ["Ação", "Animação", "Aventura"],
+                    "genres": [
+                        "Ação",
+                        "Animação",
+                        "Aventura",
+                    ],
                     "ratingDescriptors": [],
                     "tags": [],
                     "completeTags": [],
@@ -19326,7 +20550,11 @@ def sessions_by_theater():
                                     "id": "69042689",
                                     "price": 38.76,
                                     "room": "Sala 1",
-                                    "type": ["Dublado", "Normal", "Macro XE"],
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                        "Macro XE",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -19379,7 +20607,11 @@ def sessions_by_theater():
                                     "id": "69042704",
                                     "price": 42.18,
                                     "room": "Sala 1",
-                                    "type": ["Dublado", "Normal", "Macro XE"],
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                        "Macro XE",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -19432,7 +20664,11 @@ def sessions_by_theater():
                                     "id": "69042684",
                                     "price": 42.18,
                                     "room": "Sala 1",
-                                    "type": ["Dublado", "Normal", "Macro XE"],
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                        "Macro XE",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -19485,7 +20721,11 @@ def sessions_by_theater():
                                     "id": "69042688",
                                     "price": 42.18,
                                     "room": "Sala 1",
-                                    "type": ["Dublado", "Normal", "Macro XE"],
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                        "Macro XE",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -19582,7 +20822,11 @@ def sessions_by_theater():
                             "embeddedUrl": "//www.youtube.com/embed/OvWak9TuD4M",
                         }
                     ],
-                    "genres": ["Ação", "Animação", "Aventura"],
+                    "genres": [
+                        "Ação",
+                        "Animação",
+                        "Aventura",
+                    ],
                     "ratingDescriptors": [],
                     "tags": [],
                     "completeTags": [],
@@ -19595,7 +20839,11 @@ def sessions_by_theater():
                                     "id": "69042694",
                                     "price": 39.9,
                                     "room": "Sala 1",
-                                    "type": ["Dublado", "Normal", "Macro XE"],
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                        "Macro XE",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -19648,7 +20896,11 @@ def sessions_by_theater():
                                     "id": "69042701",
                                     "price": 39.9,
                                     "room": "Sala 1",
-                                    "type": ["Dublado", "Normal", "Macro XE"],
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                        "Macro XE",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -19701,7 +20953,11 @@ def sessions_by_theater():
                                     "id": "69042690",
                                     "price": 39.9,
                                     "room": "Sala 1",
-                                    "type": ["Dublado", "Normal", "Macro XE"],
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                        "Macro XE",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -19754,7 +21010,11 @@ def sessions_by_theater():
                                     "id": "69042705",
                                     "price": 39.9,
                                     "room": "Sala 1",
-                                    "type": ["Dublado", "Normal", "Macro XE"],
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                        "Macro XE",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -19854,7 +21114,10 @@ def sessions_by_theater():
                                     "id": "69108869",
                                     "price": 45.6,
                                     "room": "Sala 3",
-                                    "type": ["Legendado", "Normal"],
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                    ],
                                     "types": [
                                         {
                                             "id": 1,
@@ -19908,5 +21171,2641 @@ def sessions_by_theater():
             "dateFormatted": "15/09",
             "dayOfWeek": "quinta-feira",
             "isToday": False,
+        },
+    ]
+
+
+@pytest.fixture
+def highlights():
+    return [
+        {
+            "event": {
+                "id": "24379",
+                "title": "Papai É Pop ",
+                "originalTitle": "Papai É Pop ",
+                "movieIdUrl": "",
+                "ancineId": "B2200260700000",
+                "countryOrigin": "Brasil",
+                "priority": 1,
+                "contentRating": "12 anos",
+                "duration": "109",
+                "rating": 0.0,
+                "synopsis": (
+                    "PAPAI É POP é uma comédia para toda a família que conta a história"
+                    " de Tom (Lázaro Ramos), um homem comum que vê sua vida mudar ao se"
+                    " tornar pai. Ao lado da esposa Elisa (Paolla Oliveira), Tom"
+                    " precisa aprender na prática como cuidar da filha e, em meio a"
+                    " situações divertidas e emocionantes do cotidiano, apresenta uma"
+                    " transformação interior que conflita com a forma como a sociedade"
+                    " enxerga um pai presente"
+                ),
+                "cast": "Lázaro Ramos, Paolla Oliveira, Elisa Lucinda, Leandro Ramos, Dadá Coelho.",
+                "director": "Ricardo Tiezzi",
+                "distributor": "Diamond / Galeria",
+                "inPreSale": False,
+                "isReexhibition": False,
+                "urlKey": "papai-e-pop",
+                "isPlaying": True,
+                "countIsPlaying": 366,
+                "premiereDate": {
+                    "localDate": "2022-08-11T00:00:00+00:00",
+                    "isToday": False,
+                    "dayOfWeek": "quinta-feira",
+                    "dayAndMonth": "11/08",
+                    "hour": "00:00",
+                    "year": "2022",
+                },
+                "creationDate": "0001-01-01T00:00:00Z",
+                "city": "Natal",
+                "siteURL": "https://www.ingresso.com/filme/papai-e-pop?city=natal&partnership=cinepolis?ing_source=api&ing_medium=link-filme&ing_campaign=cinepolis&ing_content=",
+                "nationalSiteURL": "https://www.ingresso.com/filme/papai-e-pop?city=natal&partnership=cinepolis?ing_source=api&ing_medium=link-filme&ing_campaign=cinepolis&ing_content=",
+                "images": [
+                    {
+                        "url": "https://ingresso-a.akamaihd.net/prd/img/movie/papai-e-pop/8787878f-94a1-442b-b418-227bcb932310.jpg",
+                        "type": "PosterPortrait",
+                    },
+                    {
+                        "url": "https://ingresso-a.akamaihd.net/prd/img/movie/papai-e-pop/d67491db-89c6-42c1-acca-e71869ea7147.jpg",
+                        "type": "PosterHorizontal",
+                    },
+                ],
+                "genres": ["Comédia"],
+                "ratingDescriptors": [
+                    "Drogas Lícitas",
+                    "Linguagem Imprópria",
+                    "Temas Sensíveis",
+                ],
+                "completeTags": [],
+                "tags": [],
+                "trailers": [
+                    {
+                        "type": "Youtube",
+                        "url": "https://www.youtube.com/watch?v=W7ZHra8ZZYQ",
+                        "embeddedUrl": "//www.youtube.com/embed/W7ZHra8ZZYQ",
+                    },
+                    {
+                        "type": "Youtube",
+                        "url": "https://www.youtube.com/watch?v=rkbBLgpKy8U",
+                        "embeddedUrl": "//www.youtube.com/embed/rkbBLgpKy8U",
+                    },
+                ],
+                "boxOfficeId": "HO00002963",
+                "partnershipType": "",
+                "rottenTomatoe": None,
+            },
+            "showtimes": [
+                {
+                    "id": "1149",
+                    "name": "Cinépolis Natal Shopping",
+                    "address": "Avenida Senador Salgado Filho",
+                    "addressComplement": "Espaço Comercial 400; Piso L2; Piso Salgado Filho",
+                    "number": "2234",
+                    "urlKey": "cinepolis-natal-shopping",
+                    "neighborhood": "Candelaria",
+                    "properties": {
+                        "hasBomboniere": False,
+                        "hasContactlessWithdrawal": True,
+                        "hasSession": True,
+                        "hasSeatDistancePolicy": False,
+                        "hasSeatDistancePolicyArena": False,
+                    },
+                    "functionalities": {"operationPolicyEnabled": True},
+                    "deliveryType": [
+                        "Bilheteria/ATM",
+                        "Aplicativo/Scannerless",
+                    ],
+                    "siteURL": "https://www.ingresso.com/cinema/cinepolis-natal-shopping?city=natal&partnership=cinepolis?ing_source=api&ing_medium=link-cinema&ing_campaign=cinepolis&ing_content=",
+                    "nationalSiteURL": "https://www.ingresso.com/cinema/cinepolis-natal-shopping?city=natal&partnership=cinepolis?ing_source=api&ing_medium=link-cinema&ing_campaign=cinepolis&ing_content=",
+                    "enabled": True,
+                    "blockMessage": "",
+                    "rooms": [
+                        {
+                            "name": "Sala 5",
+                            "type": None,
+                            "sessions": [
+                                {
+                                    "id": "69120065",
+                                    "price": 42.18,
+                                    "room": "Sala 5",
+                                    "type": [
+                                        "Nacional",
+                                        "Normal",
+                                    ],
+                                    "types": [
+                                        {
+                                            "id": 1,
+                                            "name": "Normal",
+                                            "alias": "2D",
+                                            "display": False,
+                                        },
+                                        {
+                                            "id": 0,
+                                            "name": "Nacional",
+                                            "alias": "NAC",
+                                            "display": True,
+                                        },
+                                    ],
+                                    "date": {
+                                        "localDate": "2022-08-12T14:15:00-03:00",
+                                        "isToday": False,
+                                        "dayOfWeek": "sexta-feira",
+                                        "dayAndMonth": "12/08",
+                                        "hour": "14:15",
+                                        "year": "2022",
+                                    },
+                                    "realDate": {
+                                        "localDate": "2022-08-12T14:15:00-03:00",
+                                        "isToday": False,
+                                        "dayOfWeek": "sexta-feira",
+                                        "dayAndMonth": "12/08",
+                                        "hour": "14:15",
+                                        "year": "2022",
+                                    },
+                                    "time": "14:15",
+                                    "defaultSector": "2033763",
+                                    "midnightMessage": None,
+                                    "siteURL": "https://carrinho.ingresso.com/checkout/?ing_source=api&ing_medium=link-checkout&ing_campaign=cinepolis&ing_content=#/adicionar/69120065/cinepolis",
+                                    "nationalSiteURL": None,
+                                    "hasSeatSelection": True,
+                                    "driveIn": False,
+                                    "streaming": False,
+                                    "maxTicketsPerCar": 0,
+                                    "enabled": True,
+                                    "blockMessage": "",
+                                },
+                                {
+                                    "id": "69120070",
+                                    "price": 42.18,
+                                    "room": "Sala 5",
+                                    "type": [
+                                        "Nacional",
+                                        "Normal",
+                                    ],
+                                    "types": [
+                                        {
+                                            "id": 1,
+                                            "name": "Normal",
+                                            "alias": "2D",
+                                            "display": False,
+                                        },
+                                        {
+                                            "id": 0,
+                                            "name": "Nacional",
+                                            "alias": "NAC",
+                                            "display": True,
+                                        },
+                                    ],
+                                    "date": {
+                                        "localDate": "2022-08-12T16:40:00-03:00",
+                                        "isToday": False,
+                                        "dayOfWeek": "sexta-feira",
+                                        "dayAndMonth": "12/08",
+                                        "hour": "16:40",
+                                        "year": "2022",
+                                    },
+                                    "realDate": {
+                                        "localDate": "2022-08-12T16:40:00-03:00",
+                                        "isToday": False,
+                                        "dayOfWeek": "sexta-feira",
+                                        "dayAndMonth": "12/08",
+                                        "hour": "16:40",
+                                        "year": "2022",
+                                    },
+                                    "time": "16:40",
+                                    "defaultSector": "2033763",
+                                    "midnightMessage": None,
+                                    "siteURL": "https://carrinho.ingresso.com/checkout/?ing_source=api&ing_medium=link-checkout&ing_campaign=cinepolis&ing_content=#/adicionar/69120070/cinepolis",
+                                    "nationalSiteURL": None,
+                                    "hasSeatSelection": True,
+                                    "driveIn": False,
+                                    "streaming": False,
+                                    "maxTicketsPerCar": 0,
+                                    "enabled": True,
+                                    "blockMessage": "",
+                                },
+                            ],
+                        }
+                    ],
+                    "sessionTypes": None,
+                    "geolocation": {
+                        "lat": -5.84214,
+                        "lng": -35.2117,
+                    },
+                    "operationPolicies": [],
+                },
+                {
+                    "id": "1153",
+                    "name": "Cinépolis Partage Norte Shopping Natal",
+                    "address": "Avenida Dr. João Medeiros Filho",
+                    "addressComplement": "Loja 230-A",
+                    "number": "2395",
+                    "urlKey": "cinepolis-partage-norte-shopping-natal",
+                    "neighborhood": "Potengi",
+                    "properties": {
+                        "hasBomboniere": False,
+                        "hasContactlessWithdrawal": True,
+                        "hasSession": True,
+                        "hasSeatDistancePolicy": False,
+                        "hasSeatDistancePolicyArena": False,
+                    },
+                    "functionalities": {"operationPolicyEnabled": True},
+                    "deliveryType": [
+                        "Bilheteria/ATM",
+                        "Aplicativo/Scannerless",
+                    ],
+                    "siteURL": "https://www.ingresso.com/cinema/cinepolis-partage-norte-shopping-natal?city=natal&partnership=cinepolis?ing_source=api&ing_medium=link-cinema&ing_campaign=cinepolis&ing_content=",
+                    "nationalSiteURL": "https://www.ingresso.com/cinema/cinepolis-partage-norte-shopping-natal?city=natal&partnership=cinepolis?ing_source=api&ing_medium=link-cinema&ing_campaign=cinepolis&ing_content=",
+                    "enabled": True,
+                    "blockMessage": "",
+                    "rooms": [
+                        {
+                            "name": "Sala 3",
+                            "type": None,
+                            "sessions": [
+                                {
+                                    "id": "69117746",
+                                    "price": 30.78,
+                                    "room": "Sala 3",
+                                    "type": [
+                                        "Nacional",
+                                        "Normal",
+                                    ],
+                                    "types": [
+                                        {
+                                            "id": 1,
+                                            "name": "Normal",
+                                            "alias": "2D",
+                                            "display": False,
+                                        },
+                                        {
+                                            "id": 0,
+                                            "name": "Nacional",
+                                            "alias": "NAC",
+                                            "display": True,
+                                        },
+                                    ],
+                                    "date": {
+                                        "localDate": "2022-08-12T15:30:00-03:00",
+                                        "isToday": False,
+                                        "dayOfWeek": "sexta-feira",
+                                        "dayAndMonth": "12/08",
+                                        "hour": "15:30",
+                                        "year": "2022",
+                                    },
+                                    "realDate": {
+                                        "localDate": "2022-08-12T15:30:00-03:00",
+                                        "isToday": False,
+                                        "dayOfWeek": "sexta-feira",
+                                        "dayAndMonth": "12/08",
+                                        "hour": "15:30",
+                                        "year": "2022",
+                                    },
+                                    "time": "15:30",
+                                    "defaultSector": "2035621",
+                                    "midnightMessage": None,
+                                    "siteURL": "https://carrinho.ingresso.com/checkout/?ing_source=api&ing_medium=link-checkout&ing_campaign=cinepolis&ing_content=#/adicionar/69117746/cinepolis",
+                                    "nationalSiteURL": None,
+                                    "hasSeatSelection": True,
+                                    "driveIn": False,
+                                    "streaming": False,
+                                    "maxTicketsPerCar": 0,
+                                    "enabled": True,
+                                    "blockMessage": "",
+                                },
+                                {
+                                    "id": "69117739",
+                                    "price": 33.06,
+                                    "room": "Sala 3",
+                                    "type": [
+                                        "Nacional",
+                                        "Normal",
+                                    ],
+                                    "types": [
+                                        {
+                                            "id": 1,
+                                            "name": "Normal",
+                                            "alias": "2D",
+                                            "display": False,
+                                        },
+                                        {
+                                            "id": 0,
+                                            "name": "Nacional",
+                                            "alias": "NAC",
+                                            "display": True,
+                                        },
+                                    ],
+                                    "date": {
+                                        "localDate": "2022-08-12T18:00:00-03:00",
+                                        "isToday": False,
+                                        "dayOfWeek": "sexta-feira",
+                                        "dayAndMonth": "12/08",
+                                        "hour": "18:00",
+                                        "year": "2022",
+                                    },
+                                    "realDate": {
+                                        "localDate": "2022-08-12T18:00:00-03:00",
+                                        "isToday": False,
+                                        "dayOfWeek": "sexta-feira",
+                                        "dayAndMonth": "12/08",
+                                        "hour": "18:00",
+                                        "year": "2022",
+                                    },
+                                    "time": "18:00",
+                                    "defaultSector": "2035621",
+                                    "midnightMessage": None,
+                                    "siteURL": "https://carrinho.ingresso.com/checkout/?ing_source=api&ing_medium=link-checkout&ing_campaign=cinepolis&ing_content=#/adicionar/69117739/cinepolis",
+                                    "nationalSiteURL": None,
+                                    "hasSeatSelection": True,
+                                    "driveIn": False,
+                                    "streaming": False,
+                                    "maxTicketsPerCar": 0,
+                                    "enabled": True,
+                                    "blockMessage": "",
+                                },
+                                {
+                                    "id": "69117789",
+                                    "price": 33.06,
+                                    "room": "Sala 3",
+                                    "type": [
+                                        "Nacional",
+                                        "Normal",
+                                    ],
+                                    "types": [
+                                        {
+                                            "id": 1,
+                                            "name": "Normal",
+                                            "alias": "2D",
+                                            "display": False,
+                                        },
+                                        {
+                                            "id": 0,
+                                            "name": "Nacional",
+                                            "alias": "NAC",
+                                            "display": True,
+                                        },
+                                    ],
+                                    "date": {
+                                        "localDate": "2022-08-12T20:30:00-03:00",
+                                        "isToday": False,
+                                        "dayOfWeek": "sexta-feira",
+                                        "dayAndMonth": "12/08",
+                                        "hour": "20:30",
+                                        "year": "2022",
+                                    },
+                                    "realDate": {
+                                        "localDate": "2022-08-12T20:30:00-03:00",
+                                        "isToday": False,
+                                        "dayOfWeek": "sexta-feira",
+                                        "dayAndMonth": "12/08",
+                                        "hour": "20:30",
+                                        "year": "2022",
+                                    },
+                                    "time": "20:30",
+                                    "defaultSector": "2035621",
+                                    "midnightMessage": None,
+                                    "siteURL": "https://carrinho.ingresso.com/checkout/?ing_source=api&ing_medium=link-checkout&ing_campaign=cinepolis&ing_content=#/adicionar/69117789/cinepolis",
+                                    "nationalSiteURL": None,
+                                    "hasSeatSelection": True,
+                                    "driveIn": False,
+                                    "streaming": False,
+                                    "maxTicketsPerCar": 0,
+                                    "enabled": True,
+                                    "blockMessage": "",
+                                },
+                            ],
+                        }
+                    ],
+                    "sessionTypes": None,
+                    "geolocation": {
+                        "lat": -5.75785,
+                        "lng": -35.24722,
+                    },
+                    "operationPolicies": [],
+                },
+            ],
+        },
+        {
+            "event": {
+                "id": "25173",
+                "title": "A Fera",
+                "originalTitle": "Beast",
+                "movieIdUrl": "",
+                "ancineId": "E2200239400000",
+                "countryOrigin": "Estados Unidos",
+                "priority": 2,
+                "contentRating": "14 anos",
+                "duration": "96",
+                "rating": 0.0,
+                "synopsis": (
+                    '"O viúvo Dr. Nate Samuels viaja à África do Sul, lugar onde ele'
+                    " conheceu sua esposa, com suas duas filhas adolescentes para uma"
+                    " reserva de caça. Mas o que começa como uma jornada de cura se"
+                    " transforma em uma terrível luta pela sobrevivência quando um"
+                    " leão, sobrevivente de caçadores sedento por sangue que agora vê"
+                    ' todos os humanos como inimigos, começa a persegui-los."\n\n'
+                ),
+                "cast": "Idris Elba, Sharlto Copley, Leah Jeffries, Iyana Halley,Mel Jarnson, Amara Miller.",
+                "director": "Baltasar Kormákur",
+                "distributor": "Universal Pictures Brasil",
+                "inPreSale": False,
+                "isReexhibition": False,
+                "urlKey": "a-fera",
+                "isPlaying": True,
+                "countIsPlaying": 362,
+                "premiereDate": {
+                    "localDate": "2022-08-11T00:00:00+00:00",
+                    "isToday": False,
+                    "dayOfWeek": "quinta-feira",
+                    "dayAndMonth": "11/08",
+                    "hour": "00:00",
+                    "year": "2022",
+                },
+                "creationDate": "0001-01-01T00:00:00Z",
+                "city": "Natal",
+                "siteURL": "https://www.ingresso.com/filme/a-fera?city=natal&partnership=cinepolis?ing_source=api&ing_medium=link-filme&ing_campaign=cinepolis&ing_content=",
+                "nationalSiteURL": "https://www.ingresso.com/filme/a-fera?city=natal&partnership=cinepolis?ing_source=api&ing_medium=link-filme&ing_campaign=cinepolis&ing_content=",
+                "images": [
+                    {
+                        "url": "https://ingresso-a.akamaihd.net/prd/img/movie/a-fera/54e54385-1ad4-4534-b896-4dcd2fa1da7b.jpg",
+                        "type": "PosterPortrait",
+                    },
+                    {
+                        "url": "https://ingresso-a.akamaihd.net/prd/img/movie/a-fera/981cae75-3401-4466-9618-904c37effab6.jpg",
+                        "type": "PosterHorizontal",
+                    },
+                ],
+                "genres": [
+                    "Ação",
+                    "Aventura",
+                    "Drama",
+                ],
+                "ratingDescriptors": [
+                    "Drogas Lícitas",
+                    "Violência",
+                ],
+                "completeTags": [],
+                "tags": [],
+                "trailers": [
+                    {
+                        "type": "Youtube",
+                        "url": "https://www.youtube.com/watch?v=DwuvprOmPJw",
+                        "embeddedUrl": "//www.youtube.com/embed/DwuvprOmPJw",
+                    }
+                ],
+                "boxOfficeId": "HO00002967",
+                "partnershipType": "",
+                "rottenTomatoe": {
+                    "id": "4b8945f8-4db3-374a-8f0f-a5ab5873a078",
+                    "criticsRating": "",
+                    "criticsScore": "",
+                    "audienceRating": "",
+                    "audienceScore": "",
+                    "originalUrl": "https://www.rottentomatoes.com/m/beast_2022",
+                },
+            },
+            "showtimes": [
+                {
+                    "id": "1149",
+                    "name": "Cinépolis Natal Shopping",
+                    "address": "Avenida Senador Salgado Filho",
+                    "addressComplement": "Espaço Comercial 400; Piso L2; Piso Salgado Filho",
+                    "number": "2234",
+                    "urlKey": "cinepolis-natal-shopping",
+                    "neighborhood": "Candelaria",
+                    "properties": {
+                        "hasBomboniere": False,
+                        "hasContactlessWithdrawal": True,
+                        "hasSession": True,
+                        "hasSeatDistancePolicy": False,
+                        "hasSeatDistancePolicyArena": False,
+                    },
+                    "functionalities": {"operationPolicyEnabled": True},
+                    "deliveryType": [
+                        "Bilheteria/ATM",
+                        "Aplicativo/Scannerless",
+                    ],
+                    "siteURL": "https://www.ingresso.com/cinema/cinepolis-natal-shopping?city=natal&partnership=cinepolis?ing_source=api&ing_medium=link-cinema&ing_campaign=cinepolis&ing_content=",
+                    "nationalSiteURL": "https://www.ingresso.com/cinema/cinepolis-natal-shopping?city=natal&partnership=cinepolis?ing_source=api&ing_medium=link-cinema&ing_campaign=cinepolis&ing_content=",
+                    "enabled": True,
+                    "blockMessage": "",
+                    "rooms": [
+                        {
+                            "name": "Sala 6",
+                            "type": None,
+                            "sessions": [
+                                {
+                                    "id": "69120113",
+                                    "price": 70.67,
+                                    "room": "Sala 6",
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Vip",
+                                    ],
+                                    "types": [
+                                        {
+                                            "id": 1,
+                                            "name": "Normal",
+                                            "alias": "2D",
+                                            "display": False,
+                                        },
+                                        {
+                                            "id": 2,
+                                            "name": "Vip",
+                                            "alias": "VIP",
+                                            "display": True,
+                                        },
+                                        {
+                                            "id": 0,
+                                            "name": "Legendado",
+                                            "alias": "LEG",
+                                            "display": True,
+                                        },
+                                    ],
+                                    "date": {
+                                        "localDate": "2022-08-12T15:10:00-03:00",
+                                        "isToday": False,
+                                        "dayOfWeek": "sexta-feira",
+                                        "dayAndMonth": "12/08",
+                                        "hour": "15:10",
+                                        "year": "2022",
+                                    },
+                                    "realDate": {
+                                        "localDate": "2022-08-12T15:10:00-03:00",
+                                        "isToday": False,
+                                        "dayOfWeek": "sexta-feira",
+                                        "dayAndMonth": "12/08",
+                                        "hour": "15:10",
+                                        "year": "2022",
+                                    },
+                                    "time": "15:10",
+                                    "defaultSector": "2033760",
+                                    "midnightMessage": None,
+                                    "siteURL": "https://carrinho.ingresso.com/checkout/?ing_source=api&ing_medium=link-checkout&ing_campaign=cinepolis&ing_content=#/adicionar/69120113/cinepolis",
+                                    "nationalSiteURL": None,
+                                    "hasSeatSelection": True,
+                                    "driveIn": False,
+                                    "streaming": False,
+                                    "maxTicketsPerCar": 0,
+                                    "enabled": True,
+                                    "blockMessage": "",
+                                },
+                                {
+                                    "id": "69120111",
+                                    "price": 70.67,
+                                    "room": "Sala 6",
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Vip",
+                                    ],
+                                    "types": [
+                                        {
+                                            "id": 1,
+                                            "name": "Normal",
+                                            "alias": "2D",
+                                            "display": False,
+                                        },
+                                        {
+                                            "id": 2,
+                                            "name": "Vip",
+                                            "alias": "VIP",
+                                            "display": True,
+                                        },
+                                        {
+                                            "id": 0,
+                                            "name": "Legendado",
+                                            "alias": "LEG",
+                                            "display": True,
+                                        },
+                                    ],
+                                    "date": {
+                                        "localDate": "2022-08-12T17:30:00-03:00",
+                                        "isToday": False,
+                                        "dayOfWeek": "sexta-feira",
+                                        "dayAndMonth": "12/08",
+                                        "hour": "17:30",
+                                        "year": "2022",
+                                    },
+                                    "realDate": {
+                                        "localDate": "2022-08-12T17:30:00-03:00",
+                                        "isToday": False,
+                                        "dayOfWeek": "sexta-feira",
+                                        "dayAndMonth": "12/08",
+                                        "hour": "17:30",
+                                        "year": "2022",
+                                    },
+                                    "time": "17:30",
+                                    "defaultSector": "2033760",
+                                    "midnightMessage": None,
+                                    "siteURL": "https://carrinho.ingresso.com/checkout/?ing_source=api&ing_medium=link-checkout&ing_campaign=cinepolis&ing_content=#/adicionar/69120111/cinepolis",
+                                    "nationalSiteURL": None,
+                                    "hasSeatSelection": True,
+                                    "driveIn": False,
+                                    "streaming": False,
+                                    "maxTicketsPerCar": 0,
+                                    "enabled": True,
+                                    "blockMessage": "",
+                                },
+                                {
+                                    "id": "69120107",
+                                    "price": 70.67,
+                                    "room": "Sala 6",
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Vip",
+                                    ],
+                                    "types": [
+                                        {
+                                            "id": 1,
+                                            "name": "Normal",
+                                            "alias": "2D",
+                                            "display": False,
+                                        },
+                                        {
+                                            "id": 2,
+                                            "name": "Vip",
+                                            "alias": "VIP",
+                                            "display": True,
+                                        },
+                                        {
+                                            "id": 0,
+                                            "name": "Legendado",
+                                            "alias": "LEG",
+                                            "display": True,
+                                        },
+                                    ],
+                                    "date": {
+                                        "localDate": "2022-08-12T19:50:00-03:00",
+                                        "isToday": False,
+                                        "dayOfWeek": "sexta-feira",
+                                        "dayAndMonth": "12/08",
+                                        "hour": "19:50",
+                                        "year": "2022",
+                                    },
+                                    "realDate": {
+                                        "localDate": "2022-08-12T19:50:00-03:00",
+                                        "isToday": False,
+                                        "dayOfWeek": "sexta-feira",
+                                        "dayAndMonth": "12/08",
+                                        "hour": "19:50",
+                                        "year": "2022",
+                                    },
+                                    "time": "19:50",
+                                    "defaultSector": "2033760",
+                                    "midnightMessage": None,
+                                    "siteURL": "https://carrinho.ingresso.com/checkout/?ing_source=api&ing_medium=link-checkout&ing_campaign=cinepolis&ing_content=#/adicionar/69120107/cinepolis",
+                                    "nationalSiteURL": None,
+                                    "hasSeatSelection": True,
+                                    "driveIn": False,
+                                    "streaming": False,
+                                    "maxTicketsPerCar": 0,
+                                    "enabled": True,
+                                    "blockMessage": "",
+                                },
+                            ],
+                        }
+                    ],
+                    "sessionTypes": None,
+                    "geolocation": {
+                        "lat": -5.84214,
+                        "lng": -35.2117,
+                    },
+                    "operationPolicies": [],
+                },
+                {
+                    "id": "1153",
+                    "name": "Cinépolis Partage Norte Shopping Natal",
+                    "address": "Avenida Dr. João Medeiros Filho",
+                    "addressComplement": "Loja 230-A",
+                    "number": "2395",
+                    "urlKey": "cinepolis-partage-norte-shopping-natal",
+                    "neighborhood": "Potengi",
+                    "properties": {
+                        "hasBomboniere": False,
+                        "hasContactlessWithdrawal": True,
+                        "hasSession": True,
+                        "hasSeatDistancePolicy": False,
+                        "hasSeatDistancePolicyArena": False,
+                    },
+                    "functionalities": {"operationPolicyEnabled": True},
+                    "deliveryType": [
+                        "Bilheteria/ATM",
+                        "Aplicativo/Scannerless",
+                    ],
+                    "siteURL": "https://www.ingresso.com/cinema/cinepolis-partage-norte-shopping-natal?city=natal&partnership=cinepolis?ing_source=api&ing_medium=link-cinema&ing_campaign=cinepolis&ing_content=",
+                    "nationalSiteURL": "https://www.ingresso.com/cinema/cinepolis-partage-norte-shopping-natal?city=natal&partnership=cinepolis?ing_source=api&ing_medium=link-cinema&ing_campaign=cinepolis&ing_content=",
+                    "enabled": True,
+                    "blockMessage": "",
+                    "rooms": [
+                        {
+                            "name": "Sala 5",
+                            "type": None,
+                            "sessions": [
+                                {
+                                    "id": "69117754",
+                                    "price": 33.06,
+                                    "room": "Sala 5",
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                    ],
+                                    "types": [
+                                        {
+                                            "id": 1,
+                                            "name": "Normal",
+                                            "alias": "2D",
+                                            "display": False,
+                                        },
+                                        {
+                                            "id": 0,
+                                            "name": "Dublado",
+                                            "alias": "DUB",
+                                            "display": True,
+                                        },
+                                    ],
+                                    "date": {
+                                        "localDate": "2022-08-12T20:15:00-03:00",
+                                        "isToday": False,
+                                        "dayOfWeek": "sexta-feira",
+                                        "dayAndMonth": "12/08",
+                                        "hour": "20:15",
+                                        "year": "2022",
+                                    },
+                                    "realDate": {
+                                        "localDate": "2022-08-12T20:15:00-03:00",
+                                        "isToday": False,
+                                        "dayOfWeek": "sexta-feira",
+                                        "dayAndMonth": "12/08",
+                                        "hour": "20:15",
+                                        "year": "2022",
+                                    },
+                                    "time": "20:15",
+                                    "defaultSector": "2035618",
+                                    "midnightMessage": None,
+                                    "siteURL": "https://carrinho.ingresso.com/checkout/?ing_source=api&ing_medium=link-checkout&ing_campaign=cinepolis&ing_content=#/adicionar/69117754/cinepolis",
+                                    "nationalSiteURL": None,
+                                    "hasSeatSelection": True,
+                                    "driveIn": False,
+                                    "streaming": False,
+                                    "maxTicketsPerCar": 0,
+                                    "enabled": True,
+                                    "blockMessage": "",
+                                }
+                            ],
+                        }
+                    ],
+                    "sessionTypes": None,
+                    "geolocation": {
+                        "lat": -5.75785,
+                        "lng": -35.24722,
+                    },
+                    "operationPolicies": [],
+                },
+            ],
+        },
+        {
+            "event": {
+                "id": "24847",
+                "title": "Trem-Bala",
+                "originalTitle": "Bullet Train",
+                "movieIdUrl": "https://www.movieid.com/trem_bala",
+                "ancineId": "E2200056900000",
+                "countryOrigin": "Estados Unidos",
+                "priority": 4,
+                "contentRating": "16 anos",
+                "duration": "126",
+                "rating": 0.0,
+                "synopsis": (
+                    "Em TREM-BALA, Brad Pitt é o protagonista Joaninha, um assassino de"
+                    " aluguel azarado que está decidido a fazer apenas mais um trabalho"
+                    " de forma tranquila depois de ter passado por tantos outros que"
+                    " saíram do seu controle. O destino, entretanto, tem outros planos;"
+                    " e a última missão de Joaninha o coloca em rota direta de colisão"
+                    " com adversários letais vindos de todas as partes do globo; todos"
+                    " com objetivos conflitantes porém conectados; no trem mais rápido"
+                    " do mundo. "
+                ),
+                "cast": "Brad Pitt, Aaron Taylor-Johnson , Sandra Bullock, Joey King.\n",
+                "director": "David Leitch",
+                "distributor": "Sony Pictures",
+                "inPreSale": False,
+                "isReexhibition": False,
+                "urlKey": "trem-bala",
+                "isPlaying": True,
+                "countIsPlaying": 374,
+                "premiereDate": {
+                    "localDate": "2022-08-04T00:00:00+00:00",
+                    "isToday": False,
+                    "dayOfWeek": "quinta-feira",
+                    "dayAndMonth": "04/08",
+                    "hour": "00:00",
+                    "year": "2022",
+                },
+                "creationDate": "0001-01-01T00:00:00Z",
+                "city": "Natal",
+                "siteURL": "https://www.ingresso.com/filme/trem-bala?city=natal&partnership=cinepolis?ing_source=api&ing_medium=link-filme&ing_campaign=cinepolis&ing_content=",
+                "nationalSiteURL": "https://www.ingresso.com/filme/trem-bala?city=natal&partnership=cinepolis?ing_source=api&ing_medium=link-filme&ing_campaign=cinepolis&ing_content=",
+                "images": [
+                    {
+                        "url": "https://ingresso-a.akamaihd.net/prd/img/movie/trem-bala/f04aee09-9267-4066-ac3c-07350412de71.jpg",
+                        "type": "PosterPortrait",
+                    },
+                    {
+                        "url": "https://ingresso-a.akamaihd.net/prd/img/movie/trem-bala/975a18cf-910f-4cab-8580-c480f7bb2ea8.jpg",
+                        "type": "PosterHorizontal",
+                    },
+                ],
+                "genres": [
+                    "Ação",
+                    "Aventura",
+                ],
+                "ratingDescriptors": [
+                    "Drogas Lícitas",
+                    "Linguagem Imprópria",
+                    "Violência Extrema",
+                ],
+                "completeTags": [],
+                "tags": [],
+                "trailers": [
+                    {
+                        "type": "Youtube",
+                        "url": "https://www.youtube.com/watch?v=cNJNjPJyxbY",
+                        "embeddedUrl": "//www.youtube.com/embed/cNJNjPJyxbY",
+                    }
+                ],
+                "boxOfficeId": "HO00002953",
+                "partnershipType": "",
+                "rottenTomatoe": {
+                    "id": "7f01ccbe-dc90-30ea-b5f5-acad5c11ffc7",
+                    "criticsRating": "Rotten",
+                    "criticsScore": "54",
+                    "audienceRating": "Upright",
+                    "audienceScore": "77",
+                    "originalUrl": "https://www.rottentomatoes.com/m/bullet_train_2022",
+                },
+            },
+            "showtimes": [
+                {
+                    "id": "1149",
+                    "name": "Cinépolis Natal Shopping",
+                    "address": "Avenida Senador Salgado Filho",
+                    "addressComplement": "Espaço Comercial 400; Piso L2; Piso Salgado Filho",
+                    "number": "2234",
+                    "urlKey": "cinepolis-natal-shopping",
+                    "neighborhood": "Candelaria",
+                    "properties": {
+                        "hasBomboniere": False,
+                        "hasContactlessWithdrawal": True,
+                        "hasSession": True,
+                        "hasSeatDistancePolicy": False,
+                        "hasSeatDistancePolicyArena": False,
+                    },
+                    "functionalities": {"operationPolicyEnabled": True},
+                    "deliveryType": [
+                        "Bilheteria/ATM",
+                        "Aplicativo/Scannerless",
+                    ],
+                    "siteURL": "https://www.ingresso.com/cinema/cinepolis-natal-shopping?city=natal&partnership=cinepolis?ing_source=api&ing_medium=link-cinema&ing_campaign=cinepolis&ing_content=",
+                    "nationalSiteURL": "https://www.ingresso.com/cinema/cinepolis-natal-shopping?city=natal&partnership=cinepolis?ing_source=api&ing_medium=link-cinema&ing_campaign=cinepolis&ing_content=",
+                    "enabled": True,
+                    "blockMessage": "",
+                    "rooms": [
+                        {
+                            "name": "Sala 1",
+                            "type": None,
+                            "sessions": [
+                                {
+                                    "id": "69116653",
+                                    "price": 44.46,
+                                    "room": "Sala 1",
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                        "Macro XE",
+                                    ],
+                                    "types": [
+                                        {
+                                            "id": 1,
+                                            "name": "Normal",
+                                            "alias": "2D",
+                                            "display": False,
+                                        },
+                                        {
+                                            "id": 256,
+                                            "name": "Macro XE",
+                                            "alias": "Macro XE",
+                                            "display": True,
+                                        },
+                                        {
+                                            "id": 0,
+                                            "name": "Dublado",
+                                            "alias": "DUB",
+                                            "display": True,
+                                        },
+                                    ],
+                                    "date": {
+                                        "localDate": "2022-08-12T16:25:00-03:00",
+                                        "isToday": False,
+                                        "dayOfWeek": "sexta-feira",
+                                        "dayAndMonth": "12/08",
+                                        "hour": "16:25",
+                                        "year": "2022",
+                                    },
+                                    "realDate": {
+                                        "localDate": "2022-08-12T16:25:00-03:00",
+                                        "isToday": False,
+                                        "dayOfWeek": "sexta-feira",
+                                        "dayAndMonth": "12/08",
+                                        "hour": "16:25",
+                                        "year": "2022",
+                                    },
+                                    "time": "16:25",
+                                    "defaultSector": "2033764",
+                                    "midnightMessage": None,
+                                    "siteURL": "https://carrinho.ingresso.com/checkout/?ing_source=api&ing_medium=link-checkout&ing_campaign=cinepolis&ing_content=#/adicionar/69116653/cinepolis",
+                                    "nationalSiteURL": None,
+                                    "hasSeatSelection": True,
+                                    "driveIn": False,
+                                    "streaming": False,
+                                    "maxTicketsPerCar": 0,
+                                    "enabled": True,
+                                    "blockMessage": "",
+                                },
+                                {
+                                    "id": "69116657",
+                                    "price": 47.88,
+                                    "room": "Sala 1",
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Macro XE",
+                                    ],
+                                    "types": [
+                                        {
+                                            "id": 1,
+                                            "name": "Normal",
+                                            "alias": "2D",
+                                            "display": False,
+                                        },
+                                        {
+                                            "id": 256,
+                                            "name": "Macro XE",
+                                            "alias": "Macro XE",
+                                            "display": True,
+                                        },
+                                        {
+                                            "id": 0,
+                                            "name": "Legendado",
+                                            "alias": "LEG",
+                                            "display": True,
+                                        },
+                                    ],
+                                    "date": {
+                                        "localDate": "2022-08-12T19:20:00-03:00",
+                                        "isToday": False,
+                                        "dayOfWeek": "sexta-feira",
+                                        "dayAndMonth": "12/08",
+                                        "hour": "19:20",
+                                        "year": "2022",
+                                    },
+                                    "realDate": {
+                                        "localDate": "2022-08-12T19:20:00-03:00",
+                                        "isToday": False,
+                                        "dayOfWeek": "sexta-feira",
+                                        "dayAndMonth": "12/08",
+                                        "hour": "19:20",
+                                        "year": "2022",
+                                    },
+                                    "time": "19:20",
+                                    "defaultSector": "2033764",
+                                    "midnightMessage": None,
+                                    "siteURL": "https://carrinho.ingresso.com/checkout/?ing_source=api&ing_medium=link-checkout&ing_campaign=cinepolis&ing_content=#/adicionar/69116657/cinepolis",
+                                    "nationalSiteURL": None,
+                                    "hasSeatSelection": True,
+                                    "driveIn": False,
+                                    "streaming": False,
+                                    "maxTicketsPerCar": 0,
+                                    "enabled": True,
+                                    "blockMessage": "",
+                                },
+                                {
+                                    "id": "69116735",
+                                    "price": 47.88,
+                                    "room": "Sala 1",
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Macro XE",
+                                    ],
+                                    "types": [
+                                        {
+                                            "id": 1,
+                                            "name": "Normal",
+                                            "alias": "2D",
+                                            "display": False,
+                                        },
+                                        {
+                                            "id": 256,
+                                            "name": "Macro XE",
+                                            "alias": "Macro XE",
+                                            "display": True,
+                                        },
+                                        {
+                                            "id": 0,
+                                            "name": "Legendado",
+                                            "alias": "LEG",
+                                            "display": True,
+                                        },
+                                    ],
+                                    "date": {
+                                        "localDate": "2022-08-12T22:00:00-03:00",
+                                        "isToday": False,
+                                        "dayOfWeek": "sexta-feira",
+                                        "dayAndMonth": "12/08",
+                                        "hour": "22:00",
+                                        "year": "2022",
+                                    },
+                                    "realDate": {
+                                        "localDate": "2022-08-12T22:00:00-03:00",
+                                        "isToday": False,
+                                        "dayOfWeek": "sexta-feira",
+                                        "dayAndMonth": "12/08",
+                                        "hour": "22:00",
+                                        "year": "2022",
+                                    },
+                                    "time": "22:00",
+                                    "defaultSector": "2033764",
+                                    "midnightMessage": None,
+                                    "siteURL": "https://carrinho.ingresso.com/checkout/?ing_source=api&ing_medium=link-checkout&ing_campaign=cinepolis&ing_content=#/adicionar/69116735/cinepolis",
+                                    "nationalSiteURL": None,
+                                    "hasSeatSelection": True,
+                                    "driveIn": False,
+                                    "streaming": False,
+                                    "maxTicketsPerCar": 0,
+                                    "enabled": True,
+                                    "blockMessage": "",
+                                },
+                            ],
+                        },
+                        {
+                            "name": "Sala 8",
+                            "type": None,
+                            "sessions": [
+                                {
+                                    "id": "69116669",
+                                    "price": 70.67,
+                                    "room": "Sala 8",
+                                    "type": [
+                                        "Legendado",
+                                        "Normal",
+                                        "Vip",
+                                    ],
+                                    "types": [
+                                        {
+                                            "id": 1,
+                                            "name": "Normal",
+                                            "alias": "2D",
+                                            "display": False,
+                                        },
+                                        {
+                                            "id": 2,
+                                            "name": "Vip",
+                                            "alias": "VIP",
+                                            "display": True,
+                                        },
+                                        {
+                                            "id": 0,
+                                            "name": "Legendado",
+                                            "alias": "LEG",
+                                            "display": True,
+                                        },
+                                    ],
+                                    "date": {
+                                        "localDate": "2022-08-12T18:40:00-03:00",
+                                        "isToday": False,
+                                        "dayOfWeek": "sexta-feira",
+                                        "dayAndMonth": "12/08",
+                                        "hour": "18:40",
+                                        "year": "2022",
+                                    },
+                                    "realDate": {
+                                        "localDate": "2022-08-12T18:40:00-03:00",
+                                        "isToday": False,
+                                        "dayOfWeek": "sexta-feira",
+                                        "dayAndMonth": "12/08",
+                                        "hour": "18:40",
+                                        "year": "2022",
+                                    },
+                                    "time": "18:40",
+                                    "defaultSector": "4576190",
+                                    "midnightMessage": None,
+                                    "siteURL": "https://carrinho.ingresso.com/checkout/?ing_source=api&ing_medium=link-checkout&ing_campaign=cinepolis&ing_content=#/adicionar/69116669/cinepolis",
+                                    "nationalSiteURL": None,
+                                    "hasSeatSelection": True,
+                                    "driveIn": False,
+                                    "streaming": False,
+                                    "maxTicketsPerCar": 0,
+                                    "enabled": True,
+                                    "blockMessage": "",
+                                }
+                            ],
+                        },
+                    ],
+                    "sessionTypes": None,
+                    "geolocation": {
+                        "lat": -5.84214,
+                        "lng": -35.2117,
+                    },
+                    "operationPolicies": [],
+                },
+                {
+                    "id": "1153",
+                    "name": "Cinépolis Partage Norte Shopping Natal",
+                    "address": "Avenida Dr. João Medeiros Filho",
+                    "addressComplement": "Loja 230-A",
+                    "number": "2395",
+                    "urlKey": "cinepolis-partage-norte-shopping-natal",
+                    "neighborhood": "Potengi",
+                    "properties": {
+                        "hasBomboniere": False,
+                        "hasContactlessWithdrawal": True,
+                        "hasSession": True,
+                        "hasSeatDistancePolicy": False,
+                        "hasSeatDistancePolicyArena": False,
+                    },
+                    "functionalities": {"operationPolicyEnabled": True},
+                    "deliveryType": [
+                        "Bilheteria/ATM",
+                        "Aplicativo/Scannerless",
+                    ],
+                    "siteURL": "https://www.ingresso.com/cinema/cinepolis-partage-norte-shopping-natal?city=natal&partnership=cinepolis?ing_source=api&ing_medium=link-cinema&ing_campaign=cinepolis&ing_content=",
+                    "nationalSiteURL": "https://www.ingresso.com/cinema/cinepolis-partage-norte-shopping-natal?city=natal&partnership=cinepolis?ing_source=api&ing_medium=link-cinema&ing_campaign=cinepolis&ing_content=",
+                    "enabled": True,
+                    "blockMessage": "",
+                    "rooms": [
+                        {
+                            "name": "Sala 5",
+                            "type": None,
+                            "sessions": [
+                                {
+                                    "id": "69113048",
+                                    "price": 33.06,
+                                    "room": "Sala 5",
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                    ],
+                                    "types": [
+                                        {
+                                            "id": 1,
+                                            "name": "Normal",
+                                            "alias": "2D",
+                                            "display": False,
+                                        },
+                                        {
+                                            "id": 0,
+                                            "name": "Dublado",
+                                            "alias": "DUB",
+                                            "display": True,
+                                        },
+                                    ],
+                                    "date": {
+                                        "localDate": "2022-08-12T17:30:00-03:00",
+                                        "isToday": False,
+                                        "dayOfWeek": "sexta-feira",
+                                        "dayAndMonth": "12/08",
+                                        "hour": "17:30",
+                                        "year": "2022",
+                                    },
+                                    "realDate": {
+                                        "localDate": "2022-08-12T17:30:00-03:00",
+                                        "isToday": False,
+                                        "dayOfWeek": "sexta-feira",
+                                        "dayAndMonth": "12/08",
+                                        "hour": "17:30",
+                                        "year": "2022",
+                                    },
+                                    "time": "17:30",
+                                    "defaultSector": "2035618",
+                                    "midnightMessage": None,
+                                    "siteURL": "https://carrinho.ingresso.com/checkout/?ing_source=api&ing_medium=link-checkout&ing_campaign=cinepolis&ing_content=#/adicionar/69113048/cinepolis",
+                                    "nationalSiteURL": None,
+                                    "hasSeatSelection": True,
+                                    "driveIn": False,
+                                    "streaming": False,
+                                    "maxTicketsPerCar": 0,
+                                    "enabled": True,
+                                    "blockMessage": "",
+                                }
+                            ],
+                        }
+                    ],
+                    "sessionTypes": None,
+                    "geolocation": {
+                        "lat": -5.75785,
+                        "lng": -35.24722,
+                    },
+                    "operationPolicies": [],
+                },
+            ],
+        },
+        {
+            "event": {
+                "id": "21539",
+                "title": "O Palestrante",
+                "originalTitle": "O Palestrante",
+                "movieIdUrl": "https://www.movieid.com/opalestrante",
+                "ancineId": "B2000041300000",
+                "countryOrigin": "Brasil",
+                "priority": 5,
+                "contentRating": "14 anos",
+                "duration": "102",
+                "rating": 0.0,
+                "synopsis": (
+                    "Ao viajar para assinar sua demissão, Guilherme, um contador sem"
+                    " perspectivas, assume o lugar de um tal Marcelo sem saber que se"
+                    " trata de um palestrante motivacional contratado para animar os"
+                    " funcionários de uma empresa. Guilherme tem que colocar todos pra"
+                    " cima, mas talvez ele também precise desse novo Marcelo para mudar"
+                    " de vida."
+                ),
+                "cast": (
+                    "Fábio Porchat, Dani Calabresa, Antônio Tabet, Maria Clara Gueiros,"
+                    " Otávio Muller, Miá Mello, Paulo Vieira."
+                ),
+                "director": "Marcelo Antunez",
+                "distributor": "Downtown Filmes",
+                "inPreSale": False,
+                "isReexhibition": False,
+                "urlKey": "o-palestrante",
+                "isPlaying": True,
+                "countIsPlaying": 238,
+                "premiereDate": {
+                    "localDate": "2022-08-04T00:00:00+00:00",
+                    "isToday": False,
+                    "dayOfWeek": "quinta-feira",
+                    "dayAndMonth": "04/08",
+                    "hour": "00:00",
+                    "year": "2022",
+                },
+                "creationDate": "0001-01-01T00:00:00Z",
+                "city": "Natal",
+                "siteURL": "https://www.ingresso.com/filme/o-palestrante?city=natal&partnership=cinepolis?ing_source=api&ing_medium=link-filme&ing_campaign=cinepolis&ing_content=",
+                "nationalSiteURL": "https://www.ingresso.com/filme/o-palestrante?city=natal&partnership=cinepolis?ing_source=api&ing_medium=link-filme&ing_campaign=cinepolis&ing_content=",
+                "images": [
+                    {
+                        "url": "https://ingresso-a.akamaihd.net/prd/img/movie/o-palestrante/6fb26ad8-d7af-419d-aeea-ef405fc2c395.jpg",
+                        "type": "PosterPortrait",
+                    },
+                    {
+                        "url": "https://ingresso-a.akamaihd.net/prd/img/movie/o-palestrante/22d5728b-9a04-40a8-beee-7da6a934f344.jpg",
+                        "type": "PosterHorizontal",
+                    },
+                ],
+                "genres": ["Comédia"],
+                "ratingDescriptors": [
+                    "Conteúdo Sexual",
+                    "Linguagem Imprópria",
+                    "Violência",
+                ],
+                "completeTags": [],
+                "tags": [],
+                "trailers": [
+                    {
+                        "type": "Youtube",
+                        "url": "https://www.youtube.com/watch?v=b4UHAj1yzhM",
+                        "embeddedUrl": "//www.youtube.com/embed/b4UHAj1yzhM",
+                    }
+                ],
+                "boxOfficeId": "HO00002957",
+                "partnershipType": "",
+                "rottenTomatoe": None,
+            },
+            "showtimes": [
+                {
+                    "id": "1153",
+                    "name": "Cinépolis Partage Norte Shopping Natal",
+                    "address": "Avenida Dr. João Medeiros Filho",
+                    "addressComplement": "Loja 230-A",
+                    "number": "2395",
+                    "urlKey": "cinepolis-partage-norte-shopping-natal",
+                    "neighborhood": "Potengi",
+                    "properties": {
+                        "hasBomboniere": False,
+                        "hasContactlessWithdrawal": True,
+                        "hasSession": True,
+                        "hasSeatDistancePolicy": False,
+                        "hasSeatDistancePolicyArena": False,
+                    },
+                    "functionalities": {"operationPolicyEnabled": True},
+                    "deliveryType": [
+                        "Bilheteria/ATM",
+                        "Aplicativo/Scannerless",
+                    ],
+                    "siteURL": "https://www.ingresso.com/cinema/cinepolis-partage-norte-shopping-natal?city=natal&partnership=cinepolis?ing_source=api&ing_medium=link-cinema&ing_campaign=cinepolis&ing_content=",
+                    "nationalSiteURL": "https://www.ingresso.com/cinema/cinepolis-partage-norte-shopping-natal?city=natal&partnership=cinepolis?ing_source=api&ing_medium=link-cinema&ing_campaign=cinepolis&ing_content=",
+                    "enabled": True,
+                    "blockMessage": "",
+                    "rooms": [
+                        {
+                            "name": "Sala 6",
+                            "type": None,
+                            "sessions": [
+                                {
+                                    "id": "69113037",
+                                    "price": 33.06,
+                                    "room": "Sala 6",
+                                    "type": [
+                                        "Nacional",
+                                        "Normal",
+                                    ],
+                                    "types": [
+                                        {
+                                            "id": 1,
+                                            "name": "Normal",
+                                            "alias": "2D",
+                                            "display": False,
+                                        },
+                                        {
+                                            "id": 0,
+                                            "name": "Nacional",
+                                            "alias": "NAC",
+                                            "display": True,
+                                        },
+                                    ],
+                                    "date": {
+                                        "localDate": "2022-08-12T18:00:00-03:00",
+                                        "isToday": False,
+                                        "dayOfWeek": "sexta-feira",
+                                        "dayAndMonth": "12/08",
+                                        "hour": "18:00",
+                                        "year": "2022",
+                                    },
+                                    "realDate": {
+                                        "localDate": "2022-08-12T18:00:00-03:00",
+                                        "isToday": False,
+                                        "dayOfWeek": "sexta-feira",
+                                        "dayAndMonth": "12/08",
+                                        "hour": "18:00",
+                                        "year": "2022",
+                                    },
+                                    "time": "18:00",
+                                    "defaultSector": "2035619",
+                                    "midnightMessage": None,
+                                    "siteURL": "https://carrinho.ingresso.com/checkout/?ing_source=api&ing_medium=link-checkout&ing_campaign=cinepolis&ing_content=#/adicionar/69113037/cinepolis",
+                                    "nationalSiteURL": None,
+                                    "hasSeatSelection": True,
+                                    "driveIn": False,
+                                    "streaming": False,
+                                    "maxTicketsPerCar": 0,
+                                    "enabled": True,
+                                    "blockMessage": "",
+                                }
+                            ],
+                        }
+                    ],
+                    "sessionTypes": None,
+                    "geolocation": {
+                        "lat": -5.75785,
+                        "lng": -35.24722,
+                    },
+                    "operationPolicies": [],
+                },
+                {
+                    "id": "1149",
+                    "name": "Cinépolis Natal Shopping",
+                    "address": "Avenida Senador Salgado Filho",
+                    "addressComplement": "Espaço Comercial 400; Piso L2; Piso Salgado Filho",
+                    "number": "2234",
+                    "urlKey": "cinepolis-natal-shopping",
+                    "neighborhood": "Candelaria",
+                    "properties": {
+                        "hasBomboniere": False,
+                        "hasContactlessWithdrawal": True,
+                        "hasSession": True,
+                        "hasSeatDistancePolicy": False,
+                        "hasSeatDistancePolicyArena": False,
+                    },
+                    "functionalities": {"operationPolicyEnabled": True},
+                    "deliveryType": [
+                        "Bilheteria/ATM",
+                        "Aplicativo/Scannerless",
+                    ],
+                    "siteURL": "https://www.ingresso.com/cinema/cinepolis-natal-shopping?city=natal&partnership=cinepolis?ing_source=api&ing_medium=link-cinema&ing_campaign=cinepolis&ing_content=",
+                    "nationalSiteURL": "https://www.ingresso.com/cinema/cinepolis-natal-shopping?city=natal&partnership=cinepolis?ing_source=api&ing_medium=link-cinema&ing_campaign=cinepolis&ing_content=",
+                    "enabled": True,
+                    "blockMessage": "",
+                    "rooms": [
+                        {
+                            "name": "Sala 2",
+                            "type": None,
+                            "sessions": [
+                                {
+                                    "id": "69116662",
+                                    "price": 45.6,
+                                    "room": "Sala 2",
+                                    "type": [
+                                        "Nacional",
+                                        "Normal",
+                                    ],
+                                    "types": [
+                                        {
+                                            "id": 1,
+                                            "name": "Normal",
+                                            "alias": "2D",
+                                            "display": False,
+                                        },
+                                        {
+                                            "id": 0,
+                                            "name": "Nacional",
+                                            "alias": "NAC",
+                                            "display": True,
+                                        },
+                                    ],
+                                    "date": {
+                                        "localDate": "2022-08-12T22:10:00-03:00",
+                                        "isToday": False,
+                                        "dayOfWeek": "sexta-feira",
+                                        "dayAndMonth": "12/08",
+                                        "hour": "22:10",
+                                        "year": "2022",
+                                    },
+                                    "realDate": {
+                                        "localDate": "2022-08-12T22:10:00-03:00",
+                                        "isToday": False,
+                                        "dayOfWeek": "sexta-feira",
+                                        "dayAndMonth": "12/08",
+                                        "hour": "22:10",
+                                        "year": "2022",
+                                    },
+                                    "time": "22:10",
+                                    "defaultSector": "2033765",
+                                    "midnightMessage": None,
+                                    "siteURL": "https://carrinho.ingresso.com/checkout/?ing_source=api&ing_medium=link-checkout&ing_campaign=cinepolis&ing_content=#/adicionar/69116662/cinepolis",
+                                    "nationalSiteURL": None,
+                                    "hasSeatSelection": True,
+                                    "driveIn": False,
+                                    "streaming": False,
+                                    "maxTicketsPerCar": 0,
+                                    "enabled": True,
+                                    "blockMessage": "",
+                                }
+                            ],
+                        }
+                    ],
+                    "sessionTypes": None,
+                    "geolocation": {
+                        "lat": -5.84214,
+                        "lng": -35.2117,
+                    },
+                    "operationPolicies": [],
+                },
+            ],
+        },
+        {
+            "event": {
+                "id": "25233",
+                "title": "Dragon Ball Super: Super Hero ",
+                "originalTitle": "Dragon Ball Super: Super Hero",
+                "movieIdUrl": "",
+                "ancineId": "E2200253600000",
+                "countryOrigin": "Japão",
+                "priority": 6,
+                "contentRating": "Verifique a Classificação",
+                "duration": "100",
+                "rating": 0.0,
+                "synopsis": (
+                    "O exército Red Ribbon havia sido destruído por Son Goku... Mas"
+                    " certos indivíduos decidiram levar adiante sua missão e criaram os"
+                    " androides supremos: Gamma 1 e Gamma 2. Estes dois androides - que"
+                    ' se intitulam "super-heróis" - decidem atacar Piccolo e Gohan!'
+                    " Qual será o objetivo do Novo Exército Red Ribbon? Quando o perigo"
+                    " é iminente, é então que desperta o Super-Herói.\n\n"
+                ),
+                "cast": "",
+                "director": "Tetsurô Kodama",
+                "distributor": "Sony Pictures",
+                "inPreSale": True,
+                "isReexhibition": False,
+                "urlKey": "dragon-ball-super-super-hero",
+                "isPlaying": True,
+                "countIsPlaying": 309,
+                "premiereDate": {
+                    "localDate": "2022-08-18T00:00:00+00:00",
+                    "isToday": False,
+                    "dayOfWeek": "quinta-feira",
+                    "dayAndMonth": "18/08",
+                    "hour": "00:00",
+                    "year": "2022",
+                },
+                "creationDate": "0001-01-01T00:00:00Z",
+                "city": "Natal",
+                "siteURL": "https://www.ingresso.com/filme/dragon-ball-super-super-hero?city=natal&partnership=cinepolis?ing_source=api&ing_medium=link-filme&ing_campaign=cinepolis&ing_content=",
+                "nationalSiteURL": "https://www.ingresso.com/filme/dragon-ball-super-super-hero?city=natal&partnership=cinepolis?ing_source=api&ing_medium=link-filme&ing_campaign=cinepolis&ing_content=",
+                "images": [
+                    {
+                        "url": "https://ingresso-a.akamaihd.net/prd/img/movie/dragon-ball-super-super-herois/793d101e-75cc-4a30-85fc-694e3bcdfd3c.jpg",
+                        "type": "PosterPortrait",
+                    },
+                    {
+                        "url": "https://ingresso-a.akamaihd.net/prd/img/movie/dragon-ball-super-super-hero/0a5c2442-239b-4821-be6c-e5ae977b6534.jpg",
+                        "type": "PosterHorizontal",
+                    },
+                ],
+                "genres": [
+                    "Ação",
+                    "Animação",
+                    "Aventura",
+                ],
+                "ratingDescriptors": [],
+                "completeTags": [],
+                "tags": [],
+                "trailers": [
+                    {
+                        "type": "Youtube",
+                        "url": "https://www.youtube.com/watch?v=OvWak9TuD4M",
+                        "embeddedUrl": "//www.youtube.com/embed/OvWak9TuD4M",
+                    }
+                ],
+                "boxOfficeId": "HO00002942",
+                "partnershipType": "",
+                "rottenTomatoe": None,
+            },
+            "showtimes": [
+                {
+                    "id": "1149",
+                    "name": "Cinépolis Natal Shopping",
+                    "address": "Avenida Senador Salgado Filho",
+                    "addressComplement": "Espaço Comercial 400; Piso L2; Piso Salgado Filho",
+                    "number": "2234",
+                    "urlKey": "cinepolis-natal-shopping",
+                    "neighborhood": "Candelaria",
+                    "properties": {
+                        "hasBomboniere": False,
+                        "hasContactlessWithdrawal": True,
+                        "hasSession": True,
+                        "hasSeatDistancePolicy": False,
+                        "hasSeatDistancePolicyArena": False,
+                    },
+                    "functionalities": {"operationPolicyEnabled": True},
+                    "deliveryType": [
+                        "Bilheteria/ATM",
+                        "Aplicativo/Scannerless",
+                    ],
+                    "siteURL": "https://www.ingresso.com/cinema/cinepolis-natal-shopping?city=natal&partnership=cinepolis?ing_source=api&ing_medium=link-cinema&ing_campaign=cinepolis&ing_content=",
+                    "nationalSiteURL": "https://www.ingresso.com/cinema/cinepolis-natal-shopping?city=natal&partnership=cinepolis?ing_source=api&ing_medium=link-cinema&ing_campaign=cinepolis&ing_content=",
+                    "enabled": True,
+                    "blockMessage": "",
+                    "rooms": [
+                        {
+                            "name": "Sala 1",
+                            "type": None,
+                            "sessions": [
+                                {
+                                    "id": "69042695",
+                                    "price": 44.46,
+                                    "room": "Sala 1",
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                        "Macro XE",
+                                    ],
+                                    "types": [
+                                        {
+                                            "id": 1,
+                                            "name": "Normal",
+                                            "alias": "2D",
+                                            "display": False,
+                                        },
+                                        {
+                                            "id": 256,
+                                            "name": "Macro XE",
+                                            "alias": "Macro XE",
+                                            "display": True,
+                                        },
+                                        {
+                                            "id": 0,
+                                            "name": "Dublado",
+                                            "alias": "DUB",
+                                            "display": True,
+                                        },
+                                    ],
+                                    "date": {
+                                        "localDate": "2022-08-18T14:30:00-03:00",
+                                        "isToday": False,
+                                        "dayOfWeek": "quinta-feira",
+                                        "dayAndMonth": "18/08",
+                                        "hour": "14:30",
+                                        "year": "2022",
+                                    },
+                                    "realDate": {
+                                        "localDate": "2022-08-18T14:30:00-03:00",
+                                        "isToday": False,
+                                        "dayOfWeek": "quinta-feira",
+                                        "dayAndMonth": "18/08",
+                                        "hour": "14:30",
+                                        "year": "2022",
+                                    },
+                                    "time": "14:30",
+                                    "defaultSector": "2033764",
+                                    "midnightMessage": None,
+                                    "siteURL": "https://carrinho.ingresso.com/checkout/?ing_source=api&ing_medium=link-checkout&ing_campaign=cinepolis&ing_content=#/adicionar/69042695/cinepolis",
+                                    "nationalSiteURL": None,
+                                    "hasSeatSelection": True,
+                                    "driveIn": False,
+                                    "streaming": False,
+                                    "maxTicketsPerCar": 0,
+                                    "enabled": True,
+                                    "blockMessage": "",
+                                },
+                                {
+                                    "id": "69042680",
+                                    "price": 47.88,
+                                    "room": "Sala 1",
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                        "Macro XE",
+                                    ],
+                                    "types": [
+                                        {
+                                            "id": 1,
+                                            "name": "Normal",
+                                            "alias": "2D",
+                                            "display": False,
+                                        },
+                                        {
+                                            "id": 256,
+                                            "name": "Macro XE",
+                                            "alias": "Macro XE",
+                                            "display": True,
+                                        },
+                                        {
+                                            "id": 0,
+                                            "name": "Dublado",
+                                            "alias": "DUB",
+                                            "display": True,
+                                        },
+                                    ],
+                                    "date": {
+                                        "localDate": "2022-08-18T17:00:00-03:00",
+                                        "isToday": False,
+                                        "dayOfWeek": "quinta-feira",
+                                        "dayAndMonth": "18/08",
+                                        "hour": "17:00",
+                                        "year": "2022",
+                                    },
+                                    "realDate": {
+                                        "localDate": "2022-08-18T17:00:00-03:00",
+                                        "isToday": False,
+                                        "dayOfWeek": "quinta-feira",
+                                        "dayAndMonth": "18/08",
+                                        "hour": "17:00",
+                                        "year": "2022",
+                                    },
+                                    "time": "17:00",
+                                    "defaultSector": "2033764",
+                                    "midnightMessage": None,
+                                    "siteURL": "https://carrinho.ingresso.com/checkout/?ing_source=api&ing_medium=link-checkout&ing_campaign=cinepolis&ing_content=#/adicionar/69042680/cinepolis",
+                                    "nationalSiteURL": None,
+                                    "hasSeatSelection": True,
+                                    "driveIn": False,
+                                    "streaming": False,
+                                    "maxTicketsPerCar": 0,
+                                    "enabled": True,
+                                    "blockMessage": "",
+                                },
+                                {
+                                    "id": "69042693",
+                                    "price": 47.88,
+                                    "room": "Sala 1",
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                        "Macro XE",
+                                    ],
+                                    "types": [
+                                        {
+                                            "id": 1,
+                                            "name": "Normal",
+                                            "alias": "2D",
+                                            "display": False,
+                                        },
+                                        {
+                                            "id": 256,
+                                            "name": "Macro XE",
+                                            "alias": "Macro XE",
+                                            "display": True,
+                                        },
+                                        {
+                                            "id": 0,
+                                            "name": "Dublado",
+                                            "alias": "DUB",
+                                            "display": True,
+                                        },
+                                    ],
+                                    "date": {
+                                        "localDate": "2022-08-18T19:30:00-03:00",
+                                        "isToday": False,
+                                        "dayOfWeek": "quinta-feira",
+                                        "dayAndMonth": "18/08",
+                                        "hour": "19:30",
+                                        "year": "2022",
+                                    },
+                                    "realDate": {
+                                        "localDate": "2022-08-18T19:30:00-03:00",
+                                        "isToday": False,
+                                        "dayOfWeek": "quinta-feira",
+                                        "dayAndMonth": "18/08",
+                                        "hour": "19:30",
+                                        "year": "2022",
+                                    },
+                                    "time": "19:30",
+                                    "defaultSector": "2033764",
+                                    "midnightMessage": None,
+                                    "siteURL": "https://carrinho.ingresso.com/checkout/?ing_source=api&ing_medium=link-checkout&ing_campaign=cinepolis&ing_content=#/adicionar/69042693/cinepolis",
+                                    "nationalSiteURL": None,
+                                    "hasSeatSelection": True,
+                                    "driveIn": False,
+                                    "streaming": False,
+                                    "maxTicketsPerCar": 0,
+                                    "enabled": True,
+                                    "blockMessage": "",
+                                },
+                                {
+                                    "id": "69042687",
+                                    "price": 47.88,
+                                    "room": "Sala 1",
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                        "Macro XE",
+                                    ],
+                                    "types": [
+                                        {
+                                            "id": 1,
+                                            "name": "Normal",
+                                            "alias": "2D",
+                                            "display": False,
+                                        },
+                                        {
+                                            "id": 256,
+                                            "name": "Macro XE",
+                                            "alias": "Macro XE",
+                                            "display": True,
+                                        },
+                                        {
+                                            "id": 0,
+                                            "name": "Dublado",
+                                            "alias": "DUB",
+                                            "display": True,
+                                        },
+                                    ],
+                                    "date": {
+                                        "localDate": "2022-08-18T22:00:00-03:00",
+                                        "isToday": False,
+                                        "dayOfWeek": "quinta-feira",
+                                        "dayAndMonth": "18/08",
+                                        "hour": "22:00",
+                                        "year": "2022",
+                                    },
+                                    "realDate": {
+                                        "localDate": "2022-08-18T22:00:00-03:00",
+                                        "isToday": False,
+                                        "dayOfWeek": "quinta-feira",
+                                        "dayAndMonth": "18/08",
+                                        "hour": "22:00",
+                                        "year": "2022",
+                                    },
+                                    "time": "22:00",
+                                    "defaultSector": "2033764",
+                                    "midnightMessage": None,
+                                    "siteURL": "https://carrinho.ingresso.com/checkout/?ing_source=api&ing_medium=link-checkout&ing_campaign=cinepolis&ing_content=#/adicionar/69042687/cinepolis",
+                                    "nationalSiteURL": None,
+                                    "hasSeatSelection": True,
+                                    "driveIn": False,
+                                    "streaming": False,
+                                    "maxTicketsPerCar": 0,
+                                    "enabled": True,
+                                    "blockMessage": "",
+                                },
+                            ],
+                        }
+                    ],
+                    "sessionTypes": None,
+                    "geolocation": {
+                        "lat": -5.84214,
+                        "lng": -35.2117,
+                    },
+                    "operationPolicies": [],
+                },
+                {
+                    "id": "1153",
+                    "name": "Cinépolis Partage Norte Shopping Natal",
+                    "address": "Avenida Dr. João Medeiros Filho",
+                    "addressComplement": "Loja 230-A",
+                    "number": "2395",
+                    "urlKey": "cinepolis-partage-norte-shopping-natal",
+                    "neighborhood": "Potengi",
+                    "properties": {
+                        "hasBomboniere": False,
+                        "hasContactlessWithdrawal": True,
+                        "hasSession": True,
+                        "hasSeatDistancePolicy": False,
+                        "hasSeatDistancePolicyArena": False,
+                    },
+                    "functionalities": {"operationPolicyEnabled": True},
+                    "deliveryType": [
+                        "Bilheteria/ATM",
+                        "Aplicativo/Scannerless",
+                    ],
+                    "siteURL": "https://www.ingresso.com/cinema/cinepolis-partage-norte-shopping-natal?city=natal&partnership=cinepolis?ing_source=api&ing_medium=link-cinema&ing_campaign=cinepolis&ing_content=",
+                    "nationalSiteURL": "https://www.ingresso.com/cinema/cinepolis-partage-norte-shopping-natal?city=natal&partnership=cinepolis?ing_source=api&ing_medium=link-cinema&ing_campaign=cinepolis&ing_content=",
+                    "enabled": True,
+                    "blockMessage": "",
+                    "rooms": [
+                        {
+                            "name": "Sala 3",
+                            "type": None,
+                            "sessions": [
+                                {
+                                    "id": "69106411",
+                                    "price": 33.06,
+                                    "room": "Sala 3",
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                    ],
+                                    "types": [
+                                        {
+                                            "id": 1,
+                                            "name": "Normal",
+                                            "alias": "2D",
+                                            "display": False,
+                                        },
+                                        {
+                                            "id": 0,
+                                            "name": "Dublado",
+                                            "alias": "DUB",
+                                            "display": True,
+                                        },
+                                    ],
+                                    "date": {
+                                        "localDate": "2022-08-18T17:05:00-03:00",
+                                        "isToday": False,
+                                        "dayOfWeek": "quinta-feira",
+                                        "dayAndMonth": "18/08",
+                                        "hour": "17:05",
+                                        "year": "2022",
+                                    },
+                                    "realDate": {
+                                        "localDate": "2022-08-18T17:05:00-03:00",
+                                        "isToday": False,
+                                        "dayOfWeek": "quinta-feira",
+                                        "dayAndMonth": "18/08",
+                                        "hour": "17:05",
+                                        "year": "2022",
+                                    },
+                                    "time": "17:05",
+                                    "defaultSector": "2035621",
+                                    "midnightMessage": None,
+                                    "siteURL": "https://carrinho.ingresso.com/checkout/?ing_source=api&ing_medium=link-checkout&ing_campaign=cinepolis&ing_content=#/adicionar/69106411/cinepolis",
+                                    "nationalSiteURL": None,
+                                    "hasSeatSelection": True,
+                                    "driveIn": False,
+                                    "streaming": False,
+                                    "maxTicketsPerCar": 0,
+                                    "enabled": True,
+                                    "blockMessage": "",
+                                },
+                                {
+                                    "id": "69106395",
+                                    "price": 33.06,
+                                    "room": "Sala 3",
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                    ],
+                                    "types": [
+                                        {
+                                            "id": 1,
+                                            "name": "Normal",
+                                            "alias": "2D",
+                                            "display": False,
+                                        },
+                                        {
+                                            "id": 0,
+                                            "name": "Dublado",
+                                            "alias": "DUB",
+                                            "display": True,
+                                        },
+                                    ],
+                                    "date": {
+                                        "localDate": "2022-08-18T19:30:00-03:00",
+                                        "isToday": False,
+                                        "dayOfWeek": "quinta-feira",
+                                        "dayAndMonth": "18/08",
+                                        "hour": "19:30",
+                                        "year": "2022",
+                                    },
+                                    "realDate": {
+                                        "localDate": "2022-08-18T19:30:00-03:00",
+                                        "isToday": False,
+                                        "dayOfWeek": "quinta-feira",
+                                        "dayAndMonth": "18/08",
+                                        "hour": "19:30",
+                                        "year": "2022",
+                                    },
+                                    "time": "19:30",
+                                    "defaultSector": "2035621",
+                                    "midnightMessage": None,
+                                    "siteURL": "https://carrinho.ingresso.com/checkout/?ing_source=api&ing_medium=link-checkout&ing_campaign=cinepolis&ing_content=#/adicionar/69106395/cinepolis",
+                                    "nationalSiteURL": None,
+                                    "hasSeatSelection": True,
+                                    "driveIn": False,
+                                    "streaming": False,
+                                    "maxTicketsPerCar": 0,
+                                    "enabled": True,
+                                    "blockMessage": "",
+                                },
+                                {
+                                    "id": "69106408",
+                                    "price": 33.06,
+                                    "room": "Sala 3",
+                                    "type": [
+                                        "Dublado",
+                                        "Normal",
+                                    ],
+                                    "types": [
+                                        {
+                                            "id": 1,
+                                            "name": "Normal",
+                                            "alias": "2D",
+                                            "display": False,
+                                        },
+                                        {
+                                            "id": 0,
+                                            "name": "Dublado",
+                                            "alias": "DUB",
+                                            "display": True,
+                                        },
+                                    ],
+                                    "date": {
+                                        "localDate": "2022-08-18T22:00:00-03:00",
+                                        "isToday": False,
+                                        "dayOfWeek": "quinta-feira",
+                                        "dayAndMonth": "18/08",
+                                        "hour": "22:00",
+                                        "year": "2022",
+                                    },
+                                    "realDate": {
+                                        "localDate": "2022-08-18T22:00:00-03:00",
+                                        "isToday": False,
+                                        "dayOfWeek": "quinta-feira",
+                                        "dayAndMonth": "18/08",
+                                        "hour": "22:00",
+                                        "year": "2022",
+                                    },
+                                    "time": "22:00",
+                                    "defaultSector": "2035621",
+                                    "midnightMessage": None,
+                                    "siteURL": "https://carrinho.ingresso.com/checkout/?ing_source=api&ing_medium=link-checkout&ing_campaign=cinepolis&ing_content=#/adicionar/69106408/cinepolis",
+                                    "nationalSiteURL": None,
+                                    "hasSeatSelection": True,
+                                    "driveIn": False,
+                                    "streaming": False,
+                                    "maxTicketsPerCar": 0,
+                                    "enabled": True,
+                                    "blockMessage": "",
+                                },
+                            ],
+                        }
+                    ],
+                    "sessionTypes": None,
+                    "geolocation": {
+                        "lat": -5.75785,
+                        "lng": -35.24722,
+                    },
+                    "operationPolicies": [],
+                },
+            ],
+        },
+    ]
+
+
+@pytest.fixture
+def now_playing():
+    return [
+        {
+            "id": "23494",
+            "title": "Pacificado",
+            "originalTitle": "Pacificado",
+            "movieIdUrl": "",
+            "ancineId": "",
+            "countryOrigin": "Brasil",
+            "priority": 173,
+            "contentRating": "Verifique a Classificação",
+            "duration": "120",
+            "rating": 0.0,
+            "synopsis": "Tati é uma menina introspectiva de 13 anos que luta para se conectar com seu distante pai, Jaca, recém-saído da prisão no momento turbulento das Olimpíadas do Rio. Enquanto a polícia “pacificadora” luta para ocupar as favelas ao redor do Rio, Tati e Jaca precisam navegar entre os obstáculos que ameaçam suas esperanças para o futuro. Nascido de uma colaboração criativa de sete anos entre a comunidade ‘Morro dos Prazeres’, o escritor/diretor Paxton Winters, Wellington Magalhães (Maga) e Joseph Carter (Joe), PACIFICADO oferece um retrato íntimo de uma família tentando encontrar a paz no inconstante campo de batalha, que eles chamam de casa.",
+            "cast": "Bukassa Kabengele, Débora Nascimento, Cassia Gil, José Loreto",
+            "director": "Paxton Winters",
+            "distributor": "Star Distribution",
+            "inPreSale": False,
+            "isReexhibition": False,
+            "urlKey": "pacificado",
+            "isPlaying": True,
+            "countIsPlaying": 31,
+            "premiereDate": {
+                "localDate": "2022-08-11T00:00:00+00:00",
+                "isToday": False,
+                "dayOfWeek": "quinta-feira",
+                "dayAndMonth": "11/08",
+                "hour": "00:00",
+                "year": "2022",
+            },
+            "creationDate": "0001-01-01T00:00:00Z",
+            "city": "Natal",
+            "siteURL": "https://www.ingresso.com/filme/pacificado?city=natal&partnership=nome_da_parceria?ing_source=api&ing_medium=link-filme&ing_campaign=nome_da_parceria&ing_content=",
+            "nationalSiteURL": "https://www.ingresso.com/filme/pacificado?city=natal&partnership=nome_da_parceria?ing_source=api&ing_medium=link-filme&ing_campaign=nome_da_parceria&ing_content=",
+            "images": [
+                {
+                    "url": "https://ingresso-a.akamaihd.net/prd/img/movie/pacificado/9c783ea2-8784-441b-be70-d45754526b8f.jpg",
+                    "type": "PosterPortrait",
+                },
+                {
+                    "url": "https://ingresso-a.akamaihd.net/prd/img/movie/pacificado/18390b3c-ec4b-4e27-9168-9a30eb4e406d.jpg",
+                    "type": "PosterHorizontal",
+                },
+            ],
+            "genres": ["Ficção"],
+            "ratingDescriptors": [],
+            "completeTags": [],
+            "tags": [],
+            "trailers": [],
+            "boxOfficeId": None,
+            "partnershipType": None,
+            "rottenTomatoe": None,
+        },
+        {
+            "id": "25088",
+            "title": " Gêmeo Maligno",
+            "originalTitle": "The Twin",
+            "movieIdUrl": "",
+            "ancineId": "E2200162700000",
+            "countryOrigin": "Estados Unidos",
+            "priority": 3200,
+            "contentRating": "Verifique a Classificação",
+            "duration": "109",
+            "rating": 0.0,
+            "synopsis": "Após um trágico acidente que tirou a vida de um de seus gêmeos, Rachel e o seu marido Anthony se mudam para o outro lado do mundo com seu filho sobrevivente na esperança de construir uma nova vida. O que começa como um tempo de cura na tranquila zona rural escandinava, logo toma um rumo sinistro quando Rachel começa a desvendar a verdade torturante sobre seu filho e confronta as forças maliciosas que tentam segurá-lo.\n\n",
+            "cast": "Teresa Palmer, Steven Cree, Barbara Marten\n\n ",
+            "director": "Taneli Mustonen",
+            "distributor": "Paris Filmes",
+            "inPreSale": False,
+            "isReexhibition": False,
+            "urlKey": "gemeo-maligno",
+            "isPlaying": True,
+            "countIsPlaying": 246,
+            "premiereDate": {
+                "localDate": "2022-08-11T00:00:00+00:00",
+                "isToday": False,
+                "dayOfWeek": "quinta-feira",
+                "dayAndMonth": "11/08",
+                "hour": "00:00",
+                "year": "2022",
+            },
+            "creationDate": "0001-01-01T00:00:00Z",
+            "city": "Natal",
+            "siteURL": "https://www.ingresso.com/filme/gemeo-maligno?city=natal&partnership=nome_da_parceria?ing_source=api&ing_medium=link-filme&ing_campaign=nome_da_parceria&ing_content=",
+            "nationalSiteURL": "https://www.ingresso.com/filme/gemeo-maligno?city=natal&partnership=nome_da_parceria?ing_source=api&ing_medium=link-filme&ing_campaign=nome_da_parceria&ing_content=",
+            "images": [
+                {
+                    "url": "https://ingresso-a.akamaihd.net/prd/img/movie/gemeo-maligno/3ae66ca0-4206-4e88-95c1-87305ce6a016.jpg",
+                    "type": "PosterPortrait",
+                }
+            ],
+            "genres": ["Terror"],
+            "ratingDescriptors": [],
+            "completeTags": [],
+            "tags": [],
+            "trailers": [
+                {
+                    "type": "Youtube",
+                    "url": "https://www.youtube.com/watch?v=dIQdWAUyM-I",
+                    "embeddedUrl": "//www.youtube.com/embed/dIQdWAUyM-I",
+                }
+            ],
+            "boxOfficeId": None,
+            "partnershipType": None,
+            "rottenTomatoe": None,
+        },
+        {
+            "id": "25173",
+            "title": "A Fera",
+            "originalTitle": "Beast",
+            "movieIdUrl": "",
+            "ancineId": "E2200239400000",
+            "countryOrigin": "Estados Unidos",
+            "priority": 3200,
+            "contentRating": "14 anos",
+            "duration": "96",
+            "rating": 0.0,
+            "synopsis": '"O viúvo Dr. Nate Samuels viaja à África do Sul, lugar onde ele conheceu sua esposa, com suas duas filhas adolescentes para uma reserva de caça. Mas o que começa como uma jornada de cura se transforma em uma terrível luta pela sobrevivência quando um leão, sobrevivente de caçadores sedento por sangue que agora vê todos os humanos como inimigos, começa a persegui-los."\n\n',
+            "cast": "Idris Elba, Sharlto Copley, Leah Jeffries, Iyana Halley,Mel Jarnson, Amara Miller.",
+            "director": "Baltasar Kormákur",
+            "distributor": "Universal Pictures Brasil",
+            "inPreSale": False,
+            "isReexhibition": False,
+            "urlKey": "a-fera",
+            "isPlaying": True,
+            "countIsPlaying": 361,
+            "premiereDate": {
+                "localDate": "2022-08-11T00:00:00+00:00",
+                "isToday": False,
+                "dayOfWeek": "quinta-feira",
+                "dayAndMonth": "11/08",
+                "hour": "00:00",
+                "year": "2022",
+            },
+            "creationDate": "0001-01-01T00:00:00Z",
+            "city": "Natal",
+            "siteURL": "https://www.ingresso.com/filme/a-fera?city=natal&partnership=nome_da_parceria?ing_source=api&ing_medium=link-filme&ing_campaign=nome_da_parceria&ing_content=",
+            "nationalSiteURL": "https://www.ingresso.com/filme/a-fera?city=natal&partnership=nome_da_parceria?ing_source=api&ing_medium=link-filme&ing_campaign=nome_da_parceria&ing_content=",
+            "images": [
+                {
+                    "url": "https://ingresso-a.akamaihd.net/prd/img/movie/a-fera/54e54385-1ad4-4534-b896-4dcd2fa1da7b.jpg",
+                    "type": "PosterPortrait",
+                },
+                {
+                    "url": "https://ingresso-a.akamaihd.net/prd/img/movie/a-fera/981cae75-3401-4466-9618-904c37effab6.jpg",
+                    "type": "PosterHorizontal",
+                },
+            ],
+            "genres": ["Ação", "Aventura", "Drama"],
+            "ratingDescriptors": ["Drogas Lícitas", "Violência"],
+            "completeTags": [],
+            "tags": [],
+            "trailers": [
+                {
+                    "type": "Youtube",
+                    "url": "https://www.youtube.com/watch?v=DwuvprOmPJw",
+                    "embeddedUrl": "//www.youtube.com/embed/DwuvprOmPJw",
+                }
+            ],
+            "boxOfficeId": None,
+            "partnershipType": None,
+            "rottenTomatoe": {
+                "id": "4b8945f8-4db3-374a-8f0f-a5ab5873a078",
+                "criticsRating": "",
+                "criticsScore": "",
+                "audienceRating": "",
+                "audienceScore": "",
+                "originalUrl": "https://www.rottentomatoes.com/m/beast_2022",
+            },
+        },
+        {
+            "id": "24414",
+            "title": "A Liga dos Superpets ",
+            "originalTitle": "DC Liga dos Superpets ",
+            "movieIdUrl": "",
+            "ancineId": "E2200126400000",
+            "countryOrigin": "Estados Unidos",
+            "priority": 3200,
+            "contentRating": "Livre",
+            "duration": "106",
+            "rating": 0.0,
+            "synopsis": "Em DC Liga dos Super-Pets, Krypto, o Super-Cão, e Superman são melhores amigos, inseparáveis, que combatem o crime em Metropolis lado a lado e compartilham os mesmos superpoderes. Quando Superman e os membros da Liga da Justiça são sequestrados, Krypto deve convencer um atrapalhado bando de um abrigo de animais - Ace, o Batcão; PB, A Poderosa Oinc; Merton, a Tartaruga-Foguete; e Chip, O Esquilo - a dominar seus poderes recém-descobertos e ajudá-lo a resgatar os super-heróis.\n\n",
+            "cast": "Vozes de: Kevin Hart, Kate McKinnon, John Krasinski, Vanessa Bayer, Natasha Lyonne, Diego Luna, Marc Maron, Thomas Middleditch, Ben Schwartz, Keanu Reeves",
+            "director": "Jared Stern, Sam Levine",
+            "distributor": "Warner Bros",
+            "inPreSale": False,
+            "isReexhibition": False,
+            "urlKey": "a-liga-dos-superpets",
+            "isPlaying": True,
+            "countIsPlaying": 375,
+            "premiereDate": {
+                "localDate": "2022-07-28T00:00:00+00:00",
+                "isToday": False,
+                "dayOfWeek": "quinta-feira",
+                "dayAndMonth": "28/07",
+                "hour": "00:00",
+                "year": "2022",
+            },
+            "creationDate": "0001-01-01T00:00:00Z",
+            "city": "Natal",
+            "siteURL": "https://www.ingresso.com/filme/a-liga-dos-superpets?city=natal&partnership=nome_da_parceria?ing_source=api&ing_medium=link-filme&ing_campaign=nome_da_parceria&ing_content=",
+            "nationalSiteURL": "https://www.ingresso.com/filme/a-liga-dos-superpets?city=natal&partnership=nome_da_parceria?ing_source=api&ing_medium=link-filme&ing_campaign=nome_da_parceria&ing_content=",
+            "images": [
+                {
+                    "url": "https://ingresso-a.akamaihd.net/prd/img/movie/a-liga-dos-superpets/a1903023-8faf-4a74-a09a-9068b0ba3d93.jpg",
+                    "type": "PosterPortrait",
+                },
+                {
+                    "url": "https://ingresso-a.akamaihd.net/prd/img/movie/a-liga-dos-superpets/748b7304-38b3-4787-ba3a-e0182936d4de.jpg",
+                    "type": "PosterHorizontal",
+                },
+            ],
+            "genres": ["Animação", "Aventura"],
+            "ratingDescriptors": [],
+            "completeTags": [],
+            "tags": [],
+            "trailers": [
+                {
+                    "type": "Youtube",
+                    "url": "https://www.youtube.com/watch?v=zvN3xJ_JokI",
+                    "embeddedUrl": "//www.youtube.com/embed/zvN3xJ_JokI",
+                }
+            ],
+            "boxOfficeId": None,
+            "partnershipType": None,
+            "rottenTomatoe": {
+                "id": "39b19fbf-7f31-3626-b3a8-8f39c92e3325",
+                "criticsRating": "Fresh",
+                "criticsScore": "72",
+                "audienceRating": "Upright",
+                "audienceScore": "88",
+                "originalUrl": "https://www.rottentomatoes.com/m/dc_league_of_super_pets",
+            },
+        },
+        {
+            "id": "25334",
+            "title": "A-ha  - The True North",
+            "originalTitle": "A-ha  - The True North",
+            "movieIdUrl": "",
+            "ancineId": "",
+            "countryOrigin": "Noruega",
+            "priority": 3200,
+            "contentRating": "Verifique a Classificação",
+            "duration": "0",
+            "rating": 0.0,
+            "synopsis": 'A produção audiovisual documenta dois dias de gravação em Bodø, na Noruega. O filme, no entanto, vai além do registro do trabalho do grupo e das cenas de bastidores: é uma visão ampliada do trio sobre a conexão com o meio ambiente. "True North é uma carta do A-ha vinda do Círculo Polar Ártico, e um poema do extremo norte da Noruega.',
+            "cast": "Morten Harket, Paul Waaktaar-Savoy e Magne Furuholmen.",
+            "director": "Stian Andersen",
+            "distributor": "Sem Distribuidor",
+            "inPreSale": False,
+            "isReexhibition": False,
+            "urlKey": "a-ha-the-True-north",
+            "isPlaying": True,
+            "countIsPlaying": 37,
+            "premiereDate": {
+                "localDate": "2022-03-03T00:00:00+00:00",
+                "isToday": False,
+                "dayOfWeek": "quinta-feira",
+                "dayAndMonth": "03/03",
+                "hour": "00:00",
+                "year": "2022",
+            },
+            "creationDate": "2022-08-03T12:37:17Z",
+            "city": "Natal",
+            "siteURL": "https://www.ingresso.com/filme/a-ha-the-True-north?city=natal&partnership=nome_da_parceria?ing_source=api&ing_medium=link-filme&ing_campaign=nome_da_parceria&ing_content=",
+            "nationalSiteURL": "https://www.ingresso.com/filme/a-ha-the-True-north?city=natal&partnership=nome_da_parceria?ing_source=api&ing_medium=link-filme&ing_campaign=nome_da_parceria&ing_content=",
+            "images": [
+                {
+                    "url": "https://ingresso-a.akamaihd.net/prd/img/movie/a-ha-the-True-north/55f5ef8c-ee31-49a8-88c9-0f73584949c7.jpg",
+                    "type": "PosterPortrait",
+                }
+            ],
+            "genres": ["Musical"],
+            "ratingDescriptors": [],
+            "completeTags": [],
+            "tags": [],
+            "trailers": [],
+            "boxOfficeId": None,
+            "partnershipType": None,
+            "rottenTomatoe": None,
+        },
+        {
+            "id": "25233",
+            "title": "Dragon Ball Super: Super Hero ",
+            "originalTitle": "Dragon Ball Super: Super Hero",
+            "movieIdUrl": "",
+            "ancineId": "E2200253600000",
+            "countryOrigin": "Japão",
+            "priority": 3200,
+            "contentRating": "Verifique a Classificação",
+            "duration": "100",
+            "rating": 0.0,
+            "synopsis": 'O exército Red Ribbon havia sido destruído por Son Goku... Mas certos indivíduos decidiram levar adiante sua missão e criaram os androides supremos: Gamma 1 e Gamma 2. Estes dois androides - que se intitulam "super-heróis" - decidem atacar Piccolo e Gohan! Qual será o objetivo do Novo Exército Red Ribbon? Quando o perigo é iminente, é então que desperta o Super-Herói.\n\n',
+            "cast": "",
+            "director": "Tetsurô Kodama",
+            "distributor": "Sony Pictures",
+            "inPreSale": True,
+            "isReexhibition": False,
+            "urlKey": "dragon-ball-super-super-hero",
+            "isPlaying": True,
+            "countIsPlaying": 309,
+            "premiereDate": {
+                "localDate": "2022-08-18T00:00:00+00:00",
+                "isToday": False,
+                "dayOfWeek": "quinta-feira",
+                "dayAndMonth": "18/08",
+                "hour": "00:00",
+                "year": "2022",
+            },
+            "creationDate": "0001-01-01T00:00:00Z",
+            "city": "Natal",
+            "siteURL": "https://www.ingresso.com/filme/dragon-ball-super-super-hero?city=natal&partnership=nome_da_parceria?ing_source=api&ing_medium=link-filme&ing_campaign=nome_da_parceria&ing_content=",
+            "nationalSiteURL": "https://www.ingresso.com/filme/dragon-ball-super-super-hero?city=natal&partnership=nome_da_parceria?ing_source=api&ing_medium=link-filme&ing_campaign=nome_da_parceria&ing_content=",
+            "images": [
+                {
+                    "url": "https://ingresso-a.akamaihd.net/prd/img/movie/dragon-ball-super-super-herois/793d101e-75cc-4a30-85fc-694e3bcdfd3c.jpg",
+                    "type": "PosterPortrait",
+                },
+                {
+                    "url": "https://ingresso-a.akamaihd.net/prd/img/movie/dragon-ball-super-super-hero/0a5c2442-239b-4821-be6c-e5ae977b6534.jpg",
+                    "type": "PosterHorizontal",
+                },
+            ],
+            "genres": ["Ação", "Animação", "Aventura"],
+            "ratingDescriptors": [],
+            "completeTags": [],
+            "tags": [],
+            "trailers": [
+                {
+                    "type": "Youtube",
+                    "url": "https://www.youtube.com/watch?v=OvWak9TuD4M",
+                    "embeddedUrl": "//www.youtube.com/embed/OvWak9TuD4M",
+                }
+            ],
+            "boxOfficeId": None,
+            "partnershipType": None,
+            "rottenTomatoe": None,
+        },
+        {
+            "id": "24910",
+            "title": "Elvis",
+            "originalTitle": "Elvis",
+            "movieIdUrl": "",
+            "ancineId": "E2200126000000",
+            "countryOrigin": "Estados Unidos",
+            "priority": 3200,
+            "contentRating": "14 anos",
+            "duration": "159",
+            "rating": 0.0,
+            "synopsis": "O filme aborda a vida e a música de Elvis Presley sob o prisma da sua tumultuada relação com seu empresário enigmático, o coronel Tom Parker. A história mergulha na complexa dinâmica entre Presley e Parker, que se estendeu por mais de 20 anos, desde a ascensão de Presley à fama até seu estrelato sem precedentes, tendo como pano de fundo a evolução da paisagem cultural e a perda da inocência na América. No centro dessa jornada está uma das pessoas mais importantes e influentes na vida de Elvis, Priscilla Presley.",
+            "cast": "Austin Butler, Tom Hanks, Helen Thomson, Richard Roxburgh, Natasha Bassett, Luke Bracey, Gareth Davies, Olivia Dejonge, Adam Dunn, Leon Ford.",
+            "director": "Baz Luhrmann",
+            "distributor": "Warner Bros",
+            "inPreSale": False,
+            "isReexhibition": False,
+            "urlKey": "elvis",
+            "isPlaying": True,
+            "countIsPlaying": 176,
+            "premiereDate": {
+                "localDate": "2022-07-14T00:00:00+00:00",
+                "isToday": False,
+                "dayOfWeek": "quinta-feira",
+                "dayAndMonth": "14/07",
+                "hour": "00:00",
+                "year": "2022",
+            },
+            "creationDate": "0001-01-01T00:00:00Z",
+            "city": "Natal",
+            "siteURL": "https://www.ingresso.com/filme/elvis?city=natal&partnership=nome_da_parceria?ing_source=api&ing_medium=link-filme&ing_campaign=nome_da_parceria&ing_content=",
+            "nationalSiteURL": "https://www.ingresso.com/filme/elvis?city=natal&partnership=nome_da_parceria?ing_source=api&ing_medium=link-filme&ing_campaign=nome_da_parceria&ing_content=",
+            "images": [
+                {
+                    "url": "https://ingresso-a.akamaihd.net/prd/img/movie/elvis/8d34c900-257d-4495-8bb8-1498d0fe8e59.jpg",
+                    "type": "PosterPortrait",
+                },
+                {
+                    "url": "https://ingresso-a.akamaihd.net/prd/img/movie/elvis/33d45b3d-2c29-46b0-9e82-6603a7fcc4a9.jpg",
+                    "type": "PosterHorizontal",
+                },
+            ],
+            "genres": ["Drama"],
+            "ratingDescriptors": ["Conteúdo Sexual", "Drogas", "Violência"],
+            "completeTags": [],
+            "tags": [],
+            "trailers": [
+                {
+                    "type": "Youtube",
+                    "url": "https://www.youtube.com/watch?v=Vf96cwvQ44k",
+                    "embeddedUrl": "//www.youtube.com/embed/Vf96cwvQ44k",
+                },
+                {
+                    "type": "Youtube",
+                    "url": "https://www.youtube.com/watch?v=TMWdzyTIJEA",
+                    "embeddedUrl": "//www.youtube.com/embed/TMWdzyTIJEA",
+                },
+                {
+                    "type": "Youtube",
+                    "url": "https://www.youtube.com/watch?v=iCF08It3Jds",
+                    "embeddedUrl": "//www.youtube.com/embed/iCF08It3Jds",
+                },
+            ],
+            "boxOfficeId": None,
+            "partnershipType": None,
+            "rottenTomatoe": {
+                "id": "040e8619-9198-3e84-a1f7-9963f52f2726",
+                "criticsRating": "Certified",
+                "criticsScore": "78",
+                "audienceRating": "Upright",
+                "audienceScore": "94",
+                "originalUrl": "https://www.rottentomatoes.com/m/elvis",
+            },
+        },
+        {
+            "id": "23898",
+            "title": "Minions 2: A Origem de Gru",
+            "originalTitle": "Minions: The Rise of Gru",
+            "movieIdUrl": "",
+            "ancineId": "E2200126100000",
+            "countryOrigin": "Estados Unidos",
+            "priority": 3200,
+            "contentRating": "Livre",
+            "duration": "94",
+            "rating": 0.0,
+            "synopsis": " Na década de 1970, Gru está crescendo no subúrbio. Fã de um grupo de supervilões conhecido como Vicious 6, Gru traça um plano para se tornar malvado o suficiente para se juntar a eles. Felizmente, ele recebe apoio de seus leais seguidores, os Minions. Juntos, eles exercem suas habilidades enquanto constroem seu primeiro covil, experimentam suas primeiras armas e realizam as primeiras missões. Quando os Vicious 6 expulsam seu líder - o lendário lutador Wild Knuckles - Gru participa de uma entrevista para se tornar seu mais novo membro. A entrevista não vai bem, e só piora depois que Gru os supera e de repente, o garoto se vê como inimigo mortal do grupo do mal. Gru se voltará para uma fonte improvável de orientação, o próprio Wild Knuckles, e descobrirá que até os supervilões precisam de uma ajudinha de seus amigos.\n",
+            "cast": "Vozes: Leandro Hassum, Steve Carell, Taraji P. Henson",
+            "director": "Kyle Balda, Brad Ableson",
+            "distributor": "Universal Pictures Brasil",
+            "inPreSale": False,
+            "isReexhibition": False,
+            "urlKey": "minions-2-a-origem-de-gru",
+            "isPlaying": True,
+            "countIsPlaying": 357,
+            "premiereDate": {
+                "localDate": "2022-06-30T00:00:00+00:00",
+                "isToday": False,
+                "dayOfWeek": "quinta-feira",
+                "dayAndMonth": "30/06",
+                "hour": "00:00",
+                "year": "2022",
+            },
+            "creationDate": "0001-01-01T00:00:00Z",
+            "city": "Natal",
+            "siteURL": "https://www.ingresso.com/filme/minions-2-a-origem-de-gru?city=natal&partnership=nome_da_parceria?ing_source=api&ing_medium=link-filme&ing_campaign=nome_da_parceria&ing_content=",
+            "nationalSiteURL": "https://www.ingresso.com/filme/minions-2-a-origem-de-gru?city=natal&partnership=nome_da_parceria?ing_source=api&ing_medium=link-filme&ing_campaign=nome_da_parceria&ing_content=",
+            "images": [
+                {
+                    "url": "https://ingresso-a.akamaihd.net/prd/img/movie/minions-2-a-origem-de-gru/e7a253ca-298b-419b-acbe-4abc8fd563e9.jpg",
+                    "type": "PosterPortrait",
+                },
+                {
+                    "url": "https://ingresso-a.akamaihd.net/prd/img/movie/minions-2-a-origem-de-gru/63fbbba3-ac89-41af-a77d-b99bc64b2bad.jpg",
+                    "type": "PosterHorizontal",
+                },
+            ],
+            "genres": ["Animação", "Aventura", "Comédia"],
+            "ratingDescriptors": [],
+            "completeTags": [],
+            "tags": [],
+            "trailers": [
+                {
+                    "type": "Youtube",
+                    "url": "https://www.youtube.com/watch?v=kgj3cuWO2pg",
+                    "embeddedUrl": "//www.youtube.com/embed/kgj3cuWO2pg",
+                },
+                {
+                    "type": "Youtube",
+                    "url": "https://www.youtube.com/watch?v=84KauQ4KN74",
+                    "embeddedUrl": "//www.youtube.com/embed/84KauQ4KN74",
+                },
+            ],
+            "boxOfficeId": None,
+            "partnershipType": None,
+            "rottenTomatoe": {
+                "id": "0a892359-2d37-32e3-aa54-9979697ea466",
+                "criticsRating": "Fresh",
+                "criticsScore": "70",
+                "audienceRating": "Upright",
+                "audienceScore": "89",
+                "originalUrl": "https://www.rottentomatoes.com/m/minions_the_rise_of_gru",
+            },
+        },
+        {
+            "id": "24859",
+            "title": "O Lendário Cão Guerreiro",
+            "originalTitle": "Paws Of Fury: The Legend Of Hanki",
+            "movieIdUrl": "https://www.movieid.com/olendariocaoguerreiro",
+            "ancineId": "E2200260200000",
+            "countryOrigin": "Estados Unidos",
+            "priority": 3200,
+            "contentRating": "Livre",
+            "duration": "103",
+            "rating": 0.0,
+            "synopsis": "Hank, um cão de caça sem muita sorte, está em uma cidade cheia de gatos, que precisam de um herói para defendê-los do plano maligno de um vilão implacável para varrer a cidade do mapa. Com a ajuda de um professor relutante para treiná-lo, o azarão deve assumir o papel de samurai da cidade e se unir aos aldeões para salvar o dia. O único problema… Os gatos odeiam os cães!\n",
+            "cast": "Vozes: Samuel L. Jackson, Djimon Hounson, Michael Cera, Michelle Yeoh, Mel Brooks, Ricky Gervais, George Takei, Aasif Mandvi, Cathy Shim, Gabriel Iglesias, Kylie Kuioka.\n",
+            "director": "Mark Koetsier, Rob Minkoff, Chris Bailey",
+            "distributor": "Paramount",
+            "inPreSale": True,
+            "isReexhibition": False,
+            "urlKey": "o-lendario-cao-guerreiro",
+            "isPlaying": True,
+            "countIsPlaying": 211,
+            "premiereDate": {
+                "localDate": "2022-08-25T00:00:00+00:00",
+                "isToday": False,
+                "dayOfWeek": "quinta-feira",
+                "dayAndMonth": "25/08",
+                "hour": "00:00",
+                "year": "2022",
+            },
+            "creationDate": "0001-01-01T00:00:00Z",
+            "city": "Natal",
+            "siteURL": "https://www.ingresso.com/filme/o-lendario-cao-guerreiro?city=natal&partnership=nome_da_parceria?ing_source=api&ing_medium=link-filme&ing_campaign=nome_da_parceria&ing_content=",
+            "nationalSiteURL": "https://www.ingresso.com/filme/o-lendario-cao-guerreiro?city=natal&partnership=nome_da_parceria?ing_source=api&ing_medium=link-filme&ing_campaign=nome_da_parceria&ing_content=",
+            "images": [
+                {
+                    "url": "https://ingresso-a.akamaihd.net/prd/img/movie/o-lendario-cao-guerreiro/415a31d1-0d8f-41bd-8b7b-97e89649a80c.jpg",
+                    "type": "PosterPortrait",
+                },
+                {
+                    "url": "https://ingresso-a.akamaihd.net/prd/img/movie/o-lendario-cao-guerreiro/47b58b39-e81f-40fc-8794-6f7e315f2da9.jpg",
+                    "type": "PosterHorizontal",
+                },
+            ],
+            "genres": ["Animação", "Aventura"],
+            "ratingDescriptors": [],
+            "completeTags": [],
+            "tags": [],
+            "trailers": [
+                {
+                    "type": "Youtube",
+                    "url": "https://www.youtube.com/watch?v=D9AsDvGKXms",
+                    "embeddedUrl": "//www.youtube.com/embed/D9AsDvGKXms",
+                },
+                {
+                    "type": "Youtube",
+                    "url": "https://www.youtube.com/watch?v=IW9V_S-zWRY",
+                    "embeddedUrl": "//www.youtube.com/embed/IW9V_S-zWRY",
+                },
+                {
+                    "type": "Youtube",
+                    "url": "https://www.youtube.com/watch?v=o1W1Q0mDGgs",
+                    "embeddedUrl": "//www.youtube.com/embed/o1W1Q0mDGgs",
+                },
+            ],
+            "boxOfficeId": None,
+            "partnershipType": None,
+            "rottenTomatoe": {
+                "id": "0fb4b24a-ddda-3b6b-ad32-73be3d0dc3ff",
+                "criticsRating": "Rotten",
+                "criticsScore": "57",
+                "audienceRating": "Upright",
+                "audienceScore": "67",
+                "originalUrl": "https://www.rottentomatoes.com/m/paws_of_fury_the_legend_of_hank",
+            },
+        },
+        {
+            "id": "21539",
+            "title": "O Palestrante",
+            "originalTitle": "O Palestrante",
+            "movieIdUrl": "https://www.movieid.com/opalestrante",
+            "ancineId": "B2000041300000",
+            "countryOrigin": "Brasil",
+            "priority": 3200,
+            "contentRating": "14 anos",
+            "duration": "102",
+            "rating": 0.0,
+            "synopsis": "Ao viajar para assinar sua demissão, Guilherme, um contador sem perspectivas, assume o lugar de um tal Marcelo sem saber que se trata de um palestrante motivacional contratado para animar os funcionários de uma empresa. Guilherme tem que colocar todos pra cima, mas talvez ele também precise desse novo Marcelo para mudar de vida.",
+            "cast": "Fábio Porchat, Dani Calabresa, Antônio Tabet, Maria Clara Gueiros, Otávio Muller, Miá Mello, Paulo Vieira.",
+            "director": "Marcelo Antunez",
+            "distributor": "Downtown Filmes",
+            "inPreSale": False,
+            "isReexhibition": False,
+            "urlKey": "o-palestrante",
+            "isPlaying": True,
+            "countIsPlaying": 235,
+            "premiereDate": {
+                "localDate": "2022-08-04T00:00:00+00:00",
+                "isToday": False,
+                "dayOfWeek": "quinta-feira",
+                "dayAndMonth": "04/08",
+                "hour": "00:00",
+                "year": "2022",
+            },
+            "creationDate": "0001-01-01T00:00:00Z",
+            "city": "Natal",
+            "siteURL": "https://www.ingresso.com/filme/o-palestrante?city=natal&partnership=nome_da_parceria?ing_source=api&ing_medium=link-filme&ing_campaign=nome_da_parceria&ing_content=",
+            "nationalSiteURL": "https://www.ingresso.com/filme/o-palestrante?city=natal&partnership=nome_da_parceria?ing_source=api&ing_medium=link-filme&ing_campaign=nome_da_parceria&ing_content=",
+            "images": [
+                {
+                    "url": "https://ingresso-a.akamaihd.net/prd/img/movie/o-palestrante/6fb26ad8-d7af-419d-aeea-ef405fc2c395.jpg",
+                    "type": "PosterPortrait",
+                },
+                {
+                    "url": "https://ingresso-a.akamaihd.net/prd/img/movie/o-palestrante/22d5728b-9a04-40a8-beee-7da6a934f344.jpg",
+                    "type": "PosterHorizontal",
+                },
+            ],
+            "genres": ["Comédia"],
+            "ratingDescriptors": ["Conteúdo Sexual", "Linguagem Imprópria", "Violência"],
+            "completeTags": [],
+            "tags": [],
+            "trailers": [
+                {
+                    "type": "Youtube",
+                    "url": "https://www.youtube.com/watch?v=b4UHAj1yzhM",
+                    "embeddedUrl": "//www.youtube.com/embed/b4UHAj1yzhM",
+                }
+            ],
+            "boxOfficeId": None,
+            "partnershipType": None,
+            "rottenTomatoe": None,
         },
     ]
