@@ -9,7 +9,7 @@ repository = "https://github.com/hudsonbrendon/ingresso.com"
 homepage = "https://github.com/hudsonbrendon/ingresso.com#readme"
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.9"
 requests = "^2.28.1"
 
 [tool.poetry.dev-dependencies]
@@ -18,6 +18,10 @@ black = "^22.6.0"
 isort = "^5.10.1"
 pre-commit = "^2.20.0"
 requests-mock = "^1.9.3"
+
+[tool.poetry.group.dev.dependencies]
+pytest-sugar = "^1.0.0"
+pytest-cov = "^6.0.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
