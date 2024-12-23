@@ -7,8 +7,6 @@ Um wrapper em python para o ingresso.com
 ![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)
 
 
-![Logo](https://www.exibidor.com.br/fotos/noticias/notundefined_1544192395.png)
-
 # Recursos Disponíveis
 
 - [x] Cinemas de uma cidade
